@@ -6,6 +6,10 @@
   "repository": "https://github.com/Hi-Alex/unitech-schedule-app",
   "author": "secundant <mysecundant@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "^9",
+    "yarn": "^1"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.42",
     "@babel/preset-env": "^7.0.0-beta.42",
