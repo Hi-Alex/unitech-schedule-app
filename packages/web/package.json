@@ -1,0 +1,11 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^4.1.1",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
