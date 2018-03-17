@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "extends": "./node_modules/@secundant/tslib/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "rootDir": ".",
+    "typeRoots": [
+      "./node_modules/@types",
+      "../../node-modules/@types"
+    ],
+    "module": "esnext",
+    "jsx": "react"
+  },
+  "include": [
+    "./packages/**/*.ts",
+    "./packages/**/*.tsx"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./packages/**/node_modules"
+  ]
+}
