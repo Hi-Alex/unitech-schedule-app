@@ -1,2 +1,7 @@
-# unitech-schedule-app
-Unitech schedule application
+# Schedule application
+
+## Внутренние модули
+
+### [./packages/web](web)
+
+Веб-приложение
