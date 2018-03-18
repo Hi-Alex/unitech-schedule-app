@@ -1,5 +1,7 @@
 const {  } = require('webpack');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+const htmlWebpackPlugin = require('html-webpack-plugin');
+const template = require('html-webpack-template');
 
 module.exports = (cliEnv, args) => {
   const env = cliEnv || args.mode || args.env;
@@ -10,6 +12,9 @@ module.exports = (cliEnv, args) => {
   return {
     mode: args.mode || env,
     context: __dirname,
+    resolve: {
+      extensions: ['.js', '.jsx', '.ts', '.tsx']
+    },
     module: {
       rules: [
         {
@@ -39,6 +44,11 @@ module.exports = (cliEnv, args) => {
     plugins: [
       new ForkTsCheckerWebpackPlugin({
         workers: ForkTsCheckerWebpackPlugin.TWO_CPUS_FREE
+      }),
+      new htmlWebpackPlugin({
+        inject: false,
+        template,
+        appMountId: 'root'
       })
     ]
   }

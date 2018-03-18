@@ -5,6 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/webpack": "^4.1.1",
+    "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "html-webpack-template": "^6.1.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
