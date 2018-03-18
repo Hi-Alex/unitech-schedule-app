@@ -1,6 +1,14 @@
 import {  } from 'react-router-dom';
 
-export interface IRoute {
+export interface IRoute<T = any> {
   path: string;
-  load?: <T>() => Promise<T>;
+  load?: () => Promise<T>;
+  component?: React.ComponentClass<any>;
 }
+
+export const routes: IRoute[] = [
+  {
+    path: '/',
+    load: () => null
+  }
+]
