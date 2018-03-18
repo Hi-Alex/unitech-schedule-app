@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/react-loadable": "^5.3.3",
+    "@types/react-router-dom": "^4.2.5",
     "@types/webpack": "^4.1.1",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
     "html-webpack-template": "^6.1.0",
+    "react-loadable": "^5.3.1",
+    "react-router-dom": "^4.2.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
