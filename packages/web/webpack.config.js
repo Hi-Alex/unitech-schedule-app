@@ -3,9 +3,12 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = (cliEnv, args) => {
   const env = cliEnv || args.mode || args.env;
+  const createIs = type => value => env === type ? value : null;
+  const dev = createIs('development');
+  const prod = createIs('production');
 
-  console.log(args.env, env);
   return {
+    mode: args.mode || env,
     context: __dirname,
     module: {
       rules: [
