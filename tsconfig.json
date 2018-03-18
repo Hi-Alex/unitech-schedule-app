@@ -8,6 +8,9 @@
       "./node_modules/@types",
       "../../node-modules/@types"
     ],
+    "types": [
+      "node"
+    ],
     "module": "esnext",
     "jsx": "react"
   },
