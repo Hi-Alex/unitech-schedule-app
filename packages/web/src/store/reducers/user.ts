@@ -1,5 +1,5 @@
 import { handleActions, Action } from 'redux-actions';
-import { setToken } from '../actions/user';
+import { setToken } from '../actions';
 import { set, lensProp } from 'ramda';
 
 export interface UserState {

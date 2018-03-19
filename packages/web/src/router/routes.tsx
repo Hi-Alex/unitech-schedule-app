@@ -1,13 +1,15 @@
-import {  } from 'react-router-dom';
-import * as Loadable from 'react-loadable';
-import { DefaultLoadingPlaceholder } from './LoadingPlaceholder';
+import { async } from './async';
+import { ComponentClass, StatelessComponent } from 'react';
+import { RouteProps } from 'react-router';
 
-export const routes = [
+export const routes: RouteProps[] = [
   {
     path: '/',
-    component: Loadable({
-      loader: () => import('../pages/Login'),
-      loading: DefaultLoadingPlaceholder
-    })
+    exact: true,
+    component: async(() => import('../pages/AppShell'))
+  },
+  {
+    path: '/login',
+    component: async(() => import('../pages/Login'))
   }
 ];

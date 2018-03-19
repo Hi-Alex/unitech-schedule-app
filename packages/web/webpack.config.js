@@ -89,6 +89,9 @@ module.exports = (cliEnv, args) => {
       splitChunks: {
         chunks: 'async'
       }
+    },
+    devServer: {
+      historyApiFallback: true,
     }
   }
 };
