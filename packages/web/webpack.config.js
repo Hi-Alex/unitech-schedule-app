@@ -17,7 +17,7 @@ module.exports = (cliEnv, args) => {
   return {
     mode: args.mode || env,
     context: __dirname,
-    devtool: 'inline-source-map',
+    devtool: dev('eval', false),
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
@@ -28,6 +28,7 @@ module.exports = (cliEnv, args) => {
       rules: [
         {
           test: /\.[tj]sx?$/,
+          exclude: /node_modules/,
           use: [
             {
               loader: 'cache-loader',
