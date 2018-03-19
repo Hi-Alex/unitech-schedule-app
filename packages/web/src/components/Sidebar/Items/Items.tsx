@@ -14,12 +14,13 @@ export class Items extends React.Component<ItemsProps>{
     const { active, items, onClick } = this.props;
     return (
       <div>
-        {map(items,([icon, label],key)=>(
-          <Item active={active === key}
-                key={key}
-                icon={icon}
-                label={label}
-                onClick={()=>onClick(label)}
+        {map(items, ([icon, label], key) => (
+          <Item
+            active={active === key}
+            key={key}
+            icon={icon}
+            label={label}
+            onClick={() => onClick(label)}
           />
         ))}
       </div>

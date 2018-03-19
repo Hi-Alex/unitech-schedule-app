@@ -1,0 +1,17 @@
+.Item{
+  color: #222222;
+  background: #FFFFFF;
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  padding-left: 80px;
+}
+
+.Item:hover{
+  background: #EAEAEA;
+}
+
+.Item:active,
+.Item.active{
+  background: #EEEEEE;
+}

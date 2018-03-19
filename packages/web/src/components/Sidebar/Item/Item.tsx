@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { on } from 'cluster';
+import * as styles from './Item.scss'
+import { cn } from '../../../utils/className';
 
-export interface ItemProps {
+export interface ItemProps extends React.HTMLAttributes<HTMLDivElement>{
   icon?: string;
   label?: string;
   active?: boolean;
@@ -17,9 +18,13 @@ export class Item extends React.Component<ItemProps> {
   };
 
   render() {
-    const { icon, label, active, onClick } = this.props;
+    const { icon, label, active, onClick, className, ...props } = this.props;
     return (
-      <div onClick={onClick}>{label}</div>
+      <div
+        {...props}
+        className={cn([styles.Item, active && styles.active, className])}
+        onClick={onClick}
+      >{label}</div>
     );
   }
 }
