@@ -1,15 +1,20 @@
 import { async } from './async';
 import { ComponentClass, StatelessComponent } from 'react';
-import { RouteProps } from 'react-router';
+import { IRoute } from './RouterOutlet';
 
-export const routes: RouteProps[] = [
-  {
-    path: '/',
-    exact: true,
-    component: async(() => import('../pages/AppShell'))
-  },
+export const routes: IRoute[] = [
   {
     path: '/login',
     component: async(() => import('../pages/Login'))
+  },
+  {
+    path: '/',
+    component: async(() => import('../pages/AppShell')),
+    routes: [
+      {
+        path: '/schedule',
+        component: async(() => import('../pages/Schedule'))
+      }
+    ]
   }
 ];

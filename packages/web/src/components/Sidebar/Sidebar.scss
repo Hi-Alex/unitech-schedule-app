@@ -22,4 +22,15 @@
     width: 0.75px;
     background-color: $COLOR_LINE;
   }
+
+  .Exit {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+
+    img {
+      transform: rotate(180deg);
+    }
+  }
 }

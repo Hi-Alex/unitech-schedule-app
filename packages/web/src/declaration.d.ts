@@ -9,3 +9,15 @@ declare module "*.css" {
 
   export = modules;
 }
+
+declare module "*.svg" {
+  const modules: any;
+
+  export = modules;
+}
+
+declare module "*.jpg" {
+  const modules: any;
+
+  export = modules;
+}

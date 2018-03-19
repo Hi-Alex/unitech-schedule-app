@@ -1,7 +1,8 @@
 import { combineReducers, AnyAction } from 'redux';
-import { userReducer, UserState } from './user';
+import { userReducer } from './user';
+import { sideBarReducer } from './sidebar';
 
-export { UserState }
 export const rootReducer = combineReducers({
-  user: userReducer
+  user: userReducer,
+  sidebar: sideBarReducer
 });

@@ -24,7 +24,10 @@ export class Item extends React.Component<ItemProps> {
         {...other}
         className={cn([styles.Item, active && styles.active, className])}
         onClick={onClick}
-      >{label}</div>
+      >
+        <img src={icon} alt={label} />
+        <span>{label}</span>
+      </div>
     );
   }
 }

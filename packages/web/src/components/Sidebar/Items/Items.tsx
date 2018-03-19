@@ -20,7 +20,7 @@ export class Items extends React.Component<ItemsProps>{
             key={key}
             icon={icon}
             label={label}
-            onClick={() => onClick(label)}
+            onClick={() => onClick(key)}
           />
         ))}
       </div>

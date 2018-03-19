@@ -1,17 +1,33 @@
-.Item{
+.Item {
   color: #222222;
   background: #FFFFFF;
   height: 60px;
   width: 100%;
   line-height: 60px;
-  padding-left: 80px;
+  padding-left: 36px;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  transition: 75ms;
+
+  > img {
+    width: 24px;
+    max-height: 24px;
+    margin: 0 36px 0 0;
+  }
+
+  > img,
+  > span {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
-.Item:hover{
-  background: #EAEAEA;
+.Item:not(:active):not(.active):hover {
+  background: #f4f4f4;
 }
 
-.Item:active,
-.Item.active{
-  background: #EEEEEE;
+.Item:hover:active,
+.Item.active {
+  background: #eee;
 }

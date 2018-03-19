@@ -1,9 +1,12 @@
-const {  } = require('webpack');
+const { HotModuleReplacementPlugin } = require('webpack');
 const { join } = require('path');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 const { ReactLoadablePlugin } = require('react-loadable/webpack');
 const template = require('html-webpack-template');
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
+const { compact } = require('lodash');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 /**
  * @returns {Configuration}
@@ -13,6 +16,14 @@ module.exports = (cliEnv, args) => {
   const createIs = type => (value, falsy = null) => env === type ? value : falsy;
   const dev = createIs('development');
   const prod = createIs('production');
+
+  console.log('Babel plugins', compact([
+    'syntax-dynamic-import',
+    'transform-object-rest-spread',
+    prod('lodash'),
+    prod('ramda')
+    //'react-loadable/babel'
+  ]));
 
   return {
     mode: args.mode || env,
@@ -44,11 +55,13 @@ module.exports = (cliEnv, args) => {
                     modules: false
                   }]
                 ],
-                plugins: [
+                plugins: compact([
                   'syntax-dynamic-import',
-                  'transform-object-rest-spread'
+                  'transform-object-rest-spread',
+                  prod('lodash'),
+                  prod('ramda')
                   //'react-loadable/babel'
-                ]
+                ])
               }
             },
             {
@@ -60,23 +73,40 @@ module.exports = (cliEnv, args) => {
           ]
         },
         {
-          test: /\.(scss|sass|css)?$/,
+          test: /\.(scss|sass|css)$/,
           use: [
             'style-loader',
             {
               loader: "css-loader",
               options: {
-                modules: true
+                modules: true,
+                localIdentName: '[name]__[local]__[hash:6]'
               }
             },
             'sass-loader'
           ]
+        },
+        {
+          test: /\.(svg|png|jpg)$/,
+          use: [
+            {
+              loader: 'url-loader',
+              options: {
+                limit: 1024
+              }
+            }
+          ]
         }
       ]
     },
-    plugins: [
+    plugins: compact([
+      prod(new BundleAnalyzerPlugin({
+        openAnalyzer: true
+      })),
+      prod(new LodashModuleReplacementPlugin()),
+      new HotModuleReplacementPlugin(),
       new ReactLoadablePlugin({
-        filename: './dist/loadable-stats.json'
+        filename: './.build/loadable-stats.json'
       }),
       new ForkTsCheckerWebpackPlugin({
         workers: ForkTsCheckerWebpackPlugin.TWO_CPUS_FREE
@@ -86,7 +116,7 @@ module.exports = (cliEnv, args) => {
         template,
         appMountId: 'root'
       })
-    ],
+    ]),
     optimization: {
       splitChunks: {
         chunks: 'async'
@@ -94,6 +124,7 @@ module.exports = (cliEnv, args) => {
     },
     devServer: {
       historyApiFallback: true,
+      hotOnly: true
     }
   }
 };
