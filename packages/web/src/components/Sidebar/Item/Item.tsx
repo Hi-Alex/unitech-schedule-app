@@ -18,10 +18,10 @@ export class Item extends React.Component<ItemProps> {
   };
 
   render() {
-    const { icon, label, active, onClick, className, ...props } = this.props;
+    const { icon, label, active, onClick, className, ...other } = this.props;
     return (
       <div
-        {...props}
+        {...other}
         className={cn([styles.Item, active && styles.active, className])}
         onClick={onClick}
       >{label}</div>
