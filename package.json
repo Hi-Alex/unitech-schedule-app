@@ -46,5 +46,10 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "now-build": "yarn && cd ./packages/web && yarn run build",
+    "now-start": "node packages/node-renderer/server/index.js",
+    "webpack-defaults": "webpack-defaults"
+  }
 }

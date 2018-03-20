@@ -1,8 +1,17 @@
+@import "../../../styles/const";
+
 .Page {
-  padding: 75px 50px 50px 390px;
+  padding: 75px 50px 50px $SIDEBAR_L + 50px;
   width: 100%;
   height: 100%;
   text-align: left;
   position: relative;
   overflow: auto;
+  transition: padding-left .1s;
+  background-color: #F4F8F9;
+  transition: opacity 0.3s;
+
+  @media screen and (max-width: $BP_L) {
+    padding-left: $SIDEBAR_M + 50px;
+  }
 }

@@ -11,5 +11,5 @@ const setActive = set(lensProp('active'));
 export const sideBarReducer = handleActions({
   [setActiveSidebarItem.toString()]: (state, { payload }) => setActive(payload, state),
 }, {
-  active: 'schedule'
+  active: null
 });

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Avatar } from './Avatar/Avatar';
 import * as styles from './Account.scss'
-import * as avatar from '../avatar.jpg';
+import * as avatar from '../avatar2.jpg';
 
 export class Account extends React.Component {
   render() {
@@ -9,9 +9,9 @@ export class Account extends React.Component {
       <div className={styles.Account}>
         <Avatar
           src={avatar}
-          userName="Аббасова Татьяна"
+          userName="Александр Хижук"
         />
-        <p>Аббасова Татьяна</p>
+        <p>Александр Хижук</p>
       </div>
     );
   }

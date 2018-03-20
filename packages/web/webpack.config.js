@@ -1,12 +1,13 @@
 const { HotModuleReplacementPlugin } = require('webpack');
 const { join } = require('path');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const htmlWebpackPlugin = require('html-webpack-plugin');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 const { ReactLoadablePlugin } = require('react-loadable/webpack');
 const template = require('html-webpack-template');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const { compact } = require('lodash');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BundleBuddyWebpackPlugin = require("bundle-buddy-webpack-plugin");
 
 /**
  * @returns {Configuration}
@@ -28,7 +29,7 @@ module.exports = (cliEnv, args) => {
   return {
     mode: args.mode || env,
     context: __dirname,
-    devtool: dev('eval', false),
+    devtool: dev('source-map', 'source-map'),
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
@@ -103,7 +104,10 @@ module.exports = (cliEnv, args) => {
       prod(new BundleAnalyzerPlugin({
         openAnalyzer: true
       })),
-      prod(new LodashModuleReplacementPlugin()),
+      prod(new LodashModuleReplacementPlugin({
+        shorthands: true,
+        collections: true
+      })),
       new HotModuleReplacementPlugin(),
       new ReactLoadablePlugin({
         filename: './.build/loadable-stats.json'
@@ -111,7 +115,8 @@ module.exports = (cliEnv, args) => {
       new ForkTsCheckerWebpackPlugin({
         workers: ForkTsCheckerWebpackPlugin.TWO_CPUS_FREE
       }),
-      new htmlWebpackPlugin({
+      new HTMLWebpackPlugin({
+        title: "Редактор раписания",
         inject: false,
         template,
         appMountId: 'root'

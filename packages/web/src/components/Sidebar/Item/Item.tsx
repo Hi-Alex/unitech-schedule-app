@@ -1,33 +1,33 @@
 import * as React from 'react';
 import * as styles from './Item.scss'
 import { cn } from '../../../utils/className';
+import { NavLink } from 'react-router-dom';
 
-export interface ItemProps extends React.HTMLAttributes<HTMLDivElement>{
+export interface ItemProps extends React.HTMLAttributes<HTMLAnchorElement>{
+  to: string;
   icon?: string;
   label?: string;
-  active?: boolean;
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
 
 export class Item extends React.Component<ItemProps> {
   public static defaultProps: ItemProps = {
+    to: '/',
     icon: '',
     label: 'Undefined',
-    active: false,
-    onClick: null
   };
 
   render() {
-    const { icon, label, active, onClick, className, ...other } = this.props;
+    const { to, icon, label, className, ...other } = this.props;
     return (
-      <div
+      <NavLink
         {...other}
-        className={cn([styles.Item, active && styles.active, className])}
-        onClick={onClick}
+        to={to}
+        activeClassName={styles.active}
+        className={cn([styles.Item, className])}
       >
         <img src={icon} alt={label} />
         <span>{label}</span>
-      </div>
+      </NavLink>
     );
   }
 }

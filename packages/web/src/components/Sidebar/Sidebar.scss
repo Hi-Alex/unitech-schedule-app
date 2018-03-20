@@ -3,7 +3,7 @@
 .Sidebar{
   background-color: #FFF;
   height: 100%;
-  width: 340px;
+  width: $SIDEBAR_L;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -11,6 +11,7 @@
   font-family: Roboto, sans-serif;
   font-size: 22px;
   text-align: left;
+  transition: width .1s;
 
   &::after {
     content: '';
@@ -32,5 +33,9 @@
     img {
       transform: rotate(180deg);
     }
+  }
+
+  @media screen and (max-width: $BP_L) {
+    width: $SIDEBAR_M;
   }
 }

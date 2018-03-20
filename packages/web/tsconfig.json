@@ -1,7 +1,9 @@
-{
+  {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["dom", "esnext"],
+    "sourceMap": true,
+    "importHelpers": true,
     "typeRoots": [
       "./node_modules/@types",
       "../../node_modules/@types"

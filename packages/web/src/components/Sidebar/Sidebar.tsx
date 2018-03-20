@@ -21,26 +21,29 @@ export interface DispatchProps {
 }
 
 export class SidebarView extends Component<StateProps & DispatchProps & RouteComponentProps<any>> {
+  componentWillMount(){
+    this.props.setActiveSidebarItem(this.props.history.location.pathname.slice(1));
+  }
   render(): React.ReactNode {
     return (
       <div className={styles.Sidebar}>
         <Account/>
         <Items
-          active={this.props.active}
-          items={{
-            schedule: [calendar, 'Расписание'],
-            lists: [list, 'Списки']
-          }}
-          onClick={(key) => {
-            this.props.setActiveSidebarItem(key);
-            this.props.history.push(`/${key}`)
-          }}
+          items={[{
+            to: '/schedule',
+            icon: calendar,
+            label: 'Расписание'
+          }, {
+            to: '/lists',
+            icon: list,
+            label: 'Списки'
+          }]}
         />
         <Item
+          to={'/login'}
           icon={logout}
           label="Выход"
           className={styles.Exit}
-          onClick={() => this.props.history.push('/login')}
         />
       </div>
     );
