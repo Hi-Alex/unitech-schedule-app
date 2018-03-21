@@ -14,7 +14,7 @@ export interface ItemsProps {
 export class List extends React.Component<ItemsProps>{
   render() {
     const { items, onClick } = this.props;
-    console.log("List", items);
+
     return (
       <div className={styles.List}>
         {map(items, (item, key) => {

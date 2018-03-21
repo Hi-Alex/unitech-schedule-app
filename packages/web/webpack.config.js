@@ -1,135 +1,114 @@
-const { HotModuleReplacementPlugin } = require('webpack');
-const { join } = require('path');
-const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const HTMLWebpackPlugin = require('html-webpack-plugin');
-const { ReactLoadablePlugin } = require('react-loadable/webpack');
-const template = require('html-webpack-template');
+const { createConfig, createAssertion, getEnvironment } = require('@secundant/webpack-config');
+const { HMR } = require('@secundant/webpack-module-hmr');
+const { DLL, getPackagesFromDLLOptions, getFileNameFromPackages } = require('@secundant/webpack-module-dll');
+const { Babel } = require('@secundant/webpack-module-babel');
+const { Entry } = require('@secundant/webpack-module-entry');
+const { React } = require('@secundant/webpack-module-react');
+const { Thread } = require('@secundant/webpack-module-thread');
+const { TypeScript } = require('@secundant/webpack-module-typescript');
+const { Optimization } = require('@secundant/webpack-module-optimization');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
-const { compact } = require('lodash');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-const BundleBuddyWebpackPlugin = require("bundle-buddy-webpack-plugin");
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
+const { compact } = require('lodash');
+const { join } = require('path');
+const dllOptions = {
+  presets: ['lodash'],
+  modules: [
+    'ramda',
+    'sockjs-client/dist/sockjs.js'
+  ]
+};
 
-/**
- * @returns {Configuration}
- */
-module.exports = (cliEnv, args) => {
-  const env = cliEnv || args.mode || args.env;
-  const createIs = type => (value, falsy = null) => env === type ? value : falsy;
-  const dev = createIs('development');
-  const prod = createIs('production');
+module.exports = (baseEnv, args) => {
+  const env = getEnvironment(baseEnv || args.mode || args.env);
+  const { prod, dev } = createAssertion(env, 'web');
 
-  console.log('Babel plugins', compact([
-    'syntax-dynamic-import',
-    'transform-object-rest-spread',
-    prod('lodash'),
-    prod('ramda')
-    //'react-loadable/babel'
-  ]));
-
-  return {
-    mode: args.mode || env,
-    context: __dirname,
-    devtool: dev('source-map', 'source-map'),
-    resolve: {
-      extensions: ['.js', '.jsx', '.ts', '.tsx']
-    },
-    output: {
-      path: join(__dirname, '.build')
-    },
-    module: {
-      rules: [
-        {
-          test: /\.[tj]sx?$/,
-          exclude: /node_modules/,
-          use: [
+  return createConfig({
+    env,
+    config() {
+      return {
+        output: {
+          path: join(__dirname, '.build')
+        },
+        module: {
+          rules: [
             {
-              loader: 'cache-loader',
-              options: {
-                cacheDirectory: join(__dirname, '.cache', 'cache-loader')
-              }
+              test: /\.(scss|sass|css)$/,
+              use: [
+                'style-loader',
+                {
+                  loader: "css-loader",
+                  options: {
+                    modules: true,
+                    localIdentName: '[name]__[local]__[hash:6]'
+                  }
+                },
+                'sass-loader'
+              ]
             },
             {
-              loader: 'babel-loader',
-              options: {
-                presets: [
-                  ['env', {
-                    modules: false
-                  }]
-                ],
-                plugins: compact([
-                  'syntax-dynamic-import',
-                  'transform-object-rest-spread',
-                  prod('lodash'),
-                  prod('ramda')
-                  //'react-loadable/babel'
-                ])
-              }
-            },
-            {
-              loader: 'ts-loader',
-              options: {
-                transpileOnly: true
-              }
+              test: /\.(svg|png|jpg)$/,
+              use: [
+                {
+                  loader: 'url-loader',
+                  options: {
+                    limit: 1024
+                  }
+                }
+              ]
             }
           ]
         },
-        {
-          test: /\.(scss|sass|css)$/,
-          use: [
-            'style-loader',
-            {
-              loader: "css-loader",
-              options: {
-                modules: true,
-                localIdentName: '[name]__[local]__[hash:6]'
-              }
-            },
-            'sass-loader'
-          ]
-        },
-        {
-          test: /\.(svg|png|jpg)$/,
-          use: [
-            {
-              loader: 'url-loader',
-              options: {
-                limit: 1024
-              }
-            }
-          ]
+        plugins: compact([
+          new BundleAnalyzerPlugin({
+            openAnalyzer: true
+          }),
+          new HTMLWebpackPlugin({
+            title: "Редактор раписания",
+            inject: false,
+            template: join(__dirname, 'template.ejs'),
+            appMountId: 'root'
+          }),
+          prod && new LodashModuleReplacementPlugin({
+            shorthands: true,
+            collections: true
+          }),
+          dev && new AddAssetHtmlPlugin({
+            filepath: join(__dirname, '.cache', '.DLL', getFileNameFromPackages(getPackagesFromDLLOptions(dllOptions)))
+          })
+        ]),
+        devServer: {
+          historyApiFallback: true,
+          hotOnly: true
         }
-      ]
-    },
-    plugins: compact([
-      prod(new BundleAnalyzerPlugin({
-        openAnalyzer: true
-      })),
-      prod(new LodashModuleReplacementPlugin({
-        shorthands: true,
-        collections: true
-      })),
-      new HotModuleReplacementPlugin(),
-      new ReactLoadablePlugin({
-        filename: './.build/loadable-stats.json'
-      }),
-      new ForkTsCheckerWebpackPlugin({
-        workers: ForkTsCheckerWebpackPlugin.TWO_CPUS_FREE
-      }),
-      new HTMLWebpackPlugin({
-        title: "Редактор раписания",
-        inject: false,
-        template,
-        appMountId: 'root'
-      })
-    ]),
-    optimization: {
-      splitChunks: {
-        chunks: 'async'
       }
     },
-    devServer: {
-      historyApiFallback: true,
-      hotOnly: true
-    }
-  }
+    modules: [
+      new HMR({
+        useDevServer: true
+      }),
+      new DLL(dllOptions),
+      new Babel({
+        plugins: compact([
+          'syntax-dynamic-import',
+          'transform-object-rest-spread',
+          'react-hot-loader/babel',
+          prod && 'lodash',
+          prod && 'ramda'
+        ])
+      }),
+      new Entry('./src/index.tsx'),
+      new TypeScript(),
+      new Thread(),
+      new React(),
+      new Optimization({
+        devTool: 'source-map'
+      })
+    ]
+  }).then(raw => {
+    console.log(JSON.stringify(raw.module.rules, null, 2));
+    return raw;
+  });
 };

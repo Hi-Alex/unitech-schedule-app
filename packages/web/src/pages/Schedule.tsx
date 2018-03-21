@@ -15,7 +15,7 @@ export default class Schedule extends React.Component {
           <tbody>
           {from(20, key => (
             <tr key={key}>
-              {from(10, tdKey => (
+              {from(50, tdKey => (
                 <td key={tdKey}>{key * 20 + tdKey}</td>
               ))}
             </tr>
