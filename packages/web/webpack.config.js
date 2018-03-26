@@ -30,6 +30,7 @@ module.exports = (baseEnv, args) => {
     config() {
       return {
         output: {
+          publicPath: '/',
           path: join(__dirname, '.build')
         },
         module: {
@@ -63,7 +64,7 @@ module.exports = (baseEnv, args) => {
         },
         plugins: compact([
           new BundleAnalyzerPlugin({
-            openAnalyzer: true
+            openAnalyzer: false
           }),
           new HTMLWebpackPlugin({
             title: "Редактор раписания",
@@ -81,7 +82,8 @@ module.exports = (baseEnv, args) => {
         ]),
         devServer: {
           historyApiFallback: true,
-          hotOnly: true
+          hotOnly: true,
+          publicPath: '/'
         }
       }
     },
@@ -108,7 +110,7 @@ module.exports = (baseEnv, args) => {
       })
     ]
   }).then(raw => {
-    console.log(JSON.stringify(raw.module.rules, null, 2));
+    //console.log(JSON.stringify(raw.module.rules, null, 2));
     return raw;
   });
 };
