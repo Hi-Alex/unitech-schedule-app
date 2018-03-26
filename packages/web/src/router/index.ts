@@ -7,6 +7,26 @@ export const routes: IRoute[] = [
     component: async(() => import('../pages/Login'))
   },
   {
+    path: '/test',
+    component: async(() => import('./testPages/Main')),
+    routes: [
+      {
+        path: 'first',
+        component: async(() => import('./testPages/First'))
+      },
+      {
+        path: 'second',
+        component: async(() => import('./testPages/Second')),
+        routes: [
+          {
+            path: 'first',
+            component: async(() => import('./testPages/First'))
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/',
     component: async(() => import('../pages/AppShell')),
     routes: [
@@ -19,5 +39,5 @@ export const routes: IRoute[] = [
         component: async(() => import('../pages/Lists'))
       }
     ]
-  },
+  }
 ];

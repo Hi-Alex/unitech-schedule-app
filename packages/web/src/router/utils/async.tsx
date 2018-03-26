@@ -4,6 +4,7 @@ import { merge, always, ifElse, compose, defaultTo } from 'ramda';
 import { isFunction, identity } from 'lodash';
 import { DefaultLoadingPlaceholder } from '../LoadingPlaceholder';
 
+const LOADABLE = '@@Async/Loadable';
 const getDefault = target => target && target.__esModule ? target.default : target;
 const render = (target, props) => React.createElement(getDefault(target), props);
 
@@ -20,4 +21,11 @@ const toLoadableOptions = compose(
   ifElse(isFunction, loader => ({ loader }), identity)
 );
 
-export const async = options => Loadable(toLoadableOptions(options));
+export const toAsync = funcOrComponent => isAsync(funcOrComponent) ? funcOrComponent : async(funcOrComponent);
+export const isAsync = Component => (Component as any).__async === LOADABLE;
+export const async = options => {
+  const Component = Loadable(toLoadableOptions(options));
+
+  (Component as any).__async = LOADABLE;
+  return Component;
+};

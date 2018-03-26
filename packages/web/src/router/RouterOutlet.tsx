@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { createSwitchElement, IRoute } from './utils';
+import { createSwitchElement, IRoute, setRelativePaths } from './utils';
 
 export interface RouterOutletProps {
   routes: IRoute[];
+  relative?: boolean;
 }
 
-export function RouterOutlet({ routes }: RouterOutletProps): React.ReactElement<any> {
-  return createSwitchElement(routes);
+export function RouterOutlet({ routes, relative = true }: RouterOutletProps): React.ReactElement<any> {
+  return createSwitchElement(relative ? setRelativePaths(routes) : routes);
 }
