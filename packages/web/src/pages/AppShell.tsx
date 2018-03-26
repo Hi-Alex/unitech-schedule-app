@@ -6,7 +6,8 @@ import { RouteComponentProps } from 'react-router';
 
 const BG_WHITE_EXP = /^\/schedule/;
 const BG_WHITE = {
-  backgroundColor: '#fff'
+  backgroundColor: '#fff',
+  paddingBottom: 0
 };
 
 @hot(module)

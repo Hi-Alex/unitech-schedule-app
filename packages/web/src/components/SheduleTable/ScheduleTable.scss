@@ -1,0 +1,91 @@
+$BD_COLOR: #BFBFBF;
+
+.Table {
+  width: calc(100% + 100px);
+  height: calc(100% - 60px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  margin-left: -50px;
+  margin-right: -50px;
+  font-weight: 300;
+}
+
+.Grid {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.TimeCol {
+  height: 100%;
+  width: 60px;
+  padding-top: 41px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.Time {
+  line-height: 20px;
+  padding-right: 15px;
+  flex: 1 1 auto;
+  transform: translateY(-10px);
+  font-size: 15px;
+  color: #a3a3a3;
+}
+
+.Cols {
+  width: calc(100% - 60px);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Col {
+  height: 100%;
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    border-right: 1px solid $BD_COLOR;
+  }
+}
+
+.ColHeader {
+  height: 41px;
+  width: 100%;
+  line-height: 40px;
+  border-bottom: 1px solid $BD_COLOR;
+  padding: 0 15px;
+  color: #616161;
+  position: relative;
+
+  &:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, #fff, #fff 40%, $BD_COLOR);
+  }
+}
+
+.ColBody {
+  height: calc(100% - 41px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Cell {
+  width: 100%;
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $BD_COLOR;
+  }
+}

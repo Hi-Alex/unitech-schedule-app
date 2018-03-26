@@ -13,7 +13,7 @@ export const routes: IRoute[] = [
     routes: [
       {
         path: '/schedule',
-        component: async(() => import('../pages/Schedule'))
+        component: async(() => import('../pages/Schedule/Schedule'))
       },
       {
         path: '/lists',
