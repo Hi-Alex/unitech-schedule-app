@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as Loadable from 'react-loadable';
 import { merge, always, ifElse, compose, defaultTo } from 'ramda';
 import { isFunction, identity } from 'lodash';
-import { DefaultLoadingPlaceholder } from './LoadingPlaceholder';
+import { DefaultLoadingPlaceholder } from '../LoadingPlaceholder';
 
 const getDefault = target => target && target.__esModule ? target.default : target;
 const render = (target, props) => React.createElement(getDefault(target), props);
