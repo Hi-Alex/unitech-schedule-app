@@ -1,0 +1,21 @@
+{
+   "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "importHelpers": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "outDir": "./server",
+    "rootDir": "./src"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "../../node_modules"
+  ]
+}
