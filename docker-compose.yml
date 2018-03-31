@@ -1,10 +1,17 @@
 version: '3'
 services:
+  nginx:
+    container_name: nginx
+    build: ./packages/nginx
+    ports:
+      - "8080:80"
+    links:
+      - node-graphql
+    networks:
+      - schedule
   node-graphql:
     container_name: node-graphql
     build: ./packages/node-graphql
-    ports:
-      - "3050:3050"
     networks:
       - schedule
     depends_on:
