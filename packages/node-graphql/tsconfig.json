@@ -1,6 +1,7 @@
 {
-   "extends": "../../tsconfig.json",
+  "compileOnSave": true,
   "compilerOptions": {
+    "lib": ["esnext"],
     "target": "esnext",
     "module": "commonjs",
     "importHelpers": true,
@@ -9,7 +10,10 @@
     "strictNullChecks": true,
     "removeComments": true,
     "outDir": "./server",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "declaration": false
   },
   "include": [
     "./src/**/*.ts"

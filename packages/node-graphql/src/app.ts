@@ -6,13 +6,17 @@ import { resolve } from 'path';
 import { makeExecutableSchema } from 'graphql-tools';
 import { graphqlKoa, graphiqlKoa } from 'apollo-server-koa';
 
+console.log('ENV');
+console.log(JSON.stringify(process.env, null, 2));
+
 const app = new Application();
 const router = new Router();
 const typeDefs = readFileSync(resolve(__dirname, '..', 'graphql', 'schema.graphqls'), 'utf8');
 const resolvers = {
   Query: {
     user: () => ({
-      id: 1
+      id: 1,
+      firstName: 'uuuuu'
     }),
     users: () => [
       {

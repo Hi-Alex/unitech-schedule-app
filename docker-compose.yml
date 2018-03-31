@@ -1,0 +1,33 @@
+version: '3'
+services:
+  node-graphql:
+    container_name: node-graphql
+    build: ./packages/node-graphql
+    ports:
+      - "3050:3050"
+    networks:
+      - schedule
+    depends_on:
+      - db
+      - redis
+    links:
+      - redis
+      - db
+    env_file:
+      - .env.docker
+    command: node server/index.js
+  redis:
+    container_name: redis
+    image: redis:alpine
+    networks:
+      - schedule
+  db:
+    container_name: postgres
+    image: postgres
+    env_file:
+      - .env.docker
+    networks:
+      - schedule
+networks:
+  schedule:
+    driver: bridge
