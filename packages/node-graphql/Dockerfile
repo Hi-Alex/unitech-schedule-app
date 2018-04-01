@@ -1,10 +1,22 @@
+FROM node:9-alpine as build
+
+WORKDIR /tmp/.build/
+
+COPY yarn.lock .
+COPY ./packages/node-graphql/ .
+
+RUN pwd && ls -a && \
+  yarn install --production false && \
+  yarn run build && \
+  yarn install --production --force && \
+  rm -rf src && \
+  rm yarn.lock && \
+  rm tsconfig.json && \
+  rm package.json && \
+  ls -a
+
+# Copy final build from prev stage
 FROM node:9-alpine
-RUN mkdir -p /home/www
-WORKDIR /home/www
-ADD package.json /home/www
-RUN yarn install --production false
-ADD tsconfig.json /home/www
-ADD ./src /home/www/src
-ADD ./graphql /home/www/graphql
-RUN ls /home/www
-RUN yarn run build && yarn install --production true
+WORKDIR /home/www/
+
+COPY --from=build /tmp/.build/ .

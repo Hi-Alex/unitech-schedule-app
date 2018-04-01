@@ -1,0 +1,3816 @@
+{
+  "./splitAt": [
+    {
+      "id": "../../node_modules/ramda/es/splitAt.js",
+      "name": "../../node_modules/ramda/es/splitAt.js",
+      "file": "main.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 0,
+      "name": null,
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/webpack/hot sync ^\\.\\/log$",
+      "name": "../../node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "main.js"
+    }
+  ],
+  "./src": [
+    {
+      "id": "./src/index.tsx",
+      "name": "./src/index.tsx",
+      "file": "main.js"
+    }
+  ],
+  "react": [
+    {
+      "id": "../../node_modules/react/index.js",
+      "name": "../../node_modules/react/index.js",
+      "file": "main.js"
+    }
+  ],
+  "react-dom": [
+    {
+      "id": "../../node_modules/react-dom/index.js",
+      "name": "../../node_modules/react-dom/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./Root": [
+    {
+      "id": "./src/Root.tsx",
+      "name": "./src/Root.tsx",
+      "file": "main.js"
+    }
+  ],
+  "react-redux": [
+    {
+      "id": "../../node_modules/react-redux/es/index.js",
+      "name": "../../node_modules/react-redux/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./store": [
+    {
+      "id": "./src/store/index.ts",
+      "name": "./src/store/index.ts",
+      "file": "main.js"
+    }
+  ],
+  "./router/RouterOutlet": [
+    {
+      "id": "./src/router/RouterOutlet.tsx",
+      "name": "./src/router/RouterOutlet.tsx",
+      "file": "main.js"
+    }
+  ],
+  "./router": [
+    {
+      "id": "./src/router/index.ts",
+      "name": "./src/router/index.ts",
+      "file": "main.js"
+    }
+  ],
+  "react-router-dom": [
+    {
+      "id": "../../node_modules/react-router-dom/es/index.js",
+      "name": "../../node_modules/react-router-dom/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./BrowserRouter": [
+    {
+      "id": "../../node_modules/react-router-dom/es/BrowserRouter.js",
+      "name": "../../node_modules/react-router-dom/es/BrowserRouter.js",
+      "file": "main.js"
+    }
+  ],
+  "./HashRouter": [
+    {
+      "id": "../../node_modules/react-router-dom/es/HashRouter.js",
+      "name": "../../node_modules/react-router-dom/es/HashRouter.js",
+      "file": "main.js"
+    }
+  ],
+  "./Link": [
+    {
+      "id": "../../node_modules/react-router-dom/es/Link.js",
+      "name": "../../node_modules/react-router-dom/es/Link.js",
+      "file": "main.js"
+    }
+  ],
+  "./MemoryRouter": [
+    {
+      "id": "../../node_modules/react-router-dom/es/MemoryRouter.js",
+      "name": "../../node_modules/react-router-dom/es/MemoryRouter.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/MemoryRouter.js",
+      "name": "../../node_modules/react-router/es/MemoryRouter.js",
+      "file": "main.js"
+    }
+  ],
+  "./NavLink": [
+    {
+      "id": "../../node_modules/react-router-dom/es/NavLink.js",
+      "name": "../../node_modules/react-router-dom/es/NavLink.js",
+      "file": "main.js"
+    }
+  ],
+  "./Prompt": [
+    {
+      "id": "../../node_modules/react-router-dom/es/Prompt.js",
+      "name": "../../node_modules/react-router-dom/es/Prompt.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/Prompt.js",
+      "name": "../../node_modules/react-router/es/Prompt.js",
+      "file": "main.js"
+    }
+  ],
+  "./Redirect": [
+    {
+      "id": "../../node_modules/react-router-dom/es/Redirect.js",
+      "name": "../../node_modules/react-router-dom/es/Redirect.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/Redirect.js",
+      "name": "../../node_modules/react-router/es/Redirect.js",
+      "file": "main.js"
+    }
+  ],
+  "./Route": [
+    {
+      "id": "../../node_modules/react-router-dom/es/Route.js",
+      "name": "../../node_modules/react-router-dom/es/Route.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/Route.js",
+      "name": "../../node_modules/react-router/es/Route.js",
+      "file": "main.js"
+    }
+  ],
+  "./Router": [
+    {
+      "id": "../../node_modules/react-router-dom/es/Router.js",
+      "name": "../../node_modules/react-router-dom/es/Router.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/Router.js",
+      "name": "../../node_modules/react-router/es/Router.js",
+      "file": "main.js"
+    }
+  ],
+  "./StaticRouter": [
+    {
+      "id": "../../node_modules/react-router-dom/es/StaticRouter.js",
+      "name": "../../node_modules/react-router-dom/es/StaticRouter.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/StaticRouter.js",
+      "name": "../../node_modules/react-router/es/StaticRouter.js",
+      "file": "main.js"
+    }
+  ],
+  "./Switch": [
+    {
+      "id": "../../node_modules/react-router-dom/es/Switch.js",
+      "name": "../../node_modules/react-router-dom/es/Switch.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/Switch.js",
+      "name": "../../node_modules/react-router/es/Switch.js",
+      "file": "main.js"
+    }
+  ],
+  "./matchPath": [
+    {
+      "id": "../../node_modules/react-router-dom/es/matchPath.js",
+      "name": "../../node_modules/react-router-dom/es/matchPath.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/matchPath.js",
+      "name": "../../node_modules/react-router/es/matchPath.js",
+      "file": "main.js"
+    }
+  ],
+  "./withRouter": [
+    {
+      "id": "../../node_modules/react-router-dom/es/withRouter.js",
+      "name": "../../node_modules/react-router-dom/es/withRouter.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/react-router/es/withRouter.js",
+      "name": "../../node_modules/react-router/es/withRouter.js",
+      "file": "main.js"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": "../../node_modules/prop-types/index.js",
+      "name": "../../node_modules/prop-types/index.js",
+      "file": "main.js"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": "../../node_modules/hoist-non-react-statics/index.js",
+      "name": "../../node_modules/hoist-non-react-statics/index.js",
+      "file": "main.js"
+    }
+  ],
+  "warning": [
+    {
+      "id": "../../node_modules/warning/browser.js",
+      "name": "../../node_modules/warning/browser.js",
+      "file": "main.js"
+    }
+  ],
+  "invariant": [
+    {
+      "id": "../../node_modules/invariant/browser.js",
+      "name": "../../node_modules/invariant/browser.js",
+      "file": "main.js"
+    }
+  ],
+  "path-to-regexp": [
+    {
+      "id": "../../node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "name": "../../node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "main.js"
+    }
+  ],
+  "isarray": [
+    {
+      "id": "../../node_modules/react-router/node_modules/isarray/index.js",
+      "name": "../../node_modules/react-router/node_modules/isarray/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./factoryWithTypeCheckers": [
+    {
+      "id": "../../node_modules/prop-types/factoryWithTypeCheckers.js",
+      "name": "../../node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/emptyFunction": [
+    {
+      "id": "../../node_modules/fbjs/lib/emptyFunction.js",
+      "name": "../../node_modules/fbjs/lib/emptyFunction.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/invariant": [
+    {
+      "id": "../../node_modules/fbjs/lib/invariant.js",
+      "name": "../../node_modules/fbjs/lib/invariant.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/warning": [
+    {
+      "id": "../../node_modules/fbjs/lib/warning.js",
+      "name": "../../node_modules/fbjs/lib/warning.js",
+      "file": "main.js"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": "../../node_modules/object-assign/index.js",
+      "name": "../../node_modules/object-assign/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": "../../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "name": "../../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "main.js"
+    }
+  ],
+  "prop-types/checkPropTypes": [
+    {
+      "id": "../../node_modules/prop-types/checkPropTypes.js",
+      "name": "../../node_modules/prop-types/checkPropTypes.js",
+      "file": "main.js"
+    }
+  ],
+  "./PathUtils": [
+    {
+      "id": "../../node_modules/history/PathUtils.js",
+      "name": "../../node_modules/history/PathUtils.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/history/es/PathUtils.js",
+      "name": "../../node_modules/history/es/PathUtils.js",
+      "file": "main.js"
+    }
+  ],
+  "history": [
+    {
+      "id": "../../node_modules/history/es/index.js",
+      "name": "../../node_modules/history/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./createBrowserHistory": [
+    {
+      "id": "../../node_modules/history/es/createBrowserHistory.js",
+      "name": "../../node_modules/history/es/createBrowserHistory.js",
+      "file": "main.js"
+    }
+  ],
+  "./createHashHistory": [
+    {
+      "id": "../../node_modules/history/es/createHashHistory.js",
+      "name": "../../node_modules/history/es/createHashHistory.js",
+      "file": "main.js"
+    }
+  ],
+  "./createMemoryHistory": [
+    {
+      "id": "../../node_modules/history/es/createMemoryHistory.js",
+      "name": "../../node_modules/history/es/createMemoryHistory.js",
+      "file": "main.js"
+    }
+  ],
+  "./LocationUtils": [
+    {
+      "id": "../../node_modules/history/es/LocationUtils.js",
+      "name": "../../node_modules/history/es/LocationUtils.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/history/LocationUtils.js",
+      "name": "../../node_modules/history/LocationUtils.js",
+      "file": "main.js"
+    }
+  ],
+  "resolve-pathname": [
+    {
+      "id": "../../node_modules/resolve-pathname/index.js",
+      "name": "../../node_modules/resolve-pathname/index.js",
+      "file": "main.js"
+    }
+  ],
+  "value-equal": [
+    {
+      "id": "../../node_modules/value-equal/index.js",
+      "name": "../../node_modules/value-equal/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./createTransitionManager": [
+    {
+      "id": "../../node_modules/history/es/createTransitionManager.js",
+      "name": "../../node_modules/history/es/createTransitionManager.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/history/createTransitionManager.js",
+      "name": "../../node_modules/history/createTransitionManager.js",
+      "file": "main.js"
+    }
+  ],
+  "./DOMUtils": [
+    {
+      "id": "../../node_modules/history/es/DOMUtils.js",
+      "name": "../../node_modules/history/es/DOMUtils.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/history/DOMUtils.js",
+      "name": "../../node_modules/history/DOMUtils.js",
+      "file": "main.js"
+    }
+  ],
+  "history/createMemoryHistory": [
+    {
+      "id": "../../node_modules/history/createMemoryHistory.js",
+      "name": "../../node_modules/history/createMemoryHistory.js",
+      "file": "main.js"
+    }
+  ],
+  "history/createHashHistory": [
+    {
+      "id": "../../node_modules/history/createHashHistory.js",
+      "name": "../../node_modules/history/createHashHistory.js",
+      "file": "main.js"
+    }
+  ],
+  "history/createBrowserHistory": [
+    {
+      "id": "../../node_modules/history/createBrowserHistory.js",
+      "name": "../../node_modules/history/createBrowserHistory.js",
+      "file": "main.js"
+    }
+  ],
+  "./routes": [
+    {
+      "id": "./src/router/routes.tsx",
+      "name": "./src/router/routes.tsx",
+      "file": "main.js"
+    }
+  ],
+  "./async": [
+    {
+      "id": "./src/router/async.tsx",
+      "name": "./src/router/async.tsx",
+      "file": "main.js"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": "../../node_modules/react-loadable/lib/index.js",
+      "name": "../../node_modules/react-loadable/lib/index.js",
+      "file": "main.js"
+    }
+  ],
+  "ramda": [
+    {
+      "id": "../../node_modules/ramda/es/index.js",
+      "name": "../../node_modules/ramda/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash": [
+    {
+      "id": "../../node_modules/lodash/lodash.js",
+      "name": "../../node_modules/lodash/lodash.js",
+      "file": "main.js"
+    }
+  ],
+  "./LoadingPlaceholder": [
+    {
+      "id": "./src/router/LoadingPlaceholder.tsx",
+      "name": "./src/router/LoadingPlaceholder.tsx",
+      "file": "main.js"
+    }
+  ],
+  "./../webpack/buildin/global.js": [
+    {
+      "id": "../../node_modules/webpack/buildin/global.js",
+      "name": "../../node_modules/webpack/buildin/global.js",
+      "file": "main.js"
+    }
+  ],
+  "./../webpack/buildin/module.js": [
+    {
+      "id": "../../node_modules/webpack/buildin/module.js",
+      "name": "../../node_modules/webpack/buildin/module.js",
+      "file": "main.js"
+    }
+  ],
+  "!!webpack amd options": [
+    {
+      "id": "../../node_modules/webpack/buildin/amd-options.js",
+      "name": "../../node_modules/webpack/buildin/amd-options.js",
+      "file": "main.js"
+    }
+  ],
+  "./F": [
+    {
+      "id": "../../node_modules/ramda/es/F.js",
+      "name": "../../node_modules/ramda/es/F.js",
+      "file": "main.js"
+    }
+  ],
+  "./T": [
+    {
+      "id": "../../node_modules/ramda/es/T.js",
+      "name": "../../node_modules/ramda/es/T.js",
+      "file": "main.js"
+    }
+  ],
+  "./__": [
+    {
+      "id": "../../node_modules/ramda/es/__.js",
+      "name": "../../node_modules/ramda/es/__.js",
+      "file": "main.js"
+    }
+  ],
+  "./add": [
+    {
+      "id": "../../node_modules/ramda/es/add.js",
+      "name": "../../node_modules/ramda/es/add.js",
+      "file": "main.js"
+    }
+  ],
+  "./addIndex": [
+    {
+      "id": "../../node_modules/ramda/es/addIndex.js",
+      "name": "../../node_modules/ramda/es/addIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./adjust": [
+    {
+      "id": "../../node_modules/ramda/es/adjust.js",
+      "name": "../../node_modules/ramda/es/adjust.js",
+      "file": "main.js"
+    }
+  ],
+  "./all": [
+    {
+      "id": "../../node_modules/ramda/es/all.js",
+      "name": "../../node_modules/ramda/es/all.js",
+      "file": "main.js"
+    }
+  ],
+  "./allPass": [
+    {
+      "id": "../../node_modules/ramda/es/allPass.js",
+      "name": "../../node_modules/ramda/es/allPass.js",
+      "file": "main.js"
+    }
+  ],
+  "./always": [
+    {
+      "id": "../../node_modules/ramda/es/always.js",
+      "name": "../../node_modules/ramda/es/always.js",
+      "file": "main.js"
+    }
+  ],
+  "./and": [
+    {
+      "id": "../../node_modules/ramda/es/and.js",
+      "name": "../../node_modules/ramda/es/and.js",
+      "file": "main.js"
+    }
+  ],
+  "./any": [
+    {
+      "id": "../../node_modules/ramda/es/any.js",
+      "name": "../../node_modules/ramda/es/any.js",
+      "file": "main.js"
+    }
+  ],
+  "./anyPass": [
+    {
+      "id": "../../node_modules/ramda/es/anyPass.js",
+      "name": "../../node_modules/ramda/es/anyPass.js",
+      "file": "main.js"
+    }
+  ],
+  "./ap": [
+    {
+      "id": "../../node_modules/ramda/es/ap.js",
+      "name": "../../node_modules/ramda/es/ap.js",
+      "file": "main.js"
+    }
+  ],
+  "./aperture": [
+    {
+      "id": "../../node_modules/ramda/es/aperture.js",
+      "name": "../../node_modules/ramda/es/aperture.js",
+      "file": "main.js"
+    }
+  ],
+  "./append": [
+    {
+      "id": "../../node_modules/ramda/es/append.js",
+      "name": "../../node_modules/ramda/es/append.js",
+      "file": "main.js"
+    }
+  ],
+  "./apply": [
+    {
+      "id": "../../node_modules/ramda/es/apply.js",
+      "name": "../../node_modules/ramda/es/apply.js",
+      "file": "main.js"
+    }
+  ],
+  "./applySpec": [
+    {
+      "id": "../../node_modules/ramda/es/applySpec.js",
+      "name": "../../node_modules/ramda/es/applySpec.js",
+      "file": "main.js"
+    }
+  ],
+  "./applyTo": [
+    {
+      "id": "../../node_modules/ramda/es/applyTo.js",
+      "name": "../../node_modules/ramda/es/applyTo.js",
+      "file": "main.js"
+    }
+  ],
+  "./ascend": [
+    {
+      "id": "../../node_modules/ramda/es/ascend.js",
+      "name": "../../node_modules/ramda/es/ascend.js",
+      "file": "main.js"
+    }
+  ],
+  "./assoc": [
+    {
+      "id": "../../node_modules/ramda/es/assoc.js",
+      "name": "../../node_modules/ramda/es/assoc.js",
+      "file": "main.js"
+    }
+  ],
+  "./assocPath": [
+    {
+      "id": "../../node_modules/ramda/es/assocPath.js",
+      "name": "../../node_modules/ramda/es/assocPath.js",
+      "file": "main.js"
+    }
+  ],
+  "./binary": [
+    {
+      "id": "../../node_modules/ramda/es/binary.js",
+      "name": "../../node_modules/ramda/es/binary.js",
+      "file": "main.js"
+    }
+  ],
+  "./bind": [
+    {
+      "id": "../../node_modules/ramda/es/bind.js",
+      "name": "../../node_modules/ramda/es/bind.js",
+      "file": "main.js"
+    }
+  ],
+  "./both": [
+    {
+      "id": "../../node_modules/ramda/es/both.js",
+      "name": "../../node_modules/ramda/es/both.js",
+      "file": "main.js"
+    }
+  ],
+  "./call": [
+    {
+      "id": "../../node_modules/ramda/es/call.js",
+      "name": "../../node_modules/ramda/es/call.js",
+      "file": "main.js"
+    }
+  ],
+  "./chain": [
+    {
+      "id": "../../node_modules/ramda/es/chain.js",
+      "name": "../../node_modules/ramda/es/chain.js",
+      "file": "main.js"
+    }
+  ],
+  "./clamp": [
+    {
+      "id": "../../node_modules/ramda/es/clamp.js",
+      "name": "../../node_modules/ramda/es/clamp.js",
+      "file": "main.js"
+    }
+  ],
+  "./clone": [
+    {
+      "id": "../../node_modules/ramda/es/clone.js",
+      "name": "../../node_modules/ramda/es/clone.js",
+      "file": "main.js"
+    }
+  ],
+  "./comparator": [
+    {
+      "id": "../../node_modules/ramda/es/comparator.js",
+      "name": "../../node_modules/ramda/es/comparator.js",
+      "file": "main.js"
+    }
+  ],
+  "./complement": [
+    {
+      "id": "../../node_modules/ramda/es/complement.js",
+      "name": "../../node_modules/ramda/es/complement.js",
+      "file": "main.js"
+    }
+  ],
+  "./compose": [
+    {
+      "id": "../../node_modules/ramda/es/compose.js",
+      "name": "../../node_modules/ramda/es/compose.js",
+      "file": "main.js"
+    },
+    {
+      "id": "../../node_modules/redux/es/compose.js",
+      "name": "../../node_modules/redux/es/compose.js",
+      "file": "main.js"
+    }
+  ],
+  "./composeK": [
+    {
+      "id": "../../node_modules/ramda/es/composeK.js",
+      "name": "../../node_modules/ramda/es/composeK.js",
+      "file": "main.js"
+    }
+  ],
+  "./composeP": [
+    {
+      "id": "../../node_modules/ramda/es/composeP.js",
+      "name": "../../node_modules/ramda/es/composeP.js",
+      "file": "main.js"
+    }
+  ],
+  "./concat": [
+    {
+      "id": "../../node_modules/ramda/es/concat.js",
+      "name": "../../node_modules/ramda/es/concat.js",
+      "file": "main.js"
+    }
+  ],
+  "./cond": [
+    {
+      "id": "../../node_modules/ramda/es/cond.js",
+      "name": "../../node_modules/ramda/es/cond.js",
+      "file": "main.js"
+    }
+  ],
+  "./construct": [
+    {
+      "id": "../../node_modules/ramda/es/construct.js",
+      "name": "../../node_modules/ramda/es/construct.js",
+      "file": "main.js"
+    }
+  ],
+  "./constructN": [
+    {
+      "id": "../../node_modules/ramda/es/constructN.js",
+      "name": "../../node_modules/ramda/es/constructN.js",
+      "file": "main.js"
+    }
+  ],
+  "./contains": [
+    {
+      "id": "../../node_modules/ramda/es/contains.js",
+      "name": "../../node_modules/ramda/es/contains.js",
+      "file": "main.js"
+    }
+  ],
+  "./converge": [
+    {
+      "id": "../../node_modules/ramda/es/converge.js",
+      "name": "../../node_modules/ramda/es/converge.js",
+      "file": "main.js"
+    }
+  ],
+  "./countBy": [
+    {
+      "id": "../../node_modules/ramda/es/countBy.js",
+      "name": "../../node_modules/ramda/es/countBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./curry": [
+    {
+      "id": "../../node_modules/ramda/es/curry.js",
+      "name": "../../node_modules/ramda/es/curry.js",
+      "file": "main.js"
+    }
+  ],
+  "./curryN": [
+    {
+      "id": "../../node_modules/ramda/es/curryN.js",
+      "name": "../../node_modules/ramda/es/curryN.js",
+      "file": "main.js"
+    }
+  ],
+  "./dec": [
+    {
+      "id": "../../node_modules/ramda/es/dec.js",
+      "name": "../../node_modules/ramda/es/dec.js",
+      "file": "main.js"
+    }
+  ],
+  "./defaultTo": [
+    {
+      "id": "../../node_modules/ramda/es/defaultTo.js",
+      "name": "../../node_modules/ramda/es/defaultTo.js",
+      "file": "main.js"
+    }
+  ],
+  "./descend": [
+    {
+      "id": "../../node_modules/ramda/es/descend.js",
+      "name": "../../node_modules/ramda/es/descend.js",
+      "file": "main.js"
+    }
+  ],
+  "./difference": [
+    {
+      "id": "../../node_modules/ramda/es/difference.js",
+      "name": "../../node_modules/ramda/es/difference.js",
+      "file": "main.js"
+    }
+  ],
+  "./differenceWith": [
+    {
+      "id": "../../node_modules/ramda/es/differenceWith.js",
+      "name": "../../node_modules/ramda/es/differenceWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./dissoc": [
+    {
+      "id": "../../node_modules/ramda/es/dissoc.js",
+      "name": "../../node_modules/ramda/es/dissoc.js",
+      "file": "main.js"
+    }
+  ],
+  "./dissocPath": [
+    {
+      "id": "../../node_modules/ramda/es/dissocPath.js",
+      "name": "../../node_modules/ramda/es/dissocPath.js",
+      "file": "main.js"
+    }
+  ],
+  "./divide": [
+    {
+      "id": "../../node_modules/ramda/es/divide.js",
+      "name": "../../node_modules/ramda/es/divide.js",
+      "file": "main.js"
+    }
+  ],
+  "./drop": [
+    {
+      "id": "../../node_modules/ramda/es/drop.js",
+      "name": "../../node_modules/ramda/es/drop.js",
+      "file": "main.js"
+    }
+  ],
+  "./dropLast": [
+    {
+      "id": "../../node_modules/ramda/es/dropLast.js",
+      "name": "../../node_modules/ramda/es/dropLast.js",
+      "file": "main.js"
+    }
+  ],
+  "./dropLastWhile": [
+    {
+      "id": "../../node_modules/ramda/es/dropLastWhile.js",
+      "name": "../../node_modules/ramda/es/dropLastWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./dropRepeats": [
+    {
+      "id": "../../node_modules/ramda/es/dropRepeats.js",
+      "name": "../../node_modules/ramda/es/dropRepeats.js",
+      "file": "main.js"
+    }
+  ],
+  "./dropRepeatsWith": [
+    {
+      "id": "../../node_modules/ramda/es/dropRepeatsWith.js",
+      "name": "../../node_modules/ramda/es/dropRepeatsWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./dropWhile": [
+    {
+      "id": "../../node_modules/ramda/es/dropWhile.js",
+      "name": "../../node_modules/ramda/es/dropWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./either": [
+    {
+      "id": "../../node_modules/ramda/es/either.js",
+      "name": "../../node_modules/ramda/es/either.js",
+      "file": "main.js"
+    }
+  ],
+  "./empty": [
+    {
+      "id": "../../node_modules/ramda/es/empty.js",
+      "name": "../../node_modules/ramda/es/empty.js",
+      "file": "main.js"
+    }
+  ],
+  "./endsWith": [
+    {
+      "id": "../../node_modules/ramda/es/endsWith.js",
+      "name": "../../node_modules/ramda/es/endsWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./eqBy": [
+    {
+      "id": "../../node_modules/ramda/es/eqBy.js",
+      "name": "../../node_modules/ramda/es/eqBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./eqProps": [
+    {
+      "id": "../../node_modules/ramda/es/eqProps.js",
+      "name": "../../node_modules/ramda/es/eqProps.js",
+      "file": "main.js"
+    }
+  ],
+  "./equals": [
+    {
+      "id": "../../node_modules/ramda/es/equals.js",
+      "name": "../../node_modules/ramda/es/equals.js",
+      "file": "main.js"
+    }
+  ],
+  "./evolve": [
+    {
+      "id": "../../node_modules/ramda/es/evolve.js",
+      "name": "../../node_modules/ramda/es/evolve.js",
+      "file": "main.js"
+    }
+  ],
+  "./filter": [
+    {
+      "id": "../../node_modules/ramda/es/filter.js",
+      "name": "../../node_modules/ramda/es/filter.js",
+      "file": "main.js"
+    }
+  ],
+  "./find": [
+    {
+      "id": "../../node_modules/ramda/es/find.js",
+      "name": "../../node_modules/ramda/es/find.js",
+      "file": "main.js"
+    }
+  ],
+  "./findIndex": [
+    {
+      "id": "../../node_modules/ramda/es/findIndex.js",
+      "name": "../../node_modules/ramda/es/findIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./findLast": [
+    {
+      "id": "../../node_modules/ramda/es/findLast.js",
+      "name": "../../node_modules/ramda/es/findLast.js",
+      "file": "main.js"
+    }
+  ],
+  "./findLastIndex": [
+    {
+      "id": "../../node_modules/ramda/es/findLastIndex.js",
+      "name": "../../node_modules/ramda/es/findLastIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./flatten": [
+    {
+      "id": "../../node_modules/ramda/es/flatten.js",
+      "name": "../../node_modules/ramda/es/flatten.js",
+      "file": "main.js"
+    }
+  ],
+  "./flip": [
+    {
+      "id": "../../node_modules/ramda/es/flip.js",
+      "name": "../../node_modules/ramda/es/flip.js",
+      "file": "main.js"
+    }
+  ],
+  "./forEach": [
+    {
+      "id": "../../node_modules/ramda/es/forEach.js",
+      "name": "../../node_modules/ramda/es/forEach.js",
+      "file": "main.js"
+    }
+  ],
+  "./forEachObjIndexed": [
+    {
+      "id": "../../node_modules/ramda/es/forEachObjIndexed.js",
+      "name": "../../node_modules/ramda/es/forEachObjIndexed.js",
+      "file": "main.js"
+    }
+  ],
+  "./fromPairs": [
+    {
+      "id": "../../node_modules/ramda/es/fromPairs.js",
+      "name": "../../node_modules/ramda/es/fromPairs.js",
+      "file": "main.js"
+    }
+  ],
+  "./groupBy": [
+    {
+      "id": "../../node_modules/ramda/es/groupBy.js",
+      "name": "../../node_modules/ramda/es/groupBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./groupWith": [
+    {
+      "id": "../../node_modules/ramda/es/groupWith.js",
+      "name": "../../node_modules/ramda/es/groupWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./gt": [
+    {
+      "id": "../../node_modules/ramda/es/gt.js",
+      "name": "../../node_modules/ramda/es/gt.js",
+      "file": "main.js"
+    }
+  ],
+  "./gte": [
+    {
+      "id": "../../node_modules/ramda/es/gte.js",
+      "name": "../../node_modules/ramda/es/gte.js",
+      "file": "main.js"
+    }
+  ],
+  "./has": [
+    {
+      "id": "../../node_modules/ramda/es/has.js",
+      "name": "../../node_modules/ramda/es/has.js",
+      "file": "main.js"
+    }
+  ],
+  "./hasIn": [
+    {
+      "id": "../../node_modules/ramda/es/hasIn.js",
+      "name": "../../node_modules/ramda/es/hasIn.js",
+      "file": "main.js"
+    }
+  ],
+  "./head": [
+    {
+      "id": "../../node_modules/ramda/es/head.js",
+      "name": "../../node_modules/ramda/es/head.js",
+      "file": "main.js"
+    }
+  ],
+  "./identical": [
+    {
+      "id": "../../node_modules/ramda/es/identical.js",
+      "name": "../../node_modules/ramda/es/identical.js",
+      "file": "main.js"
+    }
+  ],
+  "./identity": [
+    {
+      "id": "../../node_modules/ramda/es/identity.js",
+      "name": "../../node_modules/ramda/es/identity.js",
+      "file": "main.js"
+    }
+  ],
+  "./ifElse": [
+    {
+      "id": "../../node_modules/ramda/es/ifElse.js",
+      "name": "../../node_modules/ramda/es/ifElse.js",
+      "file": "main.js"
+    }
+  ],
+  "./inc": [
+    {
+      "id": "../../node_modules/ramda/es/inc.js",
+      "name": "../../node_modules/ramda/es/inc.js",
+      "file": "main.js"
+    }
+  ],
+  "./indexBy": [
+    {
+      "id": "../../node_modules/ramda/es/indexBy.js",
+      "name": "../../node_modules/ramda/es/indexBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./indexOf": [
+    {
+      "id": "../../node_modules/ramda/es/indexOf.js",
+      "name": "../../node_modules/ramda/es/indexOf.js",
+      "file": "main.js"
+    }
+  ],
+  "./init": [
+    {
+      "id": "../../node_modules/ramda/es/init.js",
+      "name": "../../node_modules/ramda/es/init.js",
+      "file": "main.js"
+    }
+  ],
+  "./innerJoin": [
+    {
+      "id": "../../node_modules/ramda/es/innerJoin.js",
+      "name": "../../node_modules/ramda/es/innerJoin.js",
+      "file": "main.js"
+    }
+  ],
+  "./insert": [
+    {
+      "id": "../../node_modules/ramda/es/insert.js",
+      "name": "../../node_modules/ramda/es/insert.js",
+      "file": "main.js"
+    }
+  ],
+  "./insertAll": [
+    {
+      "id": "../../node_modules/ramda/es/insertAll.js",
+      "name": "../../node_modules/ramda/es/insertAll.js",
+      "file": "main.js"
+    }
+  ],
+  "./intersection": [
+    {
+      "id": "../../node_modules/ramda/es/intersection.js",
+      "name": "../../node_modules/ramda/es/intersection.js",
+      "file": "main.js"
+    }
+  ],
+  "./intersperse": [
+    {
+      "id": "../../node_modules/ramda/es/intersperse.js",
+      "name": "../../node_modules/ramda/es/intersperse.js",
+      "file": "main.js"
+    }
+  ],
+  "./into": [
+    {
+      "id": "../../node_modules/ramda/es/into.js",
+      "name": "../../node_modules/ramda/es/into.js",
+      "file": "main.js"
+    }
+  ],
+  "./invert": [
+    {
+      "id": "../../node_modules/ramda/es/invert.js",
+      "name": "../../node_modules/ramda/es/invert.js",
+      "file": "main.js"
+    }
+  ],
+  "./invertObj": [
+    {
+      "id": "../../node_modules/ramda/es/invertObj.js",
+      "name": "../../node_modules/ramda/es/invertObj.js",
+      "file": "main.js"
+    }
+  ],
+  "./invoker": [
+    {
+      "id": "../../node_modules/ramda/es/invoker.js",
+      "name": "../../node_modules/ramda/es/invoker.js",
+      "file": "main.js"
+    }
+  ],
+  "./is": [
+    {
+      "id": "../../node_modules/ramda/es/is.js",
+      "name": "../../node_modules/ramda/es/is.js",
+      "file": "main.js"
+    }
+  ],
+  "./isEmpty": [
+    {
+      "id": "../../node_modules/ramda/es/isEmpty.js",
+      "name": "../../node_modules/ramda/es/isEmpty.js",
+      "file": "main.js"
+    }
+  ],
+  "./isNil": [
+    {
+      "id": "../../node_modules/ramda/es/isNil.js",
+      "name": "../../node_modules/ramda/es/isNil.js",
+      "file": "main.js"
+    }
+  ],
+  "./join": [
+    {
+      "id": "../../node_modules/ramda/es/join.js",
+      "name": "../../node_modules/ramda/es/join.js",
+      "file": "main.js"
+    }
+  ],
+  "./juxt": [
+    {
+      "id": "../../node_modules/ramda/es/juxt.js",
+      "name": "../../node_modules/ramda/es/juxt.js",
+      "file": "main.js"
+    }
+  ],
+  "./keys": [
+    {
+      "id": "../../node_modules/ramda/es/keys.js",
+      "name": "../../node_modules/ramda/es/keys.js",
+      "file": "main.js"
+    }
+  ],
+  "./keysIn": [
+    {
+      "id": "../../node_modules/ramda/es/keysIn.js",
+      "name": "../../node_modules/ramda/es/keysIn.js",
+      "file": "main.js"
+    }
+  ],
+  "./last": [
+    {
+      "id": "../../node_modules/ramda/es/last.js",
+      "name": "../../node_modules/ramda/es/last.js",
+      "file": "main.js"
+    }
+  ],
+  "./lastIndexOf": [
+    {
+      "id": "../../node_modules/ramda/es/lastIndexOf.js",
+      "name": "../../node_modules/ramda/es/lastIndexOf.js",
+      "file": "main.js"
+    }
+  ],
+  "./length": [
+    {
+      "id": "../../node_modules/ramda/es/length.js",
+      "name": "../../node_modules/ramda/es/length.js",
+      "file": "main.js"
+    }
+  ],
+  "./lens": [
+    {
+      "id": "../../node_modules/ramda/es/lens.js",
+      "name": "../../node_modules/ramda/es/lens.js",
+      "file": "main.js"
+    }
+  ],
+  "./lensIndex": [
+    {
+      "id": "../../node_modules/ramda/es/lensIndex.js",
+      "name": "../../node_modules/ramda/es/lensIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./lensPath": [
+    {
+      "id": "../../node_modules/ramda/es/lensPath.js",
+      "name": "../../node_modules/ramda/es/lensPath.js",
+      "file": "main.js"
+    }
+  ],
+  "./lensProp": [
+    {
+      "id": "../../node_modules/ramda/es/lensProp.js",
+      "name": "../../node_modules/ramda/es/lensProp.js",
+      "file": "main.js"
+    }
+  ],
+  "./lift": [
+    {
+      "id": "../../node_modules/ramda/es/lift.js",
+      "name": "../../node_modules/ramda/es/lift.js",
+      "file": "main.js"
+    }
+  ],
+  "./liftN": [
+    {
+      "id": "../../node_modules/ramda/es/liftN.js",
+      "name": "../../node_modules/ramda/es/liftN.js",
+      "file": "main.js"
+    }
+  ],
+  "./lt": [
+    {
+      "id": "../../node_modules/ramda/es/lt.js",
+      "name": "../../node_modules/ramda/es/lt.js",
+      "file": "main.js"
+    }
+  ],
+  "./lte": [
+    {
+      "id": "../../node_modules/ramda/es/lte.js",
+      "name": "../../node_modules/ramda/es/lte.js",
+      "file": "main.js"
+    }
+  ],
+  "./map": [
+    {
+      "id": "../../node_modules/ramda/es/map.js",
+      "name": "../../node_modules/ramda/es/map.js",
+      "file": "main.js"
+    }
+  ],
+  "./mapAccum": [
+    {
+      "id": "../../node_modules/ramda/es/mapAccum.js",
+      "name": "../../node_modules/ramda/es/mapAccum.js",
+      "file": "main.js"
+    }
+  ],
+  "./mapAccumRight": [
+    {
+      "id": "../../node_modules/ramda/es/mapAccumRight.js",
+      "name": "../../node_modules/ramda/es/mapAccumRight.js",
+      "file": "main.js"
+    }
+  ],
+  "./mapObjIndexed": [
+    {
+      "id": "../../node_modules/ramda/es/mapObjIndexed.js",
+      "name": "../../node_modules/ramda/es/mapObjIndexed.js",
+      "file": "main.js"
+    }
+  ],
+  "./match": [
+    {
+      "id": "../../node_modules/ramda/es/match.js",
+      "name": "../../node_modules/ramda/es/match.js",
+      "file": "main.js"
+    }
+  ],
+  "./mathMod": [
+    {
+      "id": "../../node_modules/ramda/es/mathMod.js",
+      "name": "../../node_modules/ramda/es/mathMod.js",
+      "file": "main.js"
+    }
+  ],
+  "./max": [
+    {
+      "id": "../../node_modules/ramda/es/max.js",
+      "name": "../../node_modules/ramda/es/max.js",
+      "file": "main.js"
+    }
+  ],
+  "./maxBy": [
+    {
+      "id": "../../node_modules/ramda/es/maxBy.js",
+      "name": "../../node_modules/ramda/es/maxBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./mean": [
+    {
+      "id": "../../node_modules/ramda/es/mean.js",
+      "name": "../../node_modules/ramda/es/mean.js",
+      "file": "main.js"
+    }
+  ],
+  "./median": [
+    {
+      "id": "../../node_modules/ramda/es/median.js",
+      "name": "../../node_modules/ramda/es/median.js",
+      "file": "main.js"
+    }
+  ],
+  "./memoize": [
+    {
+      "id": "../../node_modules/ramda/es/memoize.js",
+      "name": "../../node_modules/ramda/es/memoize.js",
+      "file": "main.js"
+    }
+  ],
+  "./memoizeWith": [
+    {
+      "id": "../../node_modules/ramda/es/memoizeWith.js",
+      "name": "../../node_modules/ramda/es/memoizeWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./merge": [
+    {
+      "id": "../../node_modules/ramda/es/merge.js",
+      "name": "../../node_modules/ramda/es/merge.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeAll": [
+    {
+      "id": "../../node_modules/ramda/es/mergeAll.js",
+      "name": "../../node_modules/ramda/es/mergeAll.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeDeepLeft": [
+    {
+      "id": "../../node_modules/ramda/es/mergeDeepLeft.js",
+      "name": "../../node_modules/ramda/es/mergeDeepLeft.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeDeepRight": [
+    {
+      "id": "../../node_modules/ramda/es/mergeDeepRight.js",
+      "name": "../../node_modules/ramda/es/mergeDeepRight.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeDeepWith": [
+    {
+      "id": "../../node_modules/ramda/es/mergeDeepWith.js",
+      "name": "../../node_modules/ramda/es/mergeDeepWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeDeepWithKey": [
+    {
+      "id": "../../node_modules/ramda/es/mergeDeepWithKey.js",
+      "name": "../../node_modules/ramda/es/mergeDeepWithKey.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeWith": [
+    {
+      "id": "../../node_modules/ramda/es/mergeWith.js",
+      "name": "../../node_modules/ramda/es/mergeWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeWithKey": [
+    {
+      "id": "../../node_modules/ramda/es/mergeWithKey.js",
+      "name": "../../node_modules/ramda/es/mergeWithKey.js",
+      "file": "main.js"
+    }
+  ],
+  "./min": [
+    {
+      "id": "../../node_modules/ramda/es/min.js",
+      "name": "../../node_modules/ramda/es/min.js",
+      "file": "main.js"
+    }
+  ],
+  "./minBy": [
+    {
+      "id": "../../node_modules/ramda/es/minBy.js",
+      "name": "../../node_modules/ramda/es/minBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./modulo": [
+    {
+      "id": "../../node_modules/ramda/es/modulo.js",
+      "name": "../../node_modules/ramda/es/modulo.js",
+      "file": "main.js"
+    }
+  ],
+  "./multiply": [
+    {
+      "id": "../../node_modules/ramda/es/multiply.js",
+      "name": "../../node_modules/ramda/es/multiply.js",
+      "file": "main.js"
+    }
+  ],
+  "./nAry": [
+    {
+      "id": "../../node_modules/ramda/es/nAry.js",
+      "name": "../../node_modules/ramda/es/nAry.js",
+      "file": "main.js"
+    }
+  ],
+  "./negate": [
+    {
+      "id": "../../node_modules/ramda/es/negate.js",
+      "name": "../../node_modules/ramda/es/negate.js",
+      "file": "main.js"
+    }
+  ],
+  "./none": [
+    {
+      "id": "../../node_modules/ramda/es/none.js",
+      "name": "../../node_modules/ramda/es/none.js",
+      "file": "main.js"
+    }
+  ],
+  "./not": [
+    {
+      "id": "../../node_modules/ramda/es/not.js",
+      "name": "../../node_modules/ramda/es/not.js",
+      "file": "main.js"
+    }
+  ],
+  "./nth": [
+    {
+      "id": "../../node_modules/ramda/es/nth.js",
+      "name": "../../node_modules/ramda/es/nth.js",
+      "file": "main.js"
+    }
+  ],
+  "./nthArg": [
+    {
+      "id": "../../node_modules/ramda/es/nthArg.js",
+      "name": "../../node_modules/ramda/es/nthArg.js",
+      "file": "main.js"
+    }
+  ],
+  "./o": [
+    {
+      "id": "../../node_modules/ramda/es/o.js",
+      "name": "../../node_modules/ramda/es/o.js",
+      "file": "main.js"
+    }
+  ],
+  "./objOf": [
+    {
+      "id": "../../node_modules/ramda/es/objOf.js",
+      "name": "../../node_modules/ramda/es/objOf.js",
+      "file": "main.js"
+    }
+  ],
+  "./of": [
+    {
+      "id": "../../node_modules/ramda/es/of.js",
+      "name": "../../node_modules/ramda/es/of.js",
+      "file": "main.js"
+    }
+  ],
+  "./omit": [
+    {
+      "id": "../../node_modules/ramda/es/omit.js",
+      "name": "../../node_modules/ramda/es/omit.js",
+      "file": "main.js"
+    }
+  ],
+  "./once": [
+    {
+      "id": "../../node_modules/ramda/es/once.js",
+      "name": "../../node_modules/ramda/es/once.js",
+      "file": "main.js"
+    }
+  ],
+  "./or": [
+    {
+      "id": "../../node_modules/ramda/es/or.js",
+      "name": "../../node_modules/ramda/es/or.js",
+      "file": "main.js"
+    }
+  ],
+  "./over": [
+    {
+      "id": "../../node_modules/ramda/es/over.js",
+      "name": "../../node_modules/ramda/es/over.js",
+      "file": "main.js"
+    }
+  ],
+  "./pair": [
+    {
+      "id": "../../node_modules/ramda/es/pair.js",
+      "name": "../../node_modules/ramda/es/pair.js",
+      "file": "main.js"
+    }
+  ],
+  "./partial": [
+    {
+      "id": "../../node_modules/ramda/es/partial.js",
+      "name": "../../node_modules/ramda/es/partial.js",
+      "file": "main.js"
+    }
+  ],
+  "./partialRight": [
+    {
+      "id": "../../node_modules/ramda/es/partialRight.js",
+      "name": "../../node_modules/ramda/es/partialRight.js",
+      "file": "main.js"
+    }
+  ],
+  "./partition": [
+    {
+      "id": "../../node_modules/ramda/es/partition.js",
+      "name": "../../node_modules/ramda/es/partition.js",
+      "file": "main.js"
+    }
+  ],
+  "./path": [
+    {
+      "id": "../../node_modules/ramda/es/path.js",
+      "name": "../../node_modules/ramda/es/path.js",
+      "file": "main.js"
+    }
+  ],
+  "./pathEq": [
+    {
+      "id": "../../node_modules/ramda/es/pathEq.js",
+      "name": "../../node_modules/ramda/es/pathEq.js",
+      "file": "main.js"
+    }
+  ],
+  "./pathOr": [
+    {
+      "id": "../../node_modules/ramda/es/pathOr.js",
+      "name": "../../node_modules/ramda/es/pathOr.js",
+      "file": "main.js"
+    }
+  ],
+  "./pathSatisfies": [
+    {
+      "id": "../../node_modules/ramda/es/pathSatisfies.js",
+      "name": "../../node_modules/ramda/es/pathSatisfies.js",
+      "file": "main.js"
+    }
+  ],
+  "./pick": [
+    {
+      "id": "../../node_modules/ramda/es/pick.js",
+      "name": "../../node_modules/ramda/es/pick.js",
+      "file": "main.js"
+    }
+  ],
+  "./pickAll": [
+    {
+      "id": "../../node_modules/ramda/es/pickAll.js",
+      "name": "../../node_modules/ramda/es/pickAll.js",
+      "file": "main.js"
+    }
+  ],
+  "./pickBy": [
+    {
+      "id": "../../node_modules/ramda/es/pickBy.js",
+      "name": "../../node_modules/ramda/es/pickBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./pipe": [
+    {
+      "id": "../../node_modules/ramda/es/pipe.js",
+      "name": "../../node_modules/ramda/es/pipe.js",
+      "file": "main.js"
+    }
+  ],
+  "./pipeK": [
+    {
+      "id": "../../node_modules/ramda/es/pipeK.js",
+      "name": "../../node_modules/ramda/es/pipeK.js",
+      "file": "main.js"
+    }
+  ],
+  "./pipeP": [
+    {
+      "id": "../../node_modules/ramda/es/pipeP.js",
+      "name": "../../node_modules/ramda/es/pipeP.js",
+      "file": "main.js"
+    }
+  ],
+  "./pluck": [
+    {
+      "id": "../../node_modules/ramda/es/pluck.js",
+      "name": "../../node_modules/ramda/es/pluck.js",
+      "file": "main.js"
+    }
+  ],
+  "./prepend": [
+    {
+      "id": "../../node_modules/ramda/es/prepend.js",
+      "name": "../../node_modules/ramda/es/prepend.js",
+      "file": "main.js"
+    }
+  ],
+  "./product": [
+    {
+      "id": "../../node_modules/ramda/es/product.js",
+      "name": "../../node_modules/ramda/es/product.js",
+      "file": "main.js"
+    }
+  ],
+  "./project": [
+    {
+      "id": "../../node_modules/ramda/es/project.js",
+      "name": "../../node_modules/ramda/es/project.js",
+      "file": "main.js"
+    }
+  ],
+  "./prop": [
+    {
+      "id": "../../node_modules/ramda/es/prop.js",
+      "name": "../../node_modules/ramda/es/prop.js",
+      "file": "main.js"
+    }
+  ],
+  "./propEq": [
+    {
+      "id": "../../node_modules/ramda/es/propEq.js",
+      "name": "../../node_modules/ramda/es/propEq.js",
+      "file": "main.js"
+    }
+  ],
+  "./propIs": [
+    {
+      "id": "../../node_modules/ramda/es/propIs.js",
+      "name": "../../node_modules/ramda/es/propIs.js",
+      "file": "main.js"
+    }
+  ],
+  "./propOr": [
+    {
+      "id": "../../node_modules/ramda/es/propOr.js",
+      "name": "../../node_modules/ramda/es/propOr.js",
+      "file": "main.js"
+    }
+  ],
+  "./propSatisfies": [
+    {
+      "id": "../../node_modules/ramda/es/propSatisfies.js",
+      "name": "../../node_modules/ramda/es/propSatisfies.js",
+      "file": "main.js"
+    }
+  ],
+  "./props": [
+    {
+      "id": "../../node_modules/ramda/es/props.js",
+      "name": "../../node_modules/ramda/es/props.js",
+      "file": "main.js"
+    }
+  ],
+  "./range": [
+    {
+      "id": "../../node_modules/ramda/es/range.js",
+      "name": "../../node_modules/ramda/es/range.js",
+      "file": "main.js"
+    }
+  ],
+  "./reduce": [
+    {
+      "id": "../../node_modules/ramda/es/reduce.js",
+      "name": "../../node_modules/ramda/es/reduce.js",
+      "file": "main.js"
+    }
+  ],
+  "./reduceBy": [
+    {
+      "id": "../../node_modules/ramda/es/reduceBy.js",
+      "name": "../../node_modules/ramda/es/reduceBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./reduceRight": [
+    {
+      "id": "../../node_modules/ramda/es/reduceRight.js",
+      "name": "../../node_modules/ramda/es/reduceRight.js",
+      "file": "main.js"
+    }
+  ],
+  "./reduceWhile": [
+    {
+      "id": "../../node_modules/ramda/es/reduceWhile.js",
+      "name": "../../node_modules/ramda/es/reduceWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./reduced": [
+    {
+      "id": "../../node_modules/ramda/es/reduced.js",
+      "name": "../../node_modules/ramda/es/reduced.js",
+      "file": "main.js"
+    }
+  ],
+  "./reject": [
+    {
+      "id": "../../node_modules/ramda/es/reject.js",
+      "name": "../../node_modules/ramda/es/reject.js",
+      "file": "main.js"
+    }
+  ],
+  "./remove": [
+    {
+      "id": "../../node_modules/ramda/es/remove.js",
+      "name": "../../node_modules/ramda/es/remove.js",
+      "file": "main.js"
+    }
+  ],
+  "./repeat": [
+    {
+      "id": "../../node_modules/ramda/es/repeat.js",
+      "name": "../../node_modules/ramda/es/repeat.js",
+      "file": "main.js"
+    }
+  ],
+  "./replace": [
+    {
+      "id": "../../node_modules/ramda/es/replace.js",
+      "name": "../../node_modules/ramda/es/replace.js",
+      "file": "main.js"
+    }
+  ],
+  "./reverse": [
+    {
+      "id": "../../node_modules/ramda/es/reverse.js",
+      "name": "../../node_modules/ramda/es/reverse.js",
+      "file": "main.js"
+    }
+  ],
+  "./scan": [
+    {
+      "id": "../../node_modules/ramda/es/scan.js",
+      "name": "../../node_modules/ramda/es/scan.js",
+      "file": "main.js"
+    }
+  ],
+  "./sequence": [
+    {
+      "id": "../../node_modules/ramda/es/sequence.js",
+      "name": "../../node_modules/ramda/es/sequence.js",
+      "file": "main.js"
+    }
+  ],
+  "./set": [
+    {
+      "id": "../../node_modules/ramda/es/set.js",
+      "name": "../../node_modules/ramda/es/set.js",
+      "file": "main.js"
+    }
+  ],
+  "./slice": [
+    {
+      "id": "../../node_modules/ramda/es/slice.js",
+      "name": "../../node_modules/ramda/es/slice.js",
+      "file": "main.js"
+    }
+  ],
+  "./sort": [
+    {
+      "id": "../../node_modules/ramda/es/sort.js",
+      "name": "../../node_modules/ramda/es/sort.js",
+      "file": "main.js"
+    }
+  ],
+  "./sortBy": [
+    {
+      "id": "../../node_modules/ramda/es/sortBy.js",
+      "name": "../../node_modules/ramda/es/sortBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./sortWith": [
+    {
+      "id": "../../node_modules/ramda/es/sortWith.js",
+      "name": "../../node_modules/ramda/es/sortWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./split": [
+    {
+      "id": "../../node_modules/ramda/es/split.js",
+      "name": "../../node_modules/ramda/es/split.js",
+      "file": "main.js"
+    }
+  ],
+  "/Users/secundant/WebstormProjects/unitech-schedule-app/node_modules/webpack-dev-server/client/index.js?http://localhost:8080": [
+    {
+      "id": "../../node_modules/webpack-dev-server/client/index.js?http://localhost:8080",
+      "name": "../../node_modules/webpack-dev-server/client/index.js?http://localhost:8080",
+      "file": "main.js"
+    }
+  ],
+  "./splitEvery": [
+    {
+      "id": "../../node_modules/ramda/es/splitEvery.js",
+      "name": "../../node_modules/ramda/es/splitEvery.js",
+      "file": "main.js"
+    }
+  ],
+  "./splitWhen": [
+    {
+      "id": "../../node_modules/ramda/es/splitWhen.js",
+      "name": "../../node_modules/ramda/es/splitWhen.js",
+      "file": "main.js"
+    }
+  ],
+  "./startsWith": [
+    {
+      "id": "../../node_modules/ramda/es/startsWith.js",
+      "name": "../../node_modules/ramda/es/startsWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./subtract": [
+    {
+      "id": "../../node_modules/ramda/es/subtract.js",
+      "name": "../../node_modules/ramda/es/subtract.js",
+      "file": "main.js"
+    }
+  ],
+  "./sum": [
+    {
+      "id": "../../node_modules/ramda/es/sum.js",
+      "name": "../../node_modules/ramda/es/sum.js",
+      "file": "main.js"
+    }
+  ],
+  "./symmetricDifference": [
+    {
+      "id": "../../node_modules/ramda/es/symmetricDifference.js",
+      "name": "../../node_modules/ramda/es/symmetricDifference.js",
+      "file": "main.js"
+    }
+  ],
+  "./symmetricDifferenceWith": [
+    {
+      "id": "../../node_modules/ramda/es/symmetricDifferenceWith.js",
+      "name": "../../node_modules/ramda/es/symmetricDifferenceWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./tail": [
+    {
+      "id": "../../node_modules/ramda/es/tail.js",
+      "name": "../../node_modules/ramda/es/tail.js",
+      "file": "main.js"
+    }
+  ],
+  "./take": [
+    {
+      "id": "../../node_modules/ramda/es/take.js",
+      "name": "../../node_modules/ramda/es/take.js",
+      "file": "main.js"
+    }
+  ],
+  "./takeLast": [
+    {
+      "id": "../../node_modules/ramda/es/takeLast.js",
+      "name": "../../node_modules/ramda/es/takeLast.js",
+      "file": "main.js"
+    }
+  ],
+  "./takeLastWhile": [
+    {
+      "id": "../../node_modules/ramda/es/takeLastWhile.js",
+      "name": "../../node_modules/ramda/es/takeLastWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./takeWhile": [
+    {
+      "id": "../../node_modules/ramda/es/takeWhile.js",
+      "name": "../../node_modules/ramda/es/takeWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./tap": [
+    {
+      "id": "../../node_modules/ramda/es/tap.js",
+      "name": "../../node_modules/ramda/es/tap.js",
+      "file": "main.js"
+    }
+  ],
+  "./test": [
+    {
+      "id": "../../node_modules/ramda/es/test.js",
+      "name": "../../node_modules/ramda/es/test.js",
+      "file": "main.js"
+    }
+  ],
+  "./times": [
+    {
+      "id": "../../node_modules/ramda/es/times.js",
+      "name": "../../node_modules/ramda/es/times.js",
+      "file": "main.js"
+    }
+  ],
+  "./toLower": [
+    {
+      "id": "../../node_modules/ramda/es/toLower.js",
+      "name": "../../node_modules/ramda/es/toLower.js",
+      "file": "main.js"
+    }
+  ],
+  "./toPairs": [
+    {
+      "id": "../../node_modules/ramda/es/toPairs.js",
+      "name": "../../node_modules/ramda/es/toPairs.js",
+      "file": "main.js"
+    }
+  ],
+  "./toPairsIn": [
+    {
+      "id": "../../node_modules/ramda/es/toPairsIn.js",
+      "name": "../../node_modules/ramda/es/toPairsIn.js",
+      "file": "main.js"
+    }
+  ],
+  "./toString": [
+    {
+      "id": "../../node_modules/ramda/es/toString.js",
+      "name": "../../node_modules/ramda/es/toString.js",
+      "file": "main.js"
+    }
+  ],
+  "./toUpper": [
+    {
+      "id": "../../node_modules/ramda/es/toUpper.js",
+      "name": "../../node_modules/ramda/es/toUpper.js",
+      "file": "main.js"
+    }
+  ],
+  "./transduce": [
+    {
+      "id": "../../node_modules/ramda/es/transduce.js",
+      "name": "../../node_modules/ramda/es/transduce.js",
+      "file": "main.js"
+    }
+  ],
+  "./transpose": [
+    {
+      "id": "../../node_modules/ramda/es/transpose.js",
+      "name": "../../node_modules/ramda/es/transpose.js",
+      "file": "main.js"
+    }
+  ],
+  "./traverse": [
+    {
+      "id": "../../node_modules/ramda/es/traverse.js",
+      "name": "../../node_modules/ramda/es/traverse.js",
+      "file": "main.js"
+    }
+  ],
+  "./trim": [
+    {
+      "id": "../../node_modules/ramda/es/trim.js",
+      "name": "../../node_modules/ramda/es/trim.js",
+      "file": "main.js"
+    }
+  ],
+  "./tryCatch": [
+    {
+      "id": "../../node_modules/ramda/es/tryCatch.js",
+      "name": "../../node_modules/ramda/es/tryCatch.js",
+      "file": "main.js"
+    }
+  ],
+  "./type": [
+    {
+      "id": "../../node_modules/ramda/es/type.js",
+      "name": "../../node_modules/ramda/es/type.js",
+      "file": "main.js"
+    }
+  ],
+  "./unapply": [
+    {
+      "id": "../../node_modules/ramda/es/unapply.js",
+      "name": "../../node_modules/ramda/es/unapply.js",
+      "file": "main.js"
+    }
+  ],
+  "./unary": [
+    {
+      "id": "../../node_modules/ramda/es/unary.js",
+      "name": "../../node_modules/ramda/es/unary.js",
+      "file": "main.js"
+    }
+  ],
+  "./uncurryN": [
+    {
+      "id": "../../node_modules/ramda/es/uncurryN.js",
+      "name": "../../node_modules/ramda/es/uncurryN.js",
+      "file": "main.js"
+    }
+  ],
+  "./unfold": [
+    {
+      "id": "../../node_modules/ramda/es/unfold.js",
+      "name": "../../node_modules/ramda/es/unfold.js",
+      "file": "main.js"
+    }
+  ],
+  "./union": [
+    {
+      "id": "../../node_modules/ramda/es/union.js",
+      "name": "../../node_modules/ramda/es/union.js",
+      "file": "main.js"
+    }
+  ],
+  "./unionWith": [
+    {
+      "id": "../../node_modules/ramda/es/unionWith.js",
+      "name": "../../node_modules/ramda/es/unionWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./uniq": [
+    {
+      "id": "../../node_modules/ramda/es/uniq.js",
+      "name": "../../node_modules/ramda/es/uniq.js",
+      "file": "main.js"
+    }
+  ],
+  "./uniqBy": [
+    {
+      "id": "../../node_modules/ramda/es/uniqBy.js",
+      "name": "../../node_modules/ramda/es/uniqBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./uniqWith": [
+    {
+      "id": "../../node_modules/ramda/es/uniqWith.js",
+      "name": "../../node_modules/ramda/es/uniqWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./unless": [
+    {
+      "id": "../../node_modules/ramda/es/unless.js",
+      "name": "../../node_modules/ramda/es/unless.js",
+      "file": "main.js"
+    }
+  ],
+  "./unnest": [
+    {
+      "id": "../../node_modules/ramda/es/unnest.js",
+      "name": "../../node_modules/ramda/es/unnest.js",
+      "file": "main.js"
+    }
+  ],
+  "./until": [
+    {
+      "id": "../../node_modules/ramda/es/until.js",
+      "name": "../../node_modules/ramda/es/until.js",
+      "file": "main.js"
+    }
+  ],
+  "./update": [
+    {
+      "id": "../../node_modules/ramda/es/update.js",
+      "name": "../../node_modules/ramda/es/update.js",
+      "file": "main.js"
+    }
+  ],
+  "./useWith": [
+    {
+      "id": "../../node_modules/ramda/es/useWith.js",
+      "name": "../../node_modules/ramda/es/useWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./values": [
+    {
+      "id": "../../node_modules/ramda/es/values.js",
+      "name": "../../node_modules/ramda/es/values.js",
+      "file": "main.js"
+    }
+  ],
+  "./valuesIn": [
+    {
+      "id": "../../node_modules/ramda/es/valuesIn.js",
+      "name": "../../node_modules/ramda/es/valuesIn.js",
+      "file": "main.js"
+    }
+  ],
+  "./view": [
+    {
+      "id": "../../node_modules/ramda/es/view.js",
+      "name": "../../node_modules/ramda/es/view.js",
+      "file": "main.js"
+    }
+  ],
+  "./when": [
+    {
+      "id": "../../node_modules/ramda/es/when.js",
+      "name": "../../node_modules/ramda/es/when.js",
+      "file": "main.js"
+    }
+  ],
+  "./where": [
+    {
+      "id": "../../node_modules/ramda/es/where.js",
+      "name": "../../node_modules/ramda/es/where.js",
+      "file": "main.js"
+    }
+  ],
+  "./whereEq": [
+    {
+      "id": "../../node_modules/ramda/es/whereEq.js",
+      "name": "../../node_modules/ramda/es/whereEq.js",
+      "file": "main.js"
+    }
+  ],
+  "./without": [
+    {
+      "id": "../../node_modules/ramda/es/without.js",
+      "name": "../../node_modules/ramda/es/without.js",
+      "file": "main.js"
+    }
+  ],
+  "./xprod": [
+    {
+      "id": "../../node_modules/ramda/es/xprod.js",
+      "name": "../../node_modules/ramda/es/xprod.js",
+      "file": "main.js"
+    }
+  ],
+  "./zip": [
+    {
+      "id": "../../node_modules/ramda/es/zip.js",
+      "name": "../../node_modules/ramda/es/zip.js",
+      "file": "main.js"
+    }
+  ],
+  "./zipObj": [
+    {
+      "id": "../../node_modules/ramda/es/zipObj.js",
+      "name": "../../node_modules/ramda/es/zipObj.js",
+      "file": "main.js"
+    }
+  ],
+  "./zipWith": [
+    {
+      "id": "../../node_modules/ramda/es/zipWith.js",
+      "name": "../../node_modules/ramda/es/zipWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_curry3": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_curry3.js",
+      "name": "../../node_modules/ramda/es/internal/_curry3.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_curry1": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_curry1.js",
+      "name": "../../node_modules/ramda/es/internal/_curry1.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_curry2": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_curry2.js",
+      "name": "../../node_modules/ramda/es/internal/_curry2.js",
+      "file": "main.js"
+    }
+  ],
+  "./_isPlaceholder": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isPlaceholder.js",
+      "name": "../../node_modules/ramda/es/internal/_isPlaceholder.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_contains": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_contains.js",
+      "name": "../../node_modules/ramda/es/internal/_contains.js",
+      "file": "main.js"
+    }
+  ],
+  "./_indexOf": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_indexOf.js",
+      "name": "../../node_modules/ramda/es/internal/_indexOf.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_has": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_has.js",
+      "name": "../../node_modules/ramda/es/internal/_has.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_identity": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_identity.js",
+      "name": "../../node_modules/ramda/es/internal/_identity.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_containsWith": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_containsWith.js",
+      "name": "../../node_modules/ramda/es/internal/_containsWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_Set": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_Set.js",
+      "name": "../../node_modules/ramda/es/internal/_Set.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_concat": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_concat.js",
+      "name": "../../node_modules/ramda/es/internal/_concat.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_arity": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_arity.js",
+      "name": "../../node_modules/ramda/es/internal/_arity.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_reduce": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_reduce.js",
+      "name": "../../node_modules/ramda/es/internal/_reduce.js",
+      "file": "main.js"
+    }
+  ],
+  "./_xwrap": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xwrap.js",
+      "name": "../../node_modules/ramda/es/internal/_xwrap.js",
+      "file": "main.js"
+    }
+  ],
+  "./_isArrayLike": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isArrayLike.js",
+      "name": "../../node_modules/ramda/es/internal/_isArrayLike.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isArray": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isArray.js",
+      "name": "../../node_modules/ramda/es/internal/_isArray.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isString": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isString.js",
+      "name": "../../node_modules/ramda/es/internal/_isString.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_toString": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_toString.js",
+      "name": "../../node_modules/ramda/es/internal/_toString.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_map": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_map.js",
+      "name": "../../node_modules/ramda/es/internal/_map.js",
+      "file": "main.js"
+    }
+  ],
+  "./_quote": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_quote.js",
+      "name": "../../node_modules/ramda/es/internal/_quote.js",
+      "file": "main.js"
+    }
+  ],
+  "./_toISOString": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_toISOString.js",
+      "name": "../../node_modules/ramda/es/internal/_toISOString.js",
+      "file": "main.js"
+    }
+  ],
+  "./_cloneRegExp": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_cloneRegExp.js",
+      "name": "../../node_modules/ramda/es/internal/_cloneRegExp.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isRegExp": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isRegExp.js",
+      "name": "../../node_modules/ramda/es/internal/_isRegExp.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_dispatchable": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_dispatchable.js",
+      "name": "../../node_modules/ramda/es/internal/_dispatchable.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xtap": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xtap.js",
+      "name": "../../node_modules/ramda/es/internal/_xtap.js",
+      "file": "main.js"
+    }
+  ],
+  "./_xfBase": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xfBase.js",
+      "name": "../../node_modules/ramda/es/internal/_xfBase.js",
+      "file": "main.js"
+    }
+  ],
+  "./_isTransformer": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isTransformer.js",
+      "name": "../../node_modules/ramda/es/internal/_isTransformer.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xtakeWhile": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xtakeWhile.js",
+      "name": "../../node_modules/ramda/es/internal/_xtakeWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./_reduced": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_reduced.js",
+      "name": "../../node_modules/ramda/es/internal/_reduced.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xtake": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xtake.js",
+      "name": "../../node_modules/ramda/es/internal/_xtake.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_checkForMethod": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_checkForMethod.js",
+      "name": "../../node_modules/ramda/es/internal/_checkForMethod.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_complement": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_complement.js",
+      "name": "../../node_modules/ramda/es/internal/_complement.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_curryN": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_curryN.js",
+      "name": "../../node_modules/ramda/es/internal/_curryN.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xreduceBy": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xreduceBy.js",
+      "name": "../../node_modules/ramda/es/internal/_xreduceBy.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isNumber": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isNumber.js",
+      "name": "../../node_modules/ramda/es/internal/_isNumber.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_pipeP": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_pipeP.js",
+      "name": "../../node_modules/ramda/es/internal/_pipeP.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_pipe": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_pipe.js",
+      "name": "../../node_modules/ramda/es/internal/_pipe.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_createPartialApplicator": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_createPartialApplicator.js",
+      "name": "../../node_modules/ramda/es/internal/_createPartialApplicator.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_of": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_of.js",
+      "name": "../../node_modules/ramda/es/internal/_of.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xany": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xany.js",
+      "name": "../../node_modules/ramda/es/internal/_xany.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isObject": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isObject.js",
+      "name": "../../node_modules/ramda/es/internal/_isObject.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_assign": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_assign.js",
+      "name": "../../node_modules/ramda/es/internal/_assign.js",
+      "file": "main.js"
+    }
+  ],
+  "./_objectAssign": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_objectAssign.js",
+      "name": "../../node_modules/ramda/es/internal/_objectAssign.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isInteger": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isInteger.js",
+      "name": "../../node_modules/ramda/es/internal/_isInteger.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xmap": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xmap.js",
+      "name": "../../node_modules/ramda/es/internal/_xmap.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isArguments": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isArguments.js",
+      "name": "../../node_modules/ramda/es/internal/_isArguments.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_isFunction": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_isFunction.js",
+      "name": "../../node_modules/ramda/es/internal/_isFunction.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_clone": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_clone.js",
+      "name": "../../node_modules/ramda/es/internal/_clone.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_stepCat": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_stepCat.js",
+      "name": "../../node_modules/ramda/es/internal/_stepCat.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_filter": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_filter.js",
+      "name": "../../node_modules/ramda/es/internal/_filter.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_makeFlat": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_makeFlat.js",
+      "name": "../../node_modules/ramda/es/internal/_makeFlat.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xfindLastIndex": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xfindLastIndex.js",
+      "name": "../../node_modules/ramda/es/internal/_xfindLastIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xfindLast": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xfindLast.js",
+      "name": "../../node_modules/ramda/es/internal/_xfindLast.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xfindIndex": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xfindIndex.js",
+      "name": "../../node_modules/ramda/es/internal/_xfindIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xfind": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xfind.js",
+      "name": "../../node_modules/ramda/es/internal/_xfind.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xfilter": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xfilter.js",
+      "name": "../../node_modules/ramda/es/internal/_xfilter.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_equals": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_equals.js",
+      "name": "../../node_modules/ramda/es/internal/_equals.js",
+      "file": "main.js"
+    }
+  ],
+  "./_arrayFromIterator": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_arrayFromIterator.js",
+      "name": "../../node_modules/ramda/es/internal/_arrayFromIterator.js",
+      "file": "main.js"
+    }
+  ],
+  "./_functionName": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_functionName.js",
+      "name": "../../node_modules/ramda/es/internal/_functionName.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xdropWhile": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xdropWhile.js",
+      "name": "../../node_modules/ramda/es/internal/_xdropWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xdropRepeatsWith": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xdropRepeatsWith.js",
+      "name": "../../node_modules/ramda/es/internal/_xdropRepeatsWith.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_dropLastWhile": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_dropLastWhile.js",
+      "name": "../../node_modules/ramda/es/internal/_dropLastWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xdropLastWhile": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xdropLastWhile.js",
+      "name": "../../node_modules/ramda/es/internal/_xdropLastWhile.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_dropLast": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_dropLast.js",
+      "name": "../../node_modules/ramda/es/internal/_dropLast.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xdropLast": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xdropLast.js",
+      "name": "../../node_modules/ramda/es/internal/_xdropLast.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xdrop": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xdrop.js",
+      "name": "../../node_modules/ramda/es/internal/_xdrop.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xchain": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xchain.js",
+      "name": "../../node_modules/ramda/es/internal/_xchain.js",
+      "file": "main.js"
+    }
+  ],
+  "./_flatCat": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_flatCat.js",
+      "name": "../../node_modules/ramda/es/internal/_flatCat.js",
+      "file": "main.js"
+    }
+  ],
+  "./_forceReduced": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_forceReduced.js",
+      "name": "../../node_modules/ramda/es/internal/_forceReduced.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_aperture": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_aperture.js",
+      "name": "../../node_modules/ramda/es/internal/_aperture.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xaperture": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xaperture.js",
+      "name": "../../node_modules/ramda/es/internal/_xaperture.js",
+      "file": "main.js"
+    }
+  ],
+  "./internal/_xall": [
+    {
+      "id": "../../node_modules/ramda/es/internal/_xall.js",
+      "name": "../../node_modules/ramda/es/internal/_xall.js",
+      "file": "main.js"
+    }
+  ],
+  "react-router": [
+    {
+      "id": "../../node_modules/react-router/es/index.js",
+      "name": "../../node_modules/react-router/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "redux": [
+    {
+      "id": "../../node_modules/redux/es/index.js",
+      "name": "../../node_modules/redux/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./reducers": [
+    {
+      "id": "./src/store/reducers/index.ts",
+      "name": "./src/store/reducers/index.ts",
+      "file": "main.js"
+    }
+  ],
+  "./user": [
+    {
+      "id": "./src/store/reducers/user.ts",
+      "name": "./src/store/reducers/user.ts",
+      "file": "main.js"
+    }
+  ],
+  "redux-actions": [
+    {
+      "id": "../../node_modules/redux-actions/es/index.js",
+      "name": "../../node_modules/redux-actions/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "../actions": [
+    {
+      "id": "./src/store/actions/index.ts",
+      "name": "./src/store/actions/index.ts",
+      "file": "main.js"
+    }
+  ],
+  "../actions/user": [
+    {
+      "id": "./src/store/actions/user.ts",
+      "name": "./src/store/actions/user.ts",
+      "file": "main.js"
+    }
+  ],
+  "./createAction": [
+    {
+      "id": "../../node_modules/redux-actions/es/createAction.js",
+      "name": "../../node_modules/redux-actions/es/createAction.js",
+      "file": "main.js"
+    }
+  ],
+  "./handleAction": [
+    {
+      "id": "../../node_modules/redux-actions/es/handleAction.js",
+      "name": "../../node_modules/redux-actions/es/handleAction.js",
+      "file": "main.js"
+    }
+  ],
+  "./handleActions": [
+    {
+      "id": "../../node_modules/redux-actions/es/handleActions.js",
+      "name": "../../node_modules/redux-actions/es/handleActions.js",
+      "file": "main.js"
+    }
+  ],
+  "./combineActions": [
+    {
+      "id": "../../node_modules/redux-actions/es/combineActions.js",
+      "name": "../../node_modules/redux-actions/es/combineActions.js",
+      "file": "main.js"
+    }
+  ],
+  "./createActions": [
+    {
+      "id": "../../node_modules/redux-actions/es/createActions.js",
+      "name": "../../node_modules/redux-actions/es/createActions.js",
+      "file": "main.js"
+    }
+  ],
+  "./camelCase": [
+    {
+      "id": "../../node_modules/redux-actions/es/camelCase.js",
+      "name": "../../node_modules/redux-actions/es/camelCase.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/identity": [
+    {
+      "id": "../../node_modules/lodash-es/identity.js",
+      "name": "../../node_modules/lodash-es/identity.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isPlainObject": [
+    {
+      "id": "../../node_modules/lodash-es/isPlainObject.js",
+      "name": "../../node_modules/lodash-es/isPlainObject.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isArray": [
+    {
+      "id": "../../node_modules/lodash-es/isArray.js",
+      "name": "../../node_modules/lodash-es/isArray.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/last": [
+    {
+      "id": "../../node_modules/lodash-es/last.js",
+      "name": "../../node_modules/lodash-es/last.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isString": [
+    {
+      "id": "../../node_modules/lodash-es/isString.js",
+      "name": "../../node_modules/lodash-es/isString.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isFunction": [
+    {
+      "id": "../../node_modules/lodash-es/isFunction.js",
+      "name": "../../node_modules/lodash-es/isFunction.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isNil": [
+    {
+      "id": "../../node_modules/lodash-es/isNil.js",
+      "name": "../../node_modules/lodash-es/isNil.js",
+      "file": "main.js"
+    }
+  ],
+  "./arrayToObject": [
+    {
+      "id": "../../node_modules/redux-actions/es/arrayToObject.js",
+      "name": "../../node_modules/redux-actions/es/arrayToObject.js",
+      "file": "main.js"
+    }
+  ],
+  "./flattenUtils": [
+    {
+      "id": "../../node_modules/redux-actions/es/flattenUtils.js",
+      "name": "../../node_modules/redux-actions/es/flattenUtils.js",
+      "file": "main.js"
+    }
+  ],
+  "./ownKeys": [
+    {
+      "id": "../../node_modules/redux-actions/es/ownKeys.js",
+      "name": "../../node_modules/redux-actions/es/ownKeys.js",
+      "file": "main.js"
+    }
+  ],
+  "./hasGeneratorInterface": [
+    {
+      "id": "../../node_modules/redux-actions/es/hasGeneratorInterface.js",
+      "name": "../../node_modules/redux-actions/es/hasGeneratorInterface.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isMap": [
+    {
+      "id": "../../node_modules/lodash-es/isMap.js",
+      "name": "../../node_modules/lodash-es/isMap.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseIsMap.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseIsMap.js",
+      "name": "../../node_modules/lodash-es/_baseIsMap.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseUnary.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseUnary.js",
+      "name": "../../node_modules/lodash-es/_baseUnary.js",
+      "file": "main.js"
+    }
+  ],
+  "./_nodeUtil.js": [
+    {
+      "id": "../../node_modules/lodash-es/_nodeUtil.js",
+      "name": "../../node_modules/lodash-es/_nodeUtil.js",
+      "file": "main.js"
+    }
+  ],
+  "./../../../../node_modules/webpack/buildin/harmony-module.js": [
+    {
+      "id": "../../node_modules/webpack/buildin/harmony-module.js",
+      "name": "../../node_modules/webpack/buildin/harmony-module.js",
+      "file": "main.js"
+    }
+  ],
+  "./_freeGlobal.js": [
+    {
+      "id": "../../node_modules/lodash-es/_freeGlobal.js",
+      "name": "../../node_modules/lodash-es/_freeGlobal.js",
+      "file": "main.js"
+    }
+  ],
+  "./_getTag.js": [
+    {
+      "id": "../../node_modules/lodash-es/_getTag.js",
+      "name": "../../node_modules/lodash-es/_getTag.js",
+      "file": "main.js"
+    }
+  ],
+  "./isObjectLike.js": [
+    {
+      "id": "../../node_modules/lodash-es/isObjectLike.js",
+      "name": "../../node_modules/lodash-es/isObjectLike.js",
+      "file": "main.js"
+    }
+  ],
+  "./_DataView.js": [
+    {
+      "id": "../../node_modules/lodash-es/_DataView.js",
+      "name": "../../node_modules/lodash-es/_DataView.js",
+      "file": "main.js"
+    }
+  ],
+  "./_Map.js": [
+    {
+      "id": "../../node_modules/lodash-es/_Map.js",
+      "name": "../../node_modules/lodash-es/_Map.js",
+      "file": "main.js"
+    }
+  ],
+  "./_Promise.js": [
+    {
+      "id": "../../node_modules/lodash-es/_Promise.js",
+      "name": "../../node_modules/lodash-es/_Promise.js",
+      "file": "main.js"
+    }
+  ],
+  "./_Set.js": [
+    {
+      "id": "../../node_modules/lodash-es/_Set.js",
+      "name": "../../node_modules/lodash-es/_Set.js",
+      "file": "main.js"
+    }
+  ],
+  "./_WeakMap.js": [
+    {
+      "id": "../../node_modules/lodash-es/_WeakMap.js",
+      "name": "../../node_modules/lodash-es/_WeakMap.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseGetTag.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseGetTag.js",
+      "name": "../../node_modules/lodash-es/_baseGetTag.js",
+      "file": "main.js"
+    }
+  ],
+  "./_toSource.js": [
+    {
+      "id": "../../node_modules/lodash-es/_toSource.js",
+      "name": "../../node_modules/lodash-es/_toSource.js",
+      "file": "main.js"
+    }
+  ],
+  "./_Symbol.js": [
+    {
+      "id": "../../node_modules/lodash-es/_Symbol.js",
+      "name": "../../node_modules/lodash-es/_Symbol.js",
+      "file": "main.js"
+    }
+  ],
+  "./_getRawTag.js": [
+    {
+      "id": "../../node_modules/lodash-es/_getRawTag.js",
+      "name": "../../node_modules/lodash-es/_getRawTag.js",
+      "file": "main.js"
+    }
+  ],
+  "./_objectToString.js": [
+    {
+      "id": "../../node_modules/lodash-es/_objectToString.js",
+      "name": "../../node_modules/lodash-es/_objectToString.js",
+      "file": "main.js"
+    }
+  ],
+  "./_root.js": [
+    {
+      "id": "../../node_modules/lodash-es/_root.js",
+      "name": "../../node_modules/lodash-es/_root.js",
+      "file": "main.js"
+    }
+  ],
+  "./_getNative.js": [
+    {
+      "id": "../../node_modules/lodash-es/_getNative.js",
+      "name": "../../node_modules/lodash-es/_getNative.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseIsNative.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseIsNative.js",
+      "name": "../../node_modules/lodash-es/_baseIsNative.js",
+      "file": "main.js"
+    }
+  ],
+  "./_getValue.js": [
+    {
+      "id": "../../node_modules/lodash-es/_getValue.js",
+      "name": "../../node_modules/lodash-es/_getValue.js",
+      "file": "main.js"
+    }
+  ],
+  "./_isMasked.js": [
+    {
+      "id": "../../node_modules/lodash-es/_isMasked.js",
+      "name": "../../node_modules/lodash-es/_isMasked.js",
+      "file": "main.js"
+    }
+  ],
+  "./isObject.js": [
+    {
+      "id": "../../node_modules/lodash-es/isObject.js",
+      "name": "../../node_modules/lodash-es/isObject.js",
+      "file": "main.js"
+    }
+  ],
+  "./_coreJsData.js": [
+    {
+      "id": "../../node_modules/lodash-es/_coreJsData.js",
+      "name": "../../node_modules/lodash-es/_coreJsData.js",
+      "file": "main.js"
+    }
+  ],
+  "./_getPrototype.js": [
+    {
+      "id": "../../node_modules/lodash-es/_getPrototype.js",
+      "name": "../../node_modules/lodash-es/_getPrototype.js",
+      "file": "main.js"
+    }
+  ],
+  "./_overArg.js": [
+    {
+      "id": "../../node_modules/lodash-es/_overArg.js",
+      "name": "../../node_modules/lodash-es/_overArg.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isEmpty": [
+    {
+      "id": "../../node_modules/lodash-es/isEmpty.js",
+      "name": "../../node_modules/lodash-es/isEmpty.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/toString": [
+    {
+      "id": "../../node_modules/lodash-es/toString.js",
+      "name": "../../node_modules/lodash-es/toString.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isSymbol": [
+    {
+      "id": "../../node_modules/lodash-es/isSymbol.js",
+      "name": "../../node_modules/lodash-es/isSymbol.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseToString.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseToString.js",
+      "name": "../../node_modules/lodash-es/_baseToString.js",
+      "file": "main.js"
+    }
+  ],
+  "./_arrayMap.js": [
+    {
+      "id": "../../node_modules/lodash-es/_arrayMap.js",
+      "name": "../../node_modules/lodash-es/_arrayMap.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseKeys.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseKeys.js",
+      "name": "../../node_modules/lodash-es/_baseKeys.js",
+      "file": "main.js"
+    }
+  ],
+  "./isArguments.js": [
+    {
+      "id": "../../node_modules/lodash-es/isArguments.js",
+      "name": "../../node_modules/lodash-es/isArguments.js",
+      "file": "main.js"
+    }
+  ],
+  "./isArrayLike.js": [
+    {
+      "id": "../../node_modules/lodash-es/isArrayLike.js",
+      "name": "../../node_modules/lodash-es/isArrayLike.js",
+      "file": "main.js"
+    }
+  ],
+  "./isBuffer.js": [
+    {
+      "id": "../../node_modules/lodash-es/isBuffer.js",
+      "name": "../../node_modules/lodash-es/isBuffer.js",
+      "file": "main.js"
+    }
+  ],
+  "./_isPrototype.js": [
+    {
+      "id": "../../node_modules/lodash-es/_isPrototype.js",
+      "name": "../../node_modules/lodash-es/_isPrototype.js",
+      "file": "main.js"
+    }
+  ],
+  "./isTypedArray.js": [
+    {
+      "id": "../../node_modules/lodash-es/isTypedArray.js",
+      "name": "../../node_modules/lodash-es/isTypedArray.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseIsTypedArray.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseIsTypedArray.js",
+      "name": "../../node_modules/lodash-es/_baseIsTypedArray.js",
+      "file": "main.js"
+    }
+  ],
+  "./isLength.js": [
+    {
+      "id": "../../node_modules/lodash-es/isLength.js",
+      "name": "../../node_modules/lodash-es/isLength.js",
+      "file": "main.js"
+    }
+  ],
+  "./stubFalse.js": [
+    {
+      "id": "../../node_modules/lodash-es/stubFalse.js",
+      "name": "../../node_modules/lodash-es/stubFalse.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseIsArguments.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseIsArguments.js",
+      "name": "../../node_modules/lodash-es/_baseIsArguments.js",
+      "file": "main.js"
+    }
+  ],
+  "./_nativeKeys.js": [
+    {
+      "id": "../../node_modules/lodash-es/_nativeKeys.js",
+      "name": "../../node_modules/lodash-es/_nativeKeys.js",
+      "file": "main.js"
+    }
+  ],
+  "reduce-reducers": [
+    {
+      "id": "../../node_modules/reduce-reducers/lib/index.js",
+      "name": "../../node_modules/reduce-reducers/lib/index.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isUndefined": [
+    {
+      "id": "../../node_modules/lodash-es/isUndefined.js",
+      "name": "../../node_modules/lodash-es/isUndefined.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/includes": [
+    {
+      "id": "../../node_modules/lodash-es/includes.js",
+      "name": "../../node_modules/lodash-es/includes.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseIndexOf.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseIndexOf.js",
+      "name": "../../node_modules/lodash-es/_baseIndexOf.js",
+      "file": "main.js"
+    }
+  ],
+  "./toInteger.js": [
+    {
+      "id": "../../node_modules/lodash-es/toInteger.js",
+      "name": "../../node_modules/lodash-es/toInteger.js",
+      "file": "main.js"
+    }
+  ],
+  "./values.js": [
+    {
+      "id": "../../node_modules/lodash-es/values.js",
+      "name": "../../node_modules/lodash-es/values.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseValues.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseValues.js",
+      "name": "../../node_modules/lodash-es/_baseValues.js",
+      "file": "main.js"
+    }
+  ],
+  "./keys.js": [
+    {
+      "id": "../../node_modules/lodash-es/keys.js",
+      "name": "../../node_modules/lodash-es/keys.js",
+      "file": "main.js"
+    }
+  ],
+  "./_arrayLikeKeys.js": [
+    {
+      "id": "../../node_modules/lodash-es/_arrayLikeKeys.js",
+      "name": "../../node_modules/lodash-es/_arrayLikeKeys.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseTimes.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseTimes.js",
+      "name": "../../node_modules/lodash-es/_baseTimes.js",
+      "file": "main.js"
+    }
+  ],
+  "./_isIndex.js": [
+    {
+      "id": "../../node_modules/lodash-es/_isIndex.js",
+      "name": "../../node_modules/lodash-es/_isIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./toFinite.js": [
+    {
+      "id": "../../node_modules/lodash-es/toFinite.js",
+      "name": "../../node_modules/lodash-es/toFinite.js",
+      "file": "main.js"
+    }
+  ],
+  "./toNumber.js": [
+    {
+      "id": "../../node_modules/lodash-es/toNumber.js",
+      "name": "../../node_modules/lodash-es/toNumber.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseFindIndex.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseFindIndex.js",
+      "name": "../../node_modules/lodash-es/_baseFindIndex.js",
+      "file": "main.js"
+    }
+  ],
+  "./_baseIsNaN.js": [
+    {
+      "id": "../../node_modules/lodash-es/_baseIsNaN.js",
+      "name": "../../node_modules/lodash-es/_baseIsNaN.js",
+      "file": "main.js"
+    }
+  ],
+  "./_strictIndexOf.js": [
+    {
+      "id": "../../node_modules/lodash-es/_strictIndexOf.js",
+      "name": "../../node_modules/lodash-es/_strictIndexOf.js",
+      "file": "main.js"
+    }
+  ],
+  "lodash-es/isNull": [
+    {
+      "id": "../../node_modules/lodash-es/isNull.js",
+      "name": "../../node_modules/lodash-es/isNull.js",
+      "file": "main.js"
+    }
+  ],
+  "./createStore": [
+    {
+      "id": "../../node_modules/redux/es/createStore.js",
+      "name": "../../node_modules/redux/es/createStore.js",
+      "file": "main.js"
+    }
+  ],
+  "./combineReducers": [
+    {
+      "id": "../../node_modules/redux/es/combineReducers.js",
+      "name": "../../node_modules/redux/es/combineReducers.js",
+      "file": "main.js"
+    }
+  ],
+  "./bindActionCreators": [
+    {
+      "id": "../../node_modules/redux/es/bindActionCreators.js",
+      "name": "../../node_modules/redux/es/bindActionCreators.js",
+      "file": "main.js"
+    }
+  ],
+  "./applyMiddleware": [
+    {
+      "id": "../../node_modules/redux/es/applyMiddleware.js",
+      "name": "../../node_modules/redux/es/applyMiddleware.js",
+      "file": "main.js"
+    }
+  ],
+  "./utils/warning": [
+    {
+      "id": "../../node_modules/redux/es/utils/warning.js",
+      "name": "../../node_modules/redux/es/utils/warning.js",
+      "file": "main.js"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": "../../node_modules/symbol-observable/es/index.js",
+      "name": "../../node_modules/symbol-observable/es/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": "../../node_modules/symbol-observable/es/ponyfill.js",
+      "name": "../../node_modules/symbol-observable/es/ponyfill.js",
+      "file": "main.js"
+    }
+  ],
+  "./components/Provider": [
+    {
+      "id": "../../node_modules/react-redux/es/components/Provider.js",
+      "name": "../../node_modules/react-redux/es/components/Provider.js",
+      "file": "main.js"
+    }
+  ],
+  "./components/connectAdvanced": [
+    {
+      "id": "../../node_modules/react-redux/es/components/connectAdvanced.js",
+      "name": "../../node_modules/react-redux/es/components/connectAdvanced.js",
+      "file": "main.js"
+    }
+  ],
+  "./connect/connect": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/connect.js",
+      "name": "../../node_modules/react-redux/es/connect/connect.js",
+      "file": "main.js"
+    }
+  ],
+  "../utils/shallowEqual": [
+    {
+      "id": "../../node_modules/react-redux/es/utils/shallowEqual.js",
+      "name": "../../node_modules/react-redux/es/utils/shallowEqual.js",
+      "file": "main.js"
+    }
+  ],
+  "./mapDispatchToProps": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "name": "../../node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "file": "main.js"
+    }
+  ],
+  "./mapStateToProps": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/mapStateToProps.js",
+      "name": "../../node_modules/react-redux/es/connect/mapStateToProps.js",
+      "file": "main.js"
+    }
+  ],
+  "./mergeProps": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/mergeProps.js",
+      "name": "../../node_modules/react-redux/es/connect/mergeProps.js",
+      "file": "main.js"
+    }
+  ],
+  "./selectorFactory": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/selectorFactory.js",
+      "name": "../../node_modules/react-redux/es/connect/selectorFactory.js",
+      "file": "main.js"
+    }
+  ],
+  "./verifySubselectors": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/verifySubselectors.js",
+      "name": "../../node_modules/react-redux/es/connect/verifySubselectors.js",
+      "file": "main.js"
+    }
+  ],
+  "../utils/warning": [
+    {
+      "id": "../../node_modules/react-redux/es/utils/warning.js",
+      "name": "../../node_modules/react-redux/es/utils/warning.js",
+      "file": "main.js"
+    }
+  ],
+  "../utils/verifyPlainObject": [
+    {
+      "id": "../../node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "name": "../../node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "file": "main.js"
+    }
+  ],
+  "./wrapMapToProps": [
+    {
+      "id": "../../node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "name": "../../node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "file": "main.js"
+    }
+  ],
+  "../utils/Subscription": [
+    {
+      "id": "../../node_modules/react-redux/es/utils/Subscription.js",
+      "name": "../../node_modules/react-redux/es/utils/Subscription.js",
+      "file": "main.js"
+    }
+  ],
+  "../utils/PropTypes": [
+    {
+      "id": "../../node_modules/react-redux/es/utils/PropTypes.js",
+      "name": "../../node_modules/react-redux/es/utils/PropTypes.js",
+      "file": "main.js"
+    }
+  ],
+  "./cjs/react-dom.development.js": [
+    {
+      "id": "../../node_modules/react-dom/cjs/react-dom.development.js",
+      "name": "../../node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/ExecutionEnvironment": [
+    {
+      "id": "../../node_modules/fbjs/lib/ExecutionEnvironment.js",
+      "name": "../../node_modules/fbjs/lib/ExecutionEnvironment.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/EventListener": [
+    {
+      "id": "../../node_modules/fbjs/lib/EventListener.js",
+      "name": "../../node_modules/fbjs/lib/EventListener.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/getActiveElement": [
+    {
+      "id": "../../node_modules/fbjs/lib/getActiveElement.js",
+      "name": "../../node_modules/fbjs/lib/getActiveElement.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/shallowEqual": [
+    {
+      "id": "../../node_modules/fbjs/lib/shallowEqual.js",
+      "name": "../../node_modules/fbjs/lib/shallowEqual.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/containsNode": [
+    {
+      "id": "../../node_modules/fbjs/lib/containsNode.js",
+      "name": "../../node_modules/fbjs/lib/containsNode.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/focusNode": [
+    {
+      "id": "../../node_modules/fbjs/lib/focusNode.js",
+      "name": "../../node_modules/fbjs/lib/focusNode.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/emptyObject": [
+    {
+      "id": "../../node_modules/fbjs/lib/emptyObject.js",
+      "name": "../../node_modules/fbjs/lib/emptyObject.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/hyphenateStyleName": [
+    {
+      "id": "../../node_modules/fbjs/lib/hyphenateStyleName.js",
+      "name": "../../node_modules/fbjs/lib/hyphenateStyleName.js",
+      "file": "main.js"
+    }
+  ],
+  "fbjs/lib/camelizeStyleName": [
+    {
+      "id": "../../node_modules/fbjs/lib/camelizeStyleName.js",
+      "name": "../../node_modules/fbjs/lib/camelizeStyleName.js",
+      "file": "main.js"
+    }
+  ],
+  "./camelize": [
+    {
+      "id": "../../node_modules/fbjs/lib/camelize.js",
+      "name": "../../node_modules/fbjs/lib/camelize.js",
+      "file": "main.js"
+    }
+  ],
+  "./hyphenate": [
+    {
+      "id": "../../node_modules/fbjs/lib/hyphenate.js",
+      "name": "../../node_modules/fbjs/lib/hyphenate.js",
+      "file": "main.js"
+    }
+  ],
+  "./isTextNode": [
+    {
+      "id": "../../node_modules/fbjs/lib/isTextNode.js",
+      "name": "../../node_modules/fbjs/lib/isTextNode.js",
+      "file": "main.js"
+    }
+  ],
+  "./isNode": [
+    {
+      "id": "../../node_modules/fbjs/lib/isNode.js",
+      "name": "../../node_modules/fbjs/lib/isNode.js",
+      "file": "main.js"
+    }
+  ],
+  "./cjs/react.development.js": [
+    {
+      "id": "../../node_modules/react/cjs/react.development.js",
+      "name": "../../node_modules/react/cjs/react.development.js",
+      "file": "main.js"
+    }
+  ],
+  "url": [
+    {
+      "id": "../../node_modules/url/url.js",
+      "name": "../../node_modules/url/url.js",
+      "file": "main.js"
+    }
+  ],
+  "strip-ansi": [
+    {
+      "id": "../../node_modules/strip-ansi/index.js",
+      "name": "../../node_modules/strip-ansi/index.js",
+      "file": "main.js"
+    }
+  ],
+  "loglevel": [
+    {
+      "id": "../../node_modules/loglevel/lib/loglevel.js",
+      "name": "../../node_modules/loglevel/lib/loglevel.js",
+      "file": "main.js"
+    }
+  ],
+  "./socket": [
+    {
+      "id": "../../node_modules/webpack-dev-server/client/socket.js",
+      "name": "../../node_modules/webpack-dev-server/client/socket.js",
+      "file": "main.js"
+    }
+  ],
+  "./overlay": [
+    {
+      "id": "../../node_modules/webpack-dev-server/client/overlay.js",
+      "name": "../../node_modules/webpack-dev-server/client/overlay.js",
+      "file": "main.js"
+    }
+  ],
+  "webpack/hot/emitter": [
+    {
+      "id": "../../node_modules/webpack/hot/emitter.js",
+      "name": "../../node_modules/webpack/hot/emitter.js",
+      "file": "main.js"
+    }
+  ],
+  "events": [
+    {
+      "id": "../../node_modules/events/events.js",
+      "name": "../../node_modules/events/events.js",
+      "file": "main.js"
+    }
+  ],
+  "./log": [
+    {
+      "id": "../../node_modules/webpack/hot/log.js",
+      "name": "../../node_modules/webpack/hot/log.js",
+      "file": "main.js"
+    }
+  ],
+  "ansi-html": [
+    {
+      "id": "../../node_modules/ansi-html/index.js",
+      "name": "../../node_modules/ansi-html/index.js",
+      "file": "main.js"
+    }
+  ],
+  "html-entities": [
+    {
+      "id": "../../node_modules/html-entities/index.js",
+      "name": "../../node_modules/html-entities/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./lib/xml-entities.js": [
+    {
+      "id": "../../node_modules/html-entities/lib/xml-entities.js",
+      "name": "../../node_modules/html-entities/lib/xml-entities.js",
+      "file": "main.js"
+    }
+  ],
+  "./lib/html4-entities.js": [
+    {
+      "id": "../../node_modules/html-entities/lib/html4-entities.js",
+      "name": "../../node_modules/html-entities/lib/html4-entities.js",
+      "file": "main.js"
+    }
+  ],
+  "./lib/html5-entities.js": [
+    {
+      "id": "../../node_modules/html-entities/lib/html5-entities.js",
+      "name": "../../node_modules/html-entities/lib/html5-entities.js",
+      "file": "main.js"
+    }
+  ],
+  "sockjs-client/dist/sockjs": [
+    {
+      "id": "../../node_modules/sockjs-client/dist/sockjs.js",
+      "name": "../../node_modules/sockjs-client/dist/sockjs.js",
+      "file": "main.js"
+    }
+  ],
+  "ansi-regex": [
+    {
+      "id": "../../node_modules/ansi-regex/index.js",
+      "name": "../../node_modules/ansi-regex/index.js",
+      "file": "main.js"
+    }
+  ],
+  "punycode": [
+    {
+      "id": "../../node_modules/punycode/punycode.js",
+      "name": "../../node_modules/punycode/punycode.js",
+      "file": "main.js"
+    }
+  ],
+  "./util": [
+    {
+      "id": "../../node_modules/url/util.js",
+      "name": "../../node_modules/url/util.js",
+      "file": "main.js"
+    }
+  ],
+  "querystring": [
+    {
+      "id": "../../node_modules/querystring-es3/index.js",
+      "name": "../../node_modules/querystring-es3/index.js",
+      "file": "main.js"
+    }
+  ],
+  "./decode": [
+    {
+      "id": "../../node_modules/querystring-es3/decode.js",
+      "name": "../../node_modules/querystring-es3/decode.js",
+      "file": "main.js"
+    }
+  ],
+  "./encode": [
+    {
+      "id": "../../node_modules/querystring-es3/encode.js",
+      "name": "../../node_modules/querystring-es3/encode.js",
+      "file": "main.js"
+    }
+  ],
+  "!!../../../../../node_modules/css-loader/index.js??ref--5-1!../../../../../node_modules/sass-loader/lib/loader.js!./Sidebar.scss": [
+    {
+      "id": "../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/sass-loader/lib/loader.js!./src/components/Sidebar/Sidebar.scss",
+      "name": "../../node_modules/css-loader/index.js??ref--5-1!../../node_modules/sass-loader/lib/loader.js!./src/components/Sidebar/Sidebar.scss",
+      "file": "0.js"
+    }
+  ],
+  "../../../../../node_modules/css-loader/lib/css-base.js": [
+    {
+      "id": "../../node_modules/css-loader/lib/css-base.js",
+      "name": "../../node_modules/css-loader/lib/css-base.js",
+      "file": "0.js"
+    }
+  ],
+  "./dist/react-hot-loader.production.min.js": [
+    {
+      "id": "../../node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "../../node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "0.js"
+    },
+    {
+      "id": "../../node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "name": "../../node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "1.js"
+    }
+  ],
+  "react-hot-loader": [
+    {
+      "id": "../../node_modules/react-hot-loader/index.js",
+      "name": "../../node_modules/react-hot-loader/index.js",
+      "file": "0.js"
+    },
+    {
+      "id": "../../node_modules/react-hot-loader/index.js",
+      "name": "../../node_modules/react-hot-loader/index.js",
+      "file": "1.js"
+    }
+  ],
+  "!../../../../../node_modules/style-loader/lib/addStyles.js": [
+    {
+      "id": "../../node_modules/style-loader/lib/addStyles.js",
+      "name": "../../node_modules/style-loader/lib/addStyles.js",
+      "file": "0.js"
+    }
+  ],
+  "./urls": [
+    {
+      "id": "../../node_modules/style-loader/lib/urls.js",
+      "name": "../../node_modules/style-loader/lib/urls.js",
+      "file": "0.js"
+    }
+  ],
+  "tslib": [
+    {
+      "id": "../../node_modules/tslib/tslib.es6.js",
+      "name": "../../node_modules/tslib/tslib.es6.js",
+      "file": "0.js"
+    },
+    {
+      "id": "../../node_modules/tslib/tslib.es6.js",
+      "name": "../../node_modules/tslib/tslib.es6.js",
+      "file": "1.js"
+    }
+  ],
+  "../Item/Item": [
+    {
+      "id": "./src/components/Sidebar/Item/Item.tsx",
+      "name": "./src/components/Sidebar/Item/Item.tsx",
+      "file": "0.js"
+    }
+  ],
+  "./Items/Items": [
+    {
+      "id": "./src/components/Sidebar/Items/Items.tsx",
+      "name": "./src/components/Sidebar/Items/Items.tsx",
+      "file": "0.js"
+    }
+  ],
+  "./Sidebar.scss": [
+    {
+      "id": "./src/components/Sidebar/Sidebar.scss",
+      "name": "./src/components/Sidebar/Sidebar.scss",
+      "file": "0.js"
+    }
+  ],
+  "./Sidebar": [
+    {
+      "id": "./src/components/Sidebar/Sidebar.tsx",
+      "name": "./src/components/Sidebar/Sidebar.tsx",
+      "file": "0.js"
+    }
+  ],
+  "../components/Sidebar": [
+    {
+      "id": "./src/components/Sidebar/index.ts",
+      "name": "./src/components/Sidebar/index.ts",
+      "file": "0.js"
+    }
+  ],
+  "../components/UI/Select/Select": [
+    {
+      "id": "./src/components/UI/Select/Select.tsx",
+      "name": "./src/components/UI/Select/Select.tsx",
+      "file": "0.js"
+    }
+  ],
+  "../pages/AppShell": [
+    {
+      "id": "./src/pages/AppShell.tsx",
+      "name": "./src/pages/AppShell.tsx",
+      "file": "0.js"
+    }
+  ],
+  "../pages/Login": [
+    {
+      "id": "./src/pages/Login.tsx",
+      "name": "./src/pages/Login.tsx",
+      "file": "1.js"
+    }
+  ]
+}

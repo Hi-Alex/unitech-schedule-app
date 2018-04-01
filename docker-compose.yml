@@ -11,15 +11,14 @@ services:
       - schedule
   node-graphql:
     container_name: node-graphql
-    build: ./packages/node-graphql
+    build: 
+      context: .
+      dockerfile: ./packages/node-graphql/Dockerfile
     networks:
       - schedule
     depends_on:
       - db
       - redis
-    links:
-      - redis
-      - db
     env_file:
       - .env.docker
     command: node server/index.js
@@ -30,7 +29,7 @@ services:
       - schedule
   db:
     container_name: postgres
-    image: postgres
+    image: postgres:alpine
     env_file:
       - .env.docker
     networks:

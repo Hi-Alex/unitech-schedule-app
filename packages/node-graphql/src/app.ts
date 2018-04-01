@@ -6,9 +6,6 @@ import { resolve } from 'path';
 import { makeExecutableSchema } from 'graphql-tools';
 import { graphqlKoa, graphiqlKoa } from 'apollo-server-koa';
 
-console.log('ENV');
-console.log(JSON.stringify(process.env, null, 2));
-
 const app = new Application();
 const router = new Router();
 const typeDefs = readFileSync(resolve(__dirname, '..', 'graphql', 'schema.graphqls'), 'utf8');
