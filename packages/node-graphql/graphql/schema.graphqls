@@ -7,6 +7,10 @@ type Query {
     users(query: UserInput!, queryFilter: QueryFilterInput): [User]
 }
 
+type Mutation {
+  createUser(user: UserInput): User
+}
+
 interface WithID {
     id: ID!
 }
@@ -19,8 +23,8 @@ input QueryFilterInput {
 }
 
 input UserInput {
-    group: GroupInput
-    type: UserType
+  firstName: String
+  lastName: String
 }
 
 input GroupInput {

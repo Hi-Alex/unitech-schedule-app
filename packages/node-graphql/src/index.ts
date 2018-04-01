@@ -1,3 +1,5 @@
+Error.stackTraceLimit = 100;
+
 import { app } from "./app";
 
 app.listen(3050, (error?: Error) => {
