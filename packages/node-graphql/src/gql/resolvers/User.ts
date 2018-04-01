@@ -1,4 +1,4 @@
-import { User } from '../../db';
+import { models } from '../../db';
 import { UserAttributes } from 'db/models/User';
 
 export interface Dictionary<Value = any> {
@@ -14,7 +14,7 @@ export interface CreateUserMutation {
 // Query
 
 export const user = async (_: any, { id }: GetUserQuery): Promise<UserAttributes | null>  => {
-  const user = await User.findById(id);
+  const user = await models.User.findById(id);
 
   console.log(`QUERY -> user(id: ${id})`, user);
   return user ? user.toJSON() : null;
@@ -23,7 +23,7 @@ export const user = async (_: any, { id }: GetUserQuery): Promise<UserAttributes
 // Mutation
 
 export const createUser = async (_: any, { user }: CreateUserMutation) => {
-  const result = await User.create(user);
+  const result = await models.User.create(user);
 
   console.log(`MUTATION -> createUser(user: ${user})`, result);
   return result ? result.toJSON() : null;

@@ -13,7 +13,7 @@ export interface UserInstance extends Instance<UserAttributes> {
 export interface UserModel extends Model<UserInstance, UserAttributes> {}
 
 export default function createUserModel(sequelize: Sequelize, { INTEGER, DATE, STRING }: DataTypes) {
-  return sequelize.define<UserInstance, UserAttributes>('UserAttributes', {
+  return sequelize.define<UserInstance, UserAttributes>('User', {
     id: {
       type: INTEGER(11),
       unique: true,
@@ -23,6 +23,12 @@ export default function createUserModel(sequelize: Sequelize, { INTEGER, DATE, S
     photo: {
       type: STRING(128),
       defaultValue: ''
+    },
+    firstName: {
+      type: STRING(64)
+    },
+    lastName: {
+      type: STRING(64)
     },
     createdAt: DATE,
     updatedAt: DATE,

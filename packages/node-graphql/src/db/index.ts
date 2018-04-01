@@ -13,6 +13,8 @@ const MODELS_PATH = join(__dirname, 'models');
 const MODELS_PATHS = readdirSync(MODELS_PATH).map(path => join(MODELS_PATH, path));
 const models: Models = {} as any;
 
+console.log('MODELS_PATHS', MODELS_PATHS);
+
 MODELS_PATHS.forEach(modelPath => {
   const model = sequelize.import(modelPath);
 
@@ -28,6 +30,9 @@ Object
       model.associate(models as any);
     }
   });
+
+console.log('Models');
+console.log(models);
 
 export { models };
 export const { User } = models;

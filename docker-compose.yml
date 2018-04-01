@@ -21,7 +21,6 @@ services:
       - redis
     env_file:
       - .env.docker
-    command: node server/index.js
   redis:
     container_name: redis
     image: redis:alpine
