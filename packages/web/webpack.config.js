@@ -81,6 +81,7 @@ module.exports = (baseEnv, args) => {
           })
         ]),
         devServer: {
+          disableHostCheck: true,
           historyApiFallback: true,
           hotOnly: true,
           publicPath: '/',
