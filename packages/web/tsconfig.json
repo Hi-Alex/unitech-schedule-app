@@ -1,12 +1,38 @@
-  {
-  "extends": "../../tsconfig.json",
+{
   "compilerOptions": {
-    "lib": ["dom", "esnext"],
+    "baseUrl": "./src",
+    "types": [
+      "node"
+    ],
+    "module": "esnext",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "sourceMap": true,
     "importHelpers": true,
     "typeRoots": [
       "./node_modules/@types",
       "../../node_modules/@types"
-    ]
-  }
+    ],
+    "strict": true,
+    "target": "esnext",
+    "allowJs": false,
+    "pretty": true,
+    "declaration": true,
+    "diagnostics": true,
+    "skipLibCheck": true,
+    "noEmitHelpers": true,
+    "skipDefaultLibCheck": true,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

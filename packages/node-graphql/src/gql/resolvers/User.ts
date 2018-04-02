@@ -1,5 +1,5 @@
 import { models } from '../../db';
-import { UserAttributes } from 'db/models/User';
+import { UserAttributes } from '../../db/models/User';
 
 export interface Dictionary<Value = any> {
   [key: string]: Value;

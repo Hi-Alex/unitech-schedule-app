@@ -83,7 +83,9 @@ module.exports = (baseEnv, args) => {
         devServer: {
           historyApiFallback: true,
           hotOnly: true,
-          publicPath: '/'
+          publicPath: '/',
+          host:"0.0.0.0",
+          port:3120
         }
       }
     },

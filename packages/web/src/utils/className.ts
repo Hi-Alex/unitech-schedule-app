@@ -4,5 +4,5 @@ import { compact, flatten } from 'lodash';
 export const cn = compose(
   join(' '),
   compact as any,
-  flatten
+  flatten as any
 );

@@ -4,7 +4,7 @@ services:
     container_name: nginx
     build: ./packages/nginx
     ports:
-      - "8080:80"
+      - "80:80"
     links:
       - node-graphql
     networks:
@@ -21,6 +21,15 @@ services:
       - redis
     env_file:
       - .env.docker
+  node-renderer:
+    container_name: node-renderer
+    build:
+      context: .
+      dockerfile: ./packages/node-renderer/Dockerfile
+    networks:
+      - schedule
+    links:
+      - node-graphql
   redis:
     container_name: redis
     image: redis:alpine
