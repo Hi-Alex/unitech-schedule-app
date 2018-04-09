@@ -1,0 +1,68 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    user(id: ID!): User
+    users(query: UserInput!, queryFilter: QueryFilterInput): [User]
+}
+
+type Mutation {
+  createUser(user: UserInput): User
+}
+
+interface WithID {
+    id: ID!
+}
+
+# Inputs
+
+input QueryFilterInput {
+    offset: Int
+    length: Int
+}
+
+input UserInput {
+  firstName: String
+  lastName: String
+}
+
+input GroupInput {
+    id: ID
+}
+
+# Types
+
+type Photo {
+    id: ID!
+    url: String!
+    width: Int
+    height: Int
+}
+
+type User {
+    id: ID!
+    photo: Photo!
+    photo_100: Photo
+    photo_300: Photo
+    firstName: String
+    lastName: String
+    type: UserType!
+    # Fields only for UserType.STUDENT
+    group: Group
+}
+
+enum UserType {
+    STUDENT
+}
+
+type Group {
+    id: ID!
+    title: String!
+    users(query: UserInput!, queryFilter: QueryFilterInput): [User]
+}
+
+type Lesson {
+    id: ID!
+}

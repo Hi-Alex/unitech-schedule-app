@@ -1,0 +1,47 @@
+version: '3'
+services:
+  nginx:
+    container_name: nginx
+    build: ./packages/nginx
+    ports:
+      - "80:80"
+    links:
+      - node-graphql
+    networks:
+      - schedule
+  node-graphql:
+    container_name: node-graphql
+    build: 
+      context: .
+      dockerfile: ./packages/node-graphql/Dockerfile
+    networks:
+      - schedule
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - .env.docker
+  node-renderer:
+    container_name: node-renderer
+    build:
+      context: .
+      dockerfile: ./packages/node-renderer/Dockerfile
+    networks:
+      - schedule
+    links:
+      - node-graphql
+  redis:
+    container_name: redis
+    image: redis:alpine
+    networks:
+      - schedule
+  db:
+    container_name: postgres
+    image: postgres:alpine
+    env_file:
+      - .env.docker
+    networks:
+      - schedule
+networks:
+  schedule:
+    driver: bridge
