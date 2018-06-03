@@ -1,0 +1,11 @@
+extend type Query {
+    speciality(id: ID!): Speciality
+}
+
+type Speciality {
+    id: ID!
+    name: String!
+    faculty: Faculty!
+    code: String!
+    shortName: String!
+}

@@ -1,7 +1,10 @@
 {
-  "compileOnSave": true,
+  "compileOnSave": false,
   "compilerOptions": {
-    "lib": ["esnext"],
+    "typeRoots": [
+      "../../node_modules/@types"
+    ],
+    "lib": ["esnext", "dom", "dom.iterable"],
     "target": "esnext",
     "module": "commonjs",
     "importHelpers": true,

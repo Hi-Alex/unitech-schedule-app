@@ -1,0 +1,13 @@
+extend type Query {
+    cathedra(id: ID!): Cathedra
+}
+
+type Cathedra {
+    id: ID!
+    name: String!
+    faculty: Faculty!
+    classroom: Classroom
+
+    # @TODO workers: Prepod[]
+    # @TODO dean: Prepod
+}

@@ -1,0 +1,28 @@
+version: "3.4"
+services:
+  postgres:
+    env_file:
+      - ./packages/postgres/.env
+  node-main:
+    build:
+      target: development
+    command: yarn start
+    volumes:
+      - ./packages/node-main/src:/home/www/packages/node-main/src
+  node-graphql:
+    build:
+      target: development
+    command: yarn start
+    volumes:
+      - ./packages/node-graphql/src:/home/www/packages/node-graphql/src
+      - ./packages/node-graphql/server:/home/www/packages/node-graphql/server
+    env_file:
+      - ./packages/node-graphql/.env
+    ports:
+      - "3000:3000"
+  node-renderer:
+    build:
+      target: development
+    command: yarn start
+    volumes:
+      - ./packages/client-web/src:/home/www/packages/client-web/src

@@ -1,0 +1,499 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1991pt" height="634pt" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; " class=""><g id="viewport-20180603201726542" class="svg-pan-zoom_viewport" transform="matrix(1.1251193047585357,0,0,1.1251193047585357,0,118.20216987292184)" style="transform: matrix(1.12512, 0, 0, 1.12512, 0, 118.202);"><symbol viewBox="0 0 600 600" id="RelayIcon"><g fill="#F26B00"><path d="M142.536 198.858c0 26.36-21.368 47.72-47.72 47.72-26.36 0-47.722-21.36-47.722-47.72s21.36-47.72 47.72-47.72c26.355 0 47.722 21.36 47.722 47.72"></path><path d="M505.18 414.225H238.124c-35.25 0-63.926-28.674-63.926-63.923s28.678-63.926 63.926-63.926h120.78c20.816 0 37.753-16.938 37.753-37.756s-16.938-37.756-37.753-37.756H94.81c-7.227 0-13.086-5.86-13.086-13.085 0-7.227 5.86-13.086 13.085-13.086h264.093c35.25 0 63.923 28.678 63.923 63.926s-28.674 63.923-63.923 63.923h-120.78c-20.82 0-37.756 16.938-37.756 37.76 0 20.816 16.938 37.753 37.756 37.753H505.18c7.227 0 13.086 5.86 13.086 13.085 0 7.226-5.858 13.085-13.085 13.085z"></path><path d="M457.464 401.142c0-26.36 21.36-47.72 47.72-47.72s47.72 21.36 47.72 47.72-21.36 47.72-47.72 47.72-47.72-21.36-47.72-47.72"></path></g></symbol>
+    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 630.239)">
+
+        <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-630.239 1986.9034,-630.239 1986.9034,4 -4,4"></polygon>
+        <!-- Query -->
+        <g id="TYPE::Query" class="node type">
+
+            <g id="TYPE_TITLE::Query" class="type-title">
+                <polygon fill="none" stroke="#000000" points="8.5,-291.739 8.5,-322.739 177.5,-322.739 177.5,-291.739 8.5,-291.739"></polygon>
+                <text text-anchor="start" x="68.4966" y="-301.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Query</text>
+
+            </g>
+            <g id="FIELD::Query::cathedra" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-260.739 8.5,-291.739 177.5,-291.739 177.5,-260.739 8.5,-260.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-272.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">cathedra</text>
+
+                <text text-anchor="start" x="105.7048" y="-271.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Cathedra</text>
+
+            </g>
+            <g id="FIELD::Query::classroom" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-229.739 8.5,-260.739 177.5,-260.739 177.5,-229.739 8.5,-229.739"></polygon>
+                <text text-anchor="start" x="14.1104" y="-241.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">classroom</text>
+
+                <text text-anchor="start" x="95.2816" y="-240.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Classroom</text>
+
+            </g>
+            <g id="FIELD::Query::faculty" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-198.739 8.5,-229.739 177.5,-229.739 177.5,-198.739 8.5,-198.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-210.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">faculty</text>
+
+                <text text-anchor="start" x="119.94" y="-209.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Faculty</text>
+
+            </g>
+            <g id="FIELD::Query::group" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-167.739 8.5,-198.739 177.5,-198.739 177.5,-167.739 8.5,-167.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-179.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">group</text>
+
+                <text text-anchor="start" x="127.044" y="-178.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Group</text>
+
+            </g>
+            <g id="FIELD::Query::housing" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-136.739 8.5,-167.739 177.5,-167.739 177.5,-136.739 8.5,-136.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-148.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">housing</text>
+
+                <text text-anchor="start" x="112.8216" y="-147.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Housing</text>
+
+            </g>
+            <g id="FIELD::Query::housings" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-105.739 8.5,-136.739 177.5,-136.739 177.5,-105.739 8.5,-105.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-117.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">housings</text>
+
+                <text text-anchor="start" x="103.9288" y="-117.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">[</text>
+                <text text-anchor="start" x="108.3752" y="-117.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Housing</text>
+                <text text-anchor="start" x="167.0536" y="-117.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">]</text>
+
+            </g>
+            <g id="FIELD::Query::none" class="field">
+                <polygon fill="none" stroke="#000000" points="8.5,-74.739 8.5,-105.739 177.5,-105.739 177.5,-74.739 8.5,-74.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-86.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">none</text>
+
+                <text text-anchor="start" x="155.5032" y="-85.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+
+            </g>
+            <g id="FIELD::Query::speciality" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="8.5,-43.739 8.5,-74.739 177.5,-74.739 177.5,-43.739 8.5,-43.739"></polygon>
+                <text text-anchor="start" x="14.5" y="-55.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">speciality</text>
+
+                <text text-anchor="start" x="103.0488" y="-54.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Speciality</text>
+
+            </g>
+        </g>
+        <!-- Cathedra -->
+        <g id="TYPE::Cathedra" class="node type">
+
+            <g id="TYPE_TITLE::Cathedra" class="type-title">
+                <polygon fill="none" stroke="#000000" points="423.782,-589.739 423.782,-620.739 592.782,-620.739 592.782,-589.739 423.782,-589.739"></polygon>
+                <text text-anchor="start" x="471.2722" y="-599.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Cathedra</text>
+
+            </g>
+            <g id="FIELD::Cathedra::classroom" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="423.782,-558.739 423.782,-589.739 592.782,-589.739 592.782,-558.739 423.782,-558.739"></polygon>
+                <text text-anchor="start" x="429.3924" y="-570.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">classroom</text>
+
+                <text text-anchor="start" x="510.5636" y="-569.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Classroom</text>
+
+            </g>
+            <g id="FIELD::Cathedra::faculty" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="423.782,-527.739 423.782,-558.739 592.782,-558.739 592.782,-527.739 423.782,-527.739"></polygon>
+                <text text-anchor="start" x="429.782" y="-539.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">faculty</text>
+
+                <text text-anchor="start" x="530.7756" y="-539.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Faculty</text>
+                <text text-anchor="start" x="582.3356" y="-539.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Cathedra::housing" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="423.782,-496.739 423.782,-527.739 592.782,-527.739 592.782,-496.739 423.782,-496.739"></polygon>
+                <text text-anchor="start" x="429.782" y="-508.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">housing</text>
+
+                <text text-anchor="start" x="528.1036" y="-507.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Housing</text>
+
+            </g>
+            <g id="FIELD::Cathedra::id" class="field">
+                <polygon fill="none" stroke="#000000" points="423.782,-465.739 423.782,-496.739 592.782,-496.739 592.782,-465.739 423.782,-465.739"></polygon>
+                <text text-anchor="start" x="429.782" y="-477.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">id</text>
+
+                <text text-anchor="start" x="566.3388" y="-477.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+                <text text-anchor="start" x="582.3356" y="-477.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Cathedra::name" class="field">
+                <polygon fill="none" stroke="#000000" points="423.782,-434.739 423.782,-465.739 592.782,-465.739 592.782,-434.739 423.782,-434.739"></polygon>
+                <text text-anchor="start" x="429.782" y="-446.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">name</text>
+
+                <text text-anchor="start" x="540.5532" y="-446.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="582.3356" y="-446.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+        </g>
+        <!-- Query&#45;&gt;Cathedra -->
+        <g class="edge" data-from="FIELD::Query::cathedra" data-to="TYPE::Cathedra">
+
+            <path fill="none" stroke="#000000" d="M177.5,-276.739C249.0545,-276.739 203.9437,-368.7278 257,-416.739 299.0337,-454.7757 356.2145,-481.4417 405.3608,-499.086"></path>
+            <polygon fill="#000000" stroke="#000000" points="404.4812,-502.4866 415.0761,-502.4953 406.7991,-495.8815 404.4812,-502.4866"></polygon>
+            <text text-anchor="middle" x="300.141" y="-473.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:cathedra</text>
+            <path fill="none" stroke="#000000" d="M177.5,-276.739C249.0545,-276.739 203.9437,-368.7278 257,-416.739 299.0337,-454.7757 356.2145,-481.4417 405.3608,-499.086" class="hover-path"></path></g>
+        <!-- Classroom -->
+        <g id="TYPE::Classroom" class="node type">
+
+            <g id="TYPE_TITLE::Classroom" class="type-title">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-590.739 1373.8662,-621.739 1512.8662,-621.739 1512.8662,-590.739 1373.8662,-590.739"></polygon>
+                <text text-anchor="start" x="1400.3705" y="-600.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Classroom</text>
+
+            </g>
+            <g id="FIELD::Classroom::POTOM" class="field">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-559.739 1373.8662,-590.739 1512.8662,-590.739 1512.8662,-559.739 1373.8662,-559.739"></polygon>
+                <text text-anchor="start" x="1379.8662" y="-571.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">POTOM</text>
+
+                <text text-anchor="start" x="1465.0838" y="-570.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+
+            </g>
+            <g id="FIELD::Classroom::capacity" class="field">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-528.739 1373.8662,-559.739 1512.8662,-559.739 1512.8662,-528.739 1373.8662,-528.739"></polygon>
+                <text text-anchor="start" x="1379.8662" y="-540.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">capacity</text>
+
+                <text text-anchor="start" x="1484.6326" y="-540.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">Int</text>
+                <text text-anchor="start" x="1502.4198" y="-540.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Classroom::floor" class="field">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-497.739 1373.8662,-528.739 1512.8662,-528.739 1512.8662,-497.739 1373.8662,-497.739"></polygon>
+                <text text-anchor="start" x="1379.8662" y="-509.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">floor</text>
+
+                <text text-anchor="start" x="1489.079" y="-508.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">Int</text>
+
+            </g>
+            <g id="FIELD::Classroom::housing" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-466.739 1373.8662,-497.739 1512.8662,-497.739 1512.8662,-466.739 1373.8662,-466.739"></polygon>
+                <text text-anchor="start" x="1379.4086" y="-478.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">housing</text>
+
+                <text text-anchor="start" x="1443.8038" y="-478.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Housing</text>
+                <text text-anchor="start" x="1502.4822" y="-478.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Classroom::id" class="field">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-435.739 1373.8662,-466.739 1512.8662,-466.739 1512.8662,-435.739 1373.8662,-435.739"></polygon>
+                <text text-anchor="start" x="1379.8662" y="-447.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">id</text>
+
+                <text text-anchor="start" x="1486.423" y="-447.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+                <text text-anchor="start" x="1502.4198" y="-447.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Classroom::number" class="field">
+                <polygon fill="none" stroke="#000000" points="1373.8662,-404.739 1373.8662,-435.739 1512.8662,-435.739 1512.8662,-404.739 1373.8662,-404.739"></polygon>
+                <text text-anchor="start" x="1379.8662" y="-416.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">number</text>
+
+                <text text-anchor="start" x="1460.6374" y="-416.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1502.4198" y="-416.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+        </g>
+        <!-- Query&#45;&gt;Classroom -->
+        <g class="edge" data-from="FIELD::Query::classroom" data-to="TYPE::Classroom">
+
+            <path fill="none" stroke="#000000" d="M177.5,-245.739C381.0345,-245.739 427.8965,-313.5283 600.282,-421.739 636.5442,-444.5017 633.0492,-468.5962 672.282,-485.739 772.9445,-529.7233 808.5806,-503.9811 918.282,-509.739 1071.657,-517.7892 1250.5963,-516.9693 1354.8671,-515.4721"></path>
+            <polygon fill="#000000" stroke="#000000" points="1355.0849,-518.9693 1365.0316,-515.3206 1354.9805,-511.9701 1355.0849,-518.9693"></polygon>
+            <text text-anchor="middle" x="759.282" y="-515.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:classroom</text>
+            <path fill="none" stroke="#000000" d="M177.5,-245.739C381.0345,-245.739 427.8965,-313.5283 600.282,-421.739 636.5442,-444.5017 633.0492,-468.5962 672.282,-485.739 772.9445,-529.7233 808.5806,-503.9811 918.282,-509.739 1071.657,-517.7892 1250.5963,-516.9693 1354.8671,-515.4721" class="hover-path"></path></g>
+        <!-- Faculty -->
+        <g id="TYPE::Faculty" class="node type">
+
+            <g id="TYPE_TITLE::Faculty" class="type-title">
+                <polygon fill="none" stroke="#000000" points="926.282,-465.739 926.282,-496.739 1102.282,-496.739 1102.282,-465.739 926.282,-465.739"></polygon>
+                <text text-anchor="start" x="985.2795" y="-475.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Faculty</text>
+
+            </g>
+            <g id="FIELD::Faculty::classroom" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="926.282,-434.739 926.282,-465.739 1102.282,-465.739 1102.282,-434.739 926.282,-434.739"></polygon>
+                <text text-anchor="start" x="932.282" y="-446.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">classroom</text>
+
+                <text text-anchor="start" x="1019.8452" y="-445.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Classroom</text>
+
+            </g>
+            <g id="FIELD::Faculty::housing" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="926.282,-403.739 926.282,-434.739 1102.282,-434.739 1102.282,-403.739 926.282,-403.739"></polygon>
+                <text text-anchor="start" x="932.282" y="-415.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">housing</text>
+
+                <text text-anchor="start" x="1037.6036" y="-414.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Housing</text>
+
+            </g>
+            <g id="FIELD::Faculty::id" class="field">
+                <polygon fill="none" stroke="#000000" points="926.282,-372.739 926.282,-403.739 1102.282,-403.739 1102.282,-372.739 926.282,-372.739"></polygon>
+                <text text-anchor="start" x="932.282" y="-384.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">id</text>
+
+                <text text-anchor="start" x="1075.8388" y="-384.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+                <text text-anchor="start" x="1091.8356" y="-384.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Faculty::name" class="field">
+                <polygon fill="none" stroke="#000000" points="926.282,-341.739 926.282,-372.739 1102.282,-372.739 1102.282,-341.739 926.282,-341.739"></polygon>
+                <text text-anchor="start" x="932.282" y="-353.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">name</text>
+
+                <text text-anchor="start" x="1050.0532" y="-353.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1091.8356" y="-353.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Faculty::specialities" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="926.282,-310.739 926.282,-341.739 1102.282,-341.739 1102.282,-310.739 926.282,-310.739"></polygon>
+                <text text-anchor="start" x="932.2228" y="-322.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">specialities</text>
+
+                <text text-anchor="start" x="1019.11" y="-322.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">[</text>
+                <text text-anchor="start" x="1023.5564" y="-322.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Speciality</text>
+                <text text-anchor="start" x="1092.0076" y="-322.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">]</text>
+
+            </g>
+        </g>
+        <!-- Query&#45;&gt;Faculty -->
+        <g class="edge" data-from="FIELD::Query::faculty" data-to="TYPE::Faculty">
+
+            <path fill="none" stroke="#000000" d="M177.5,-214.739C445.9189,-214.739 751.133,-308.4131 908.2974,-363.8663"></path>
+            <polygon fill="#000000" stroke="#000000" points="907.378,-367.2537 917.9727,-367.2979 909.7179,-360.6564 907.378,-367.2537"></polygon>
+            <text text-anchor="middle" x="507.782" y="-273.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:faculty</text>
+            <path fill="none" stroke="#000000" d="M177.5,-214.739C445.9189,-214.739 751.133,-308.4131 908.2974,-363.8663" class="hover-path"></path></g>
+        <!-- Group -->
+        <g id="TYPE::Group" class="node type">
+
+            <g id="TYPE_TITLE::Group" class="type-title">
+                <polygon fill="none" stroke="#000000" points="680.282,-244.739 680.282,-275.739 838.282,-275.739 838.282,-244.739 680.282,-244.739"></polygon>
+                <text text-anchor="start" x="734.2755" y="-254.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Group</text>
+
+            </g>
+            <g id="FIELD::Group::id" class="field">
+                <polygon fill="none" stroke="#000000" points="680.282,-213.739 680.282,-244.739 838.282,-244.739 838.282,-213.739 680.282,-213.739"></polygon>
+                <text text-anchor="start" x="686.282" y="-225.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">id</text>
+
+                <text text-anchor="start" x="811.8388" y="-225.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+                <text text-anchor="start" x="827.8356" y="-225.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Group::number" class="field">
+                <polygon fill="none" stroke="#000000" points="680.282,-182.739 680.282,-213.739 838.282,-213.739 838.282,-182.739 680.282,-182.739"></polygon>
+                <text text-anchor="start" x="686.282" y="-194.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">number</text>
+
+                <text text-anchor="start" x="810.0484" y="-194.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">Int</text>
+                <text text-anchor="start" x="827.8356" y="-194.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Group::speciality" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="680.282,-151.739 680.282,-182.739 838.282,-182.739 838.282,-151.739 680.282,-151.739"></polygon>
+                <text text-anchor="start" x="685.9452" y="-163.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">speciality</text>
+
+                <text text-anchor="start" x="759.8332" y="-163.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Speciality</text>
+                <text text-anchor="start" x="828.2844" y="-163.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Group::studentsCount" class="field">
+                <polygon fill="none" stroke="#000000" points="680.282,-120.739 680.282,-151.739 838.282,-151.739 838.282,-120.739 680.282,-120.739"></polygon>
+                <text text-anchor="start" x="686.282" y="-132.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">studentsCount</text>
+
+                <text text-anchor="start" x="810.0484" y="-132.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">Int</text>
+                <text text-anchor="start" x="827.8356" y="-132.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Group::year" class="field">
+                <polygon fill="none" stroke="#000000" points="680.282,-89.739 680.282,-120.739 838.282,-120.739 838.282,-89.739 680.282,-89.739"></polygon>
+                <text text-anchor="start" x="686.282" y="-101.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">year</text>
+
+                <text text-anchor="start" x="810.0484" y="-101.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">Int</text>
+                <text text-anchor="start" x="827.8356" y="-101.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+        </g>
+        <!-- Query&#45;&gt;Group -->
+        <g class="edge" data-from="FIELD::Query::group" data-to="TYPE::Group">
+
+            <path fill="none" stroke="#000000" d="M177.5,-182.739C347.8527,-182.739 546.2636,-182.739 661.8197,-182.739"></path>
+            <polygon fill="#000000" stroke="#000000" points="662.0531,-186.2391 672.0531,-182.739 662.053,-179.2391 662.0531,-186.2391"></polygon>
+            <text text-anchor="middle" x="300.141" y="-186.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:group</text>
+            <path fill="none" stroke="#000000" d="M177.5,-182.739C347.8527,-182.739 546.2636,-182.739 661.8197,-182.739" class="hover-path"></path></g>
+        <!-- Housing -->
+        <g id="TYPE::Housing" class="node type">
+
+            <g id="TYPE_TITLE::Housing" class="type-title">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-420.739 1788.9034,-451.739 1974.9034,-451.739 1974.9034,-420.739 1788.9034,-420.739"></polygon>
+                <text text-anchor="start" x="1848.8968" y="-430.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Housing</text>
+
+            </g>
+            <g id="FIELD::Housing::address" class="field">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-389.739 1788.9034,-420.739 1974.9034,-420.739 1974.9034,-389.739 1788.9034,-389.739"></polygon>
+                <text text-anchor="start" x="1794.9034" y="-401.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">address</text>
+
+                <text text-anchor="start" x="1922.6746" y="-401.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1964.457" y="-401.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Housing::classrooms" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-358.739 1788.9034,-389.739 1974.9034,-389.739 1974.9034,-358.739 1788.9034,-358.739"></polygon>
+                <text text-anchor="start" x="1794.5138" y="-370.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">classrooms</text>
+
+                <text text-anchor="start" x="1883.7386" y="-370.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">[</text>
+                <text text-anchor="start" x="1888.185" y="-370.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Classroom</text>
+                <text text-anchor="start" x="1964.6218" y="-370.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">]</text>
+
+            </g>
+            <g id="FIELD::Housing::floors" class="field">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-327.739 1788.9034,-358.739 1974.9034,-358.739 1974.9034,-327.739 1788.9034,-327.739"></polygon>
+                <text text-anchor="start" x="1794.9034" y="-339.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">floors</text>
+
+                <text text-anchor="start" x="1946.6698" y="-339.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">Int</text>
+                <text text-anchor="start" x="1964.457" y="-339.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Housing::id" class="field">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-296.739 1788.9034,-327.739 1974.9034,-327.739 1974.9034,-296.739 1788.9034,-296.739"></polygon>
+                <text text-anchor="start" x="1794.9034" y="-308.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">id</text>
+
+                <text text-anchor="start" x="1948.4602" y="-308.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+                <text text-anchor="start" x="1964.457" y="-308.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Housing::name" class="field">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-265.739 1788.9034,-296.739 1974.9034,-296.739 1974.9034,-265.739 1788.9034,-265.739"></polygon>
+                <text text-anchor="start" x="1794.9034" y="-277.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">name</text>
+
+                <text text-anchor="start" x="1922.6746" y="-277.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1964.457" y="-277.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Housing::workTime" class="field">
+                <polygon fill="none" stroke="#000000" points="1788.9034,-234.739 1788.9034,-265.739 1974.9034,-265.739 1974.9034,-234.739 1788.9034,-234.739"></polygon>
+                <text text-anchor="start" x="1794.9034" y="-246.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">workTime</text>
+
+                <text text-anchor="start" x="1890.6746" y="-246.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">[</text>
+                <text text-anchor="start" x="1895.121" y="-246.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">WeekDay</text>
+                <text text-anchor="start" x="1964.457" y="-246.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">]</text>
+
+            </g>
+        </g>
+        <!-- Query&#45;&gt;Housing -->
+        <g class="edge" data-from="FIELD::Query::housing" data-to="TYPE::Housing">
+
+            <path fill="none" stroke="#000000" d="M177.5,-151.739C328.642,-151.739 356.64,-70.739 507.782,-70.739 507.782,-70.739 507.782,-70.739 1442.8662,-70.739 1569.5973,-70.739 1690.0883,-153.7859 1772.6709,-228.2716"></path>
+            <polygon fill="#000000" stroke="#000000" points="1770.7959,-231.2984 1780.5434,-235.45 1775.5124,-226.1259 1770.7959,-231.2984"></polygon>
+            <text text-anchor="middle" x="1014.282" y="-74.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:housing</text>
+            <path fill="none" stroke="#000000" d="M177.5,-151.739C328.642,-151.739 356.64,-70.739 507.782,-70.739 507.782,-70.739 507.782,-70.739 1442.8662,-70.739 1569.5973,-70.739 1690.0883,-153.7859 1772.6709,-228.2716" class="hover-path"></path></g>
+        <!-- Query&#45;&gt;Housing -->
+        <g class="edge" data-from="FIELD::Query::housings" data-to="TYPE::Housing">
+
+            <path fill="none" stroke="#000000" d="M177.5,-120.739C231.6859,-120.739 361.8926,-75.9958 415.282,-66.739 900.544,17.3975 1037.281,22.503 1523.3662,-56.739 1607.6563,-70.48 1638.5014,-58.3943 1708.9034,-106.739 1752.1112,-136.4096 1788.5331,-180.5142 1816.644,-222.6574"></path>
+            <polygon fill="#000000" stroke="#000000" points="1813.7422,-224.6148 1822.155,-231.055 1819.5945,-220.7742 1813.7422,-224.6148"></polygon>
+            <text text-anchor="middle" x="1014.282" y="-8.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:housings</text>
+            <path fill="none" stroke="#000000" d="M177.5,-120.739C231.6859,-120.739 361.8926,-75.9958 415.282,-66.739 900.544,17.3975 1037.281,22.503 1523.3662,-56.739 1607.6563,-70.48 1638.5014,-58.3943 1708.9034,-106.739 1752.1112,-136.4096 1788.5331,-180.5142 1816.644,-222.6574" class="hover-path"></path></g>
+        <!-- Speciality -->
+        <g id="TYPE::Speciality" class="node type">
+
+            <g id="TYPE_TITLE::Speciality" class="type-title">
+                <polygon fill="none" stroke="#000000" points="1370.8662,-257.739 1370.8662,-288.739 1515.8662,-288.739 1515.8662,-257.739 1370.8662,-257.739"></polygon>
+                <text text-anchor="start" x="1404.8624" y="-267.539" font-family="helvetica, open-sans" font-size="18.00" fill="#000000">Speciality</text>
+
+            </g>
+            <g id="FIELD::Speciality::code" class="field">
+                <polygon fill="none" stroke="#000000" points="1370.8662,-226.739 1370.8662,-257.739 1515.8662,-257.739 1515.8662,-226.739 1370.8662,-226.739"></polygon>
+                <text text-anchor="start" x="1376.8662" y="-238.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">code</text>
+
+                <text text-anchor="start" x="1463.6374" y="-238.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1505.4198" y="-238.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Speciality::faculty" class="field edge-source">
+                <polygon fill="none" stroke="#000000" points="1370.8662,-195.739 1370.8662,-226.739 1515.8662,-226.739 1515.8662,-195.739 1370.8662,-195.739"></polygon>
+                <text text-anchor="start" x="1376.8662" y="-207.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">faculty</text>
+
+                <text text-anchor="start" x="1453.8598" y="-207.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type type-link">Faculty</text>
+                <text text-anchor="start" x="1505.4198" y="-207.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Speciality::id" class="field">
+                <polygon fill="none" stroke="#000000" points="1370.8662,-164.739 1370.8662,-195.739 1515.8662,-195.739 1515.8662,-164.739 1370.8662,-164.739"></polygon>
+                <text text-anchor="start" x="1376.8662" y="-176.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">id</text>
+
+                <text text-anchor="start" x="1489.423" y="-176.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">ID</text>
+                <text text-anchor="start" x="1505.4198" y="-176.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Speciality::name" class="field">
+                <polygon fill="none" stroke="#000000" points="1370.8662,-133.739 1370.8662,-164.739 1515.8662,-164.739 1515.8662,-133.739 1370.8662,-133.739"></polygon>
+                <text text-anchor="start" x="1376.8662" y="-145.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">name</text>
+
+                <text text-anchor="start" x="1463.6374" y="-145.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1505.4198" y="-145.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+            <g id="FIELD::Speciality::shortName" class="field">
+                <polygon fill="none" stroke="#000000" points="1370.8662,-102.739 1370.8662,-133.739 1515.8662,-133.739 1515.8662,-102.739 1370.8662,-102.739"></polygon>
+                <text text-anchor="start" x="1376.8062" y="-114.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-name">shortName</text>
+
+                <text text-anchor="start" x="1463.7518" y="-114.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">String</text>
+                <text text-anchor="start" x="1505.5342" y="-114.339" font-family="helvetica, open-sans" font-size="16.00" fill="#000000" class="field-type">!</text>
+
+            </g>
+        </g>
+        <!-- Query&#45;&gt;Speciality -->
+        <g class="edge" data-from="FIELD::Query::speciality" data-to="TYPE::Speciality">
+
+            <path fill="none" stroke="#000000" d="M177.5,-58.739C232.5154,-58.739 617.2765,-40.9836 672.282,-39.939 749.6014,-38.4706 768.9594,-38.6506 846.282,-39.939 963.6642,-41.8948 995.836,-22.5754 1110.282,-48.739 1196.5368,-68.4577 1288.035,-110.6475 1353.1807,-144.7924"></path>
+            <polygon fill="#000000" stroke="#000000" points="1351.7179,-147.9779 1362.1949,-149.5538 1354.9873,-141.7883 1351.7179,-147.9779"></polygon>
+            <text text-anchor="middle" x="759.282" y="-44.939" font-family="Times,serif" font-size="14.00" fill="#000000">Query:speciality</text>
+            <path fill="none" stroke="#000000" d="M177.5,-58.739C232.5154,-58.739 617.2765,-40.9836 672.282,-39.939 749.6014,-38.4706 768.9594,-38.6506 846.282,-39.939 963.6642,-41.8948 995.836,-22.5754 1110.282,-48.739 1196.5368,-68.4577 1288.035,-110.6475 1353.1807,-144.7924" class="hover-path"></path></g>
+        <!-- Cathedra&#45;&gt;Classroom -->
+        <g class="edge" data-from="FIELD::Cathedra::classroom" data-to="TYPE::Classroom">
+
+            <path fill="none" stroke="#000000" d="M592.782,-574.739C903.1455,-574.739 982.1203,-578.9318 1290.3662,-542.739 1311.5089,-540.2565 1334.1233,-536.545 1355.2881,-532.5993"></path>
+            <polygon fill="#000000" stroke="#000000" points="1356.0526,-536.0167 1365.2231,-530.7109 1354.7454,-529.1398 1356.0526,-536.0167"></polygon>
+            <text text-anchor="middle" x="1014.282" y="-576.939" font-family="Times,serif" font-size="14.00" fill="#000000">Cathedra:classroom</text>
+            <path fill="none" stroke="#000000" d="M592.782,-574.739C903.1455,-574.739 982.1203,-578.9318 1290.3662,-542.739 1311.5089,-540.2565 1334.1233,-536.545 1355.2881,-532.5993" class="hover-path"></path></g>
+        <!-- Cathedra&#45;&gt;Faculty -->
+        <g class="edge" data-from="FIELD::Cathedra::faculty" data-to="TYPE::Faculty">
+
+            <path fill="none" stroke="#000000" d="M592.782,-543.739C641.2963,-543.739 629.0648,-490.9824 672.282,-468.939 745.6705,-431.5062 837.8569,-415.451 908.022,-408.6208"></path>
+            <polygon fill="#000000" stroke="#000000" points="908.5745,-412.0847 918.2096,-407.6786 907.9298,-405.1145 908.5745,-412.0847"></polygon>
+            <text text-anchor="middle" x="759.282" y="-472.939" font-family="Times,serif" font-size="14.00" fill="#000000">Cathedra:faculty</text>
+            <path fill="none" stroke="#000000" d="M592.782,-543.739C641.2963,-543.739 629.0648,-490.9824 672.282,-468.939 745.6705,-431.5062 837.8569,-415.451 908.022,-408.6208" class="hover-path"></path></g>
+        <!-- Cathedra&#45;&gt;Housing -->
+        <g class="edge" data-from="FIELD::Cathedra::housing" data-to="TYPE::Housing">
+
+            <path fill="none" stroke="#000000" d="M592.782,-511.739C648.867,-511.739 628.1456,-448.344 672.282,-413.739 767.4085,-339.1554 800.3247,-324.1553 918.282,-297.739 999.4479,-279.5621 1534.8657,-317.2919 1770.6978,-335.11"></path>
+            <polygon fill="#000000" stroke="#000000" points="1770.4365,-338.6001 1780.6723,-335.8652 1770.9651,-331.6201 1770.4365,-338.6001"></polygon>
+            <text text-anchor="middle" x="1236.3241" y="-306.939" font-family="Times,serif" font-size="14.00" fill="#000000">Cathedra:housing</text>
+            <path fill="none" stroke="#000000" d="M592.782,-511.739C648.867,-511.739 628.1456,-448.344 672.282,-413.739 767.4085,-339.1554 800.3247,-324.1553 918.282,-297.739 999.4479,-279.5621 1534.8657,-317.2919 1770.6978,-335.11" class="hover-path"></path></g>
+        <!-- Classroom&#45;&gt;Housing -->
+        <g class="edge" data-from="FIELD::Classroom::housing" data-to="TYPE::Housing">
+
+            <path fill="none" stroke="#000000" d="M1512.8662,-481.739C1526.547,-481.739 1667.2902,-427.8294 1770.9186,-387.3993"></path>
+            <polygon fill="#000000" stroke="#000000" points="1772.4683,-390.5517 1780.5105,-383.6543 1769.9224,-384.0311 1772.4683,-390.5517"></polygon>
+            <text text-anchor="middle" x="1652.1348" y="-456.939" font-family="Times,serif" font-size="14.00" fill="#000000">Classroom:housing</text>
+            <path fill="none" stroke="#000000" d="M1512.8662,-481.739C1526.547,-481.739 1667.2902,-427.8294 1770.9186,-387.3993" class="hover-path"></path></g>
+        <!-- Faculty&#45;&gt;Classroom -->
+        <g class="edge" data-from="FIELD::Faculty::classroom" data-to="TYPE::Classroom">
+
+            <path fill="none" stroke="#000000" d="M1102.282,-450.739C1189.3986,-450.739 1286.9901,-470.9156 1355.3004,-488.4321"></path>
+            <polygon fill="#000000" stroke="#000000" points="1354.6029,-491.8671 1365.1617,-490.9945 1356.3634,-485.092 1354.6029,-491.8671"></polygon>
+            <text text-anchor="middle" x="1236.3241" y="-476.939" font-family="Times,serif" font-size="14.00" fill="#000000">Faculty:classroom</text>
+            <path fill="none" stroke="#000000" d="M1102.282,-450.739C1189.3986,-450.739 1286.9901,-470.9156 1355.3004,-488.4321" class="hover-path"></path></g>
+        <!-- Faculty&#45;&gt;Housing -->
+        <g class="edge" data-from="FIELD::Faculty::housing" data-to="TYPE::Housing">
+
+            <path fill="none" stroke="#000000" d="M1102.282,-419.739C1219.5773,-419.739 1245.8494,-388.4308 1362.3662,-374.939 1502.5814,-358.703 1665.1242,-350.6643 1770.5379,-346.8643"></path>
+            <polygon fill="#000000" stroke="#000000" points="1770.6883,-350.3612 1780.5582,-346.5096 1770.4407,-343.3656 1770.6883,-350.3612"></polygon>
+            <text text-anchor="middle" x="1442.8662" y="-379.939" font-family="Times,serif" font-size="14.00" fill="#000000">Faculty:housing</text>
+            <path fill="none" stroke="#000000" d="M1102.282,-419.739C1219.5773,-419.739 1245.8494,-388.4308 1362.3662,-374.939 1502.5814,-358.703 1665.1242,-350.6643 1770.5379,-346.8643" class="hover-path"></path></g>
+        <!-- Faculty&#45;&gt;Speciality -->
+        <g class="edge" data-from="FIELD::Faculty::specialities" data-to="TYPE::Speciality">
+
+            <path fill="none" stroke="#000000" d="M1102.282,-325.739C1162.3025,-325.739 1129.8695,-246.1859 1182.282,-216.939 1233.4822,-188.3685 1299.3597,-183.233 1352.0663,-185.1568"></path>
+            <polygon fill="#000000" stroke="#000000" points="1351.9367,-188.6544 1362.0854,-185.6123 1352.2547,-181.6616 1351.9367,-188.6544"></polygon>
+            <text text-anchor="middle" x="1236.3241" y="-221.939" font-family="Times,serif" font-size="14.00" fill="#000000">Faculty:specialities</text>
+            <path fill="none" stroke="#000000" d="M1102.282,-325.739C1162.3025,-325.739 1129.8695,-246.1859 1182.282,-216.939 1233.4822,-188.3685 1299.3597,-183.233 1352.0663,-185.1568" class="hover-path"></path></g>
+        <!-- Group&#45;&gt;Speciality -->
+        <g class="edge" data-from="FIELD::Group::speciality" data-to="TYPE::Speciality">
+
+            <path fill="none" stroke="#000000" d="M838.282,-166.739C1039.3503,-166.739 1089.6366,-172.0723 1290.3662,-183.739 1310.3254,-184.899 1331.7334,-186.4145 1352.0121,-187.9761"></path>
+            <polygon fill="#000000" stroke="#000000" points="1351.9392,-191.481 1362.1813,-188.77 1352.4841,-184.5022 1351.9392,-191.481"></polygon>
+            <text text-anchor="middle" x="1014.282" y="-177.939" font-family="Times,serif" font-size="14.00" fill="#000000">Group:speciality</text>
+            <path fill="none" stroke="#000000" d="M838.282,-166.739C1039.3503,-166.739 1089.6366,-172.0723 1290.3662,-183.739 1310.3254,-184.899 1331.7334,-186.4145 1352.0121,-187.9761" class="hover-path"></path></g>
+        <!-- Housing&#45;&gt;Classroom -->
+        <g class="edge" data-from="FIELD::Housing::classrooms" data-to="TYPE::Classroom">
+
+            <path fill="none" stroke="#000000" d="M1788.9034,-374.739C1732.6781,-374.739 1757.7095,-444.824 1708.9034,-472.739 1654.8662,-503.646 1585.0326,-513.4894 1530.473,-515.8217"></path>
+            <polygon fill="#000000" stroke="#000000" points="1530.3414,-512.324 1520.4705,-516.1731 1530.5873,-519.3197 1530.3414,-512.324"></polygon>
+            <text text-anchor="middle" x="1652.1348" y="-512.939" font-family="Times,serif" font-size="14.00" fill="#000000">Housing:classrooms</text>
+            <path fill="none" stroke="#000000" d="M1788.9034,-374.739C1732.6781,-374.739 1757.7095,-444.824 1708.9034,-472.739 1654.8662,-503.646 1585.0326,-513.4894 1530.473,-515.8217" class="hover-path"></path></g>
+        <!-- Speciality&#45;&gt;Faculty -->
+        <g class="edge" data-from="FIELD::Speciality::faculty" data-to="TYPE::Faculty">
+
+            <path fill="none" stroke="#000000" d="M1370.8662,-211.739C1333.7764,-211.739 1326.1999,-224.1681 1290.3662,-233.739 1242.402,-246.5497 1226.3603,-239.0964 1182.282,-261.939 1160.2937,-273.3339 1138.6589,-288.0622 1118.611,-303.7021"></path>
+            <polygon fill="#000000" stroke="#000000" points="1116.3688,-301.0133 1110.7141,-309.9729 1120.7219,-306.4951 1116.3688,-301.0133"></polygon>
+            <text text-anchor="middle" x="1236.3241" y="-266.939" font-family="Times,serif" font-size="14.00" fill="#000000">Speciality:faculty</text>
+            <path fill="none" stroke="#000000" d="M1370.8662,-211.739C1333.7764,-211.739 1326.1999,-224.1681 1290.3662,-233.739 1242.402,-246.5497 1226.3603,-239.0964 1182.282,-261.939 1160.2937,-273.3339 1138.6589,-288.0622 1118.611,-303.7021" class="hover-path"></path></g>
+    </g>
+</g><defs><style id="svg-pan-zoom-controls-styles" type="text/css">.svg-pan-zoom-control { cursor: pointer; fill: black; fill-opacity: 0.333; } .svg-pan-zoom-control:hover { fill-opacity: 0.8; } .svg-pan-zoom-control-background { fill: white; fill-opacity: 0.5; } .svg-pan-zoom-control-background { fill-opacity: 0.8; }</style></defs><g id="svg-pan-zoom-controls" transform="translate(2170 874) scale(0.75)" class="svg-pan-zoom-control"><g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control"><rect x="0" y="0" width="1500" height="1400" class="svg-pan-zoom-control-background"></rect><path d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z" class="svg-pan-zoom-control-element"></path></g><g id="svg-pan-zoom-reset-pan-zoom" transform="translate(5 35) scale(0.4)" class="svg-pan-zoom-control"><rect x="2" y="2" width="182" height="58" class="svg-pan-zoom-control-background"></rect><path d="M33.051,20.632c-0.742-0.406-1.854-0.609-3.338-0.609h-7.969v9.281h7.769c1.543,0,2.701-0.188,3.473-0.562c1.365-0.656,2.048-1.953,2.048-3.891C35.032,22.757,34.372,21.351,33.051,20.632z" class="svg-pan-zoom-control-element"></path><path d="M170.231,0.5H15.847C7.102,0.5,0.5,5.708,0.5,11.84v38.861C0.5,56.833,7.102,61.5,15.847,61.5h154.384c8.745,0,15.269-4.667,15.269-10.798V11.84C185.5,5.708,178.976,0.5,170.231,0.5z M42.837,48.569h-7.969c-0.219-0.766-0.375-1.383-0.469-1.852c-0.188-0.969-0.289-1.961-0.305-2.977l-0.047-3.211c-0.03-2.203-0.41-3.672-1.142-4.406c-0.732-0.734-2.103-1.102-4.113-1.102h-7.05v13.547h-7.055V14.022h16.524c2.361,0.047,4.178,0.344,5.45,0.891c1.272,0.547,2.351,1.352,3.234,2.414c0.731,0.875,1.31,1.844,1.737,2.906s0.64,2.273,0.64,3.633c0,1.641-0.414,3.254-1.242,4.84s-2.195,2.707-4.102,3.363c1.594,0.641,2.723,1.551,3.387,2.73s0.996,2.98,0.996,5.402v2.32c0,1.578,0.063,2.648,0.19,3.211c0.19,0.891,0.635,1.547,1.333,1.969V48.569z M75.579,48.569h-26.18V14.022h25.336v6.117H56.454v7.336h16.781v6H56.454v8.883h19.125V48.569z M104.497,46.331c-2.44,2.086-5.887,3.129-10.34,3.129c-4.548,0-8.125-1.027-10.731-3.082s-3.909-4.879-3.909-8.473h6.891c0.224,1.578,0.662,2.758,1.316,3.539c1.196,1.422,3.246,2.133,6.15,2.133c1.739,0,3.151-0.188,4.236-0.562c2.058-0.719,3.087-2.055,3.087-4.008c0-1.141-0.504-2.023-1.512-2.648c-1.008-0.609-2.607-1.148-4.796-1.617l-3.74-0.82c-3.676-0.812-6.201-1.695-7.576-2.648c-2.328-1.594-3.492-4.086-3.492-7.477c0-3.094,1.139-5.664,3.417-7.711s5.623-3.07,10.036-3.07c3.685,0,6.829,0.965,9.431,2.895c2.602,1.93,3.966,4.73,4.093,8.402h-6.938c-0.128-2.078-1.057-3.555-2.787-4.43c-1.154-0.578-2.587-0.867-4.301-0.867c-1.907,0-3.428,0.375-4.565,1.125c-1.138,0.75-1.706,1.797-1.706,3.141c0,1.234,0.561,2.156,1.682,2.766c0.721,0.406,2.25,0.883,4.589,1.43l6.063,1.43c2.657,0.625,4.648,1.461,5.975,2.508c2.059,1.625,3.089,3.977,3.089,7.055C108.157,41.624,106.937,44.245,104.497,46.331z M139.61,48.569h-26.18V14.022h25.336v6.117h-18.281v7.336h16.781v6h-16.781v8.883h19.125V48.569z M170.337,20.14h-10.336v28.43h-7.266V20.14h-10.383v-6.117h27.984V20.14z" class="svg-pan-zoom-control-element"></path></g><g id="svg-pan-zoom-zoom-out" transform="translate(30.5 70) scale(0.015)" class="svg-pan-zoom-control"><rect x="0" y="0" width="1500" height="1400" class="svg-pan-zoom-control-background"></rect><path d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z" class="svg-pan-zoom-control-element"></path></g></g></svg>

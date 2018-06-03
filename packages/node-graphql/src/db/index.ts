@@ -1,38 +1,55 @@
-import { readdirSync } from 'fs';
-import { join } from 'path';
-import { sequelize } from './instance';
-import { Model } from 'sequelize';
-import { UserModel } from './models/User';
+import { sequelize } from "./instance";
+import { Cathedra, Classroom, Faculty, Group, Housing, IClassroomAttributes, Speciality } from "./models";
+import { WeekDay } from "./enums";
+import { flatten } from 'lodash';
 
-export type ModelKeys = 'User'; 
-export interface Models extends Record<ModelKeys, any> {
-  User: UserModel;
-}
+export * from './instance';
+export * from './models';
 
-const MODELS_PATH = join(__dirname, 'models');
-const MODELS_PATHS = readdirSync(MODELS_PATH).map(path => join(MODELS_PATH, path));
-const models: Models = {} as any;
+Housing.hasMany(Classroom);
+Faculty.hasOne(Classroom);
+Faculty.hasMany(Speciality);
+Cathedra.hasOne(Faculty);
+Cathedra.hasOne(Classroom);
+Speciality.belongsTo(Faculty);
+Classroom.belongsTo(Faculty);
+Classroom.belongsTo(Housing);
+Group.hasOne(Speciality);
 
-console.log('MODELS_PATHS', MODELS_PATHS);
+const generateClassrooms = (length = 50, floors = 3): IClassroomAttributes[] => flatten(new Array(floors).fill(0).map((_, floor) => (
+  new Array(length).fill(0).map((_, value) => ({
+    floor: floor + 1,
+    number: `${floor + 1}${((value + 1) + '').padStart(2, '0')}`,
+    capacity: Math.ceil(Math.random() * 100) + 15
+  }))
+)));
 
-MODELS_PATHS.forEach(modelPath => {
-  const model = sequelize.import(modelPath);
-
-  models[model.name as ModelKeys] = model as any;
-});
-
-Object
-  .keys(models)
-  .forEach(modelName => {
-    const model = models[modelName as ModelKeys];
-
-    if (typeof model.associate === "function") {
-      model.associate(models as any);
-    }
+export async function syncDB() {
+  await sequelize.sync({
+    force: true,
+    logging: true
+  });
+  await Housing.create({
+    name: 'First',
+    address: 'Smth',
+    floors: 2,
+    workTime: [WeekDay.MONDAY, WeekDay.FRIDAY],
+    Classrooms: generateClassrooms()
+  }, {
+    include: [Classroom]
+  });
+  const faculty = Faculty.build({
+    name: 'Super faculty'
   });
 
-console.log('Models');
-console.log(models);
-
-export { models };
-export const { User } = models;
+  await faculty.save();
+  await (faculty as any).setClassroom(await Classroom.findById(1));
+  await Housing.bulkCreate([
+    {
+      name: 'Second',
+      address: 'Hell',
+      floors: 22,
+      workTime: [WeekDay.MONDAY, WeekDay.FRIDAY, WeekDay.WEDNESDAY]
+    }
+  ]);
+}

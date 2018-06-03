@@ -1,0 +1,12 @@
+extend type Query {
+    classroom(id: ID!): Classroom
+}
+
+type Classroom {
+    id: ID!
+    floor: Int
+    number: String!
+    housing: Housing!
+    capacity: Int!
+    POTOM: String
+}

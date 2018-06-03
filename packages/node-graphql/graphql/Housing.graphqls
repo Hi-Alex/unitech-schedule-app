@@ -1,0 +1,13 @@
+extend type Query {
+    housing(id: ID!): Housing
+    housings: [Housing]
+}
+
+type Housing {
+    id: ID!
+    name: String!
+    address: String!
+    floors: Int!
+    workTime: [WeekDay]
+    classrooms: [Classroom]
+}

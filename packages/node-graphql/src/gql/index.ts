@@ -1,14 +1,12 @@
-import { resolvers } from './resolvers';
-import { readFileSync } from 'fs';
-import { resolve } from 'path';
-import { makeExecutableSchema } from 'graphql-tools';
+import { schema } from './schema';
+import { graphiqlKoa, graphqlKoa } from "apollo-server-koa";
+import * as Router from "koa-router";
 
-console.log('resolvers', resolvers);
-
-const SCHEMAS_PATH = resolve(__dirname, '..', '..', 'graphql');
-const typeDefs = readFileSync(resolve(SCHEMAS_PATH, 'schema.graphqls'), 'utf8');
-
-export const schema = makeExecutableSchema({
-  typeDefs,
-  resolvers
-});
+export function connectGraphQL(router: Router) {
+  router.post('/graphql', graphqlKoa({ schema }));
+  if (process.env.NODE_ENV !== 'production') {
+    router.get('/graphiql', graphiqlKoa({
+      endpointURL: '/graphql'
+    }));
+  }
+}

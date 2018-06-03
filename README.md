@@ -2,6 +2,6 @@
 
 ## Внутренние модули
 
-### [web](./packages/web)
+### [web](packages/client-web)
 
 Веб-приложение

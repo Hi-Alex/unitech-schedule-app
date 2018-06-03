@@ -5,8 +5,7 @@
     "baseUrl": "./packages",
     "rootDir": ".",
     "typeRoots": [
-      "./node_modules/@types",
-      "../../node-modules/@types"
+      "./node_modules/@types"
     ],
     "types": [
       "node"

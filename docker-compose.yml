@@ -1,47 +1,61 @@
-version: '3'
+version: "3.4"
 services:
+  postgres:
+    image: postgres:alpine
+    networks:
+      - net
   nginx:
+    image: nginx:alpine
     container_name: nginx
-    build: ./packages/nginx
+    volumes:
+      - ./packages/service-nginx/conf.d:/etc/nginx/conf.d
     ports:
       - "80:80"
-    links:
-      - node-graphql
+      - "443:443"
     networks:
-      - schedule
-  node-graphql:
-    container_name: node-graphql
-    build: 
-      context: .
-      dockerfile: ./packages/node-graphql/Dockerfile
-    networks:
-      - schedule
+      - net
     depends_on:
-      - db
-      - redis
-    env_file:
-      - .env.docker
-  node-renderer:
-    container_name: node-renderer
+      - node-main
+  node-main:
     build:
+      target: production
+      context: .
+      dockerfile: ./node-package.Dockerfile
+      args:
+        - PACKAGE_NAME=node-main
+    container_name: node-main
+    command: yarn run server
+    networks:
+      - net
+    depends_on:
+      - node-renderer
+      - node-graphql
+  node-graphql:
+    build:
+      target: production
+      context: .
+      dockerfile: ./node-package.Dockerfile
+      args:
+        - PACKAGE_NAME=node-graphql
+    container_name: node-graphql
+    command: yarn run server
+    networks:
+      - net
+    depends_on:
+      - postgres
+  node-renderer:
+    build:
+      target: production
       context: .
       dockerfile: ./packages/node-renderer/Dockerfile
+    container_name: node-renderer
+    command: yarn start
     networks:
-      - schedule
-    links:
-      - node-graphql
-  redis:
-    container_name: redis
-    image: redis:alpine
-    networks:
-      - schedule
-  db:
-    container_name: postgres
-    image: postgres:alpine
-    env_file:
-      - .env.docker
-    networks:
-      - schedule
+      - net
+
+volumes:
+  yarn-cache:
+
 networks:
-  schedule:
+  net:
     driver: bridge

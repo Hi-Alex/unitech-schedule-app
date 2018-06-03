@@ -1,15 +1,10 @@
-FROM node:9-alpine
+FROM node:alpine as development
+WORKDIR /home/www/packages/client-web
 
-WORKDIR /tmp/.build/
+COPY tsconfig.json package.json yarn.lock .yarnrc /home/www/
+COPY packages/client-web/package.json .
+RUN yarn install --production=false --frozen-lockfile
 
-COPY yarn.lock .
-COPY ./packages/web/package.json .
+COPY packages/client-web/ .
 
-RUN yarn install --production false
-
-COPY ./packages/web ./
-
-RUN ls -a
-
-EXPOSE 3120
 CMD ["yarn", "start"]

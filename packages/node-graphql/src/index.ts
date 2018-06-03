@@ -1,24 +1,24 @@
-Error.stackTraceLimit = 100;
+import { createServer } from 'http';
+import { httpListener } from './application';
+import { syncDB } from "./db";
 
-import { app } from "./app";
-import { sequelize } from './db/instance';
+const server = createServer(httpListener);
 
-function startServer() {
-  app.listen(3050, (error?: Error) => {
-    if (error) {
-      console.log('Server listening error');
-      console.error(error);
-      process.exit(1);
-    }
-    console.log('Server is running');
-  });
-}
-
-sequelize.sync({
-  force: true
-})
-  .then(startServer)
-  .catch((error?: Error) => {
-    console.log('DB sync failed');
+(async () => {
+  try {
+    await syncDB();
+    server
+      .listen(3000)
+      .on('listening', () => {
+        console.log('Server successful started!');
+      })
+      .on('error', (error: Error) => {
+        console.log('Server start error');
+        console.error(error);
+        process.exit(1);
+      });
+  } catch (error) {
     console.error(error);
-  })
+    process.exit(-1);
+  }
+})();
