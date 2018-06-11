@@ -2,5 +2,8 @@
   "name": "node-renderer",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.17.0"
+  }
 }

@@ -23,6 +23,6 @@ services:
   node-renderer:
     build:
       target: development
-    command: yarn start
+    command: yarn start --host 0.0.0.0 --port 80
     volumes:
       - ./packages/client-web/src:/home/www/packages/client-web/src

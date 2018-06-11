@@ -1,6 +1,5 @@
 {
   "compileOnSave": false,
-  "extends": "./node_modules/@secundant/tslib/tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": "./packages",
     "rootDir": ".",

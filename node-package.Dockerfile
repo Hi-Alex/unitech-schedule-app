@@ -1,31 +1,30 @@
 # "build" stage - Install deps, copys sources, run build script
 FROM node:alpine as build
-
 ARG PACKAGE_NAME
 
 RUN mkdir -p /home/www/packages/${PACKAGE_NAME}
 WORKDIR /home/www/packages/${PACKAGE_NAME}/
 
-COPY package.json tsconfig.json yarn.lock .yarnrc /home/www/
+COPY package.json yarn.lock .yarnrc /home/www/
 COPY packages/${PACKAGE_NAME}/package.json .
 RUN yarn install --production=false
 
+COPY tsconfig.json /home/www/
 COPY packages/${PACKAGE_NAME}/ .
 RUN yarn build
 
 # "development" stage - Just copy all from "build" stage
 FROM node:alpine as development
-
 ARG PACKAGE_NAME
 
 RUN mkdir -p /home/www/packages/${PACKAGE_NAME}
 WORKDIR /home/www/packages/${PACKAGE_NAME}
 
 COPY --from=build /home/www/ /home/www/
+CMD ["yarn", "start"]
 
 # "production-build" stage - Clear non-production deps and sources
 FROM node:alpine as production-build
-
 ARG PACKAGE_NAME
 
 RUN mkdir /home/www
@@ -39,7 +38,6 @@ RUN \
 
 # "production" stage - Copy compiled 
 FROM node:alpine as production
-
 ARG PACKAGE_NAME
 
 RUN mkdir /home/www

@@ -11,6 +11,7 @@ const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const { compact } = require('lodash');
 const { join } = require('path');
 const dllOptions = {
@@ -80,7 +81,8 @@ module.exports = (baseEnv, args) => {
           }),
           dev && new AddAssetHtmlPlugin({
             filepath: join(__dirname, '.cache', '.DLL', getFileNameFromPackages(getPackagesFromDLLOptions(dllOptions)))
-          })
+          }),
+          new TsconfigPathsPlugin()
         ]),
         devServer: {
           disableHostCheck: true,
@@ -88,7 +90,7 @@ module.exports = (baseEnv, args) => {
           hotOnly: true,
           publicPath: '/',
           host:"0.0.0.0",
-          port:3120
+          port:80
         }
       }
     },
@@ -111,11 +113,8 @@ module.exports = (baseEnv, args) => {
       new Thread(),
       new React(),
       new Optimization({
-        devTool: 'source-map'
+        devTool: prod ? false : 'source-map'
       })
     ]
-  }).then(raw => {
-    //console.log(JSON.stringify(raw.module.rules, null, 2));
-    return raw;
   });
 };
