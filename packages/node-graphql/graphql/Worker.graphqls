@@ -1,0 +1,12 @@
+extend type Query {
+    worker(id: ID!): Worker
+}
+
+type Worker {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    faculty: Faculty!
+    cathedra: Cathedra!
+    position: String!
+}

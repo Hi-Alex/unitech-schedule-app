@@ -8,5 +8,4 @@ type Classroom {
     number: String!
     housing: Housing!
     capacity: Int!
-    POTOM: String
 }

@@ -7,3 +7,16 @@ enum WeekDay {
     SATURDAY
     SUNDAY
 }
+
+enum LessonParity {
+    BOTH
+    EVEN
+    ODD
+}
+
+enum LessonType {
+    LECTURE
+    PRACTICE
+    SEMINAR
+    CONFERENCE
+}

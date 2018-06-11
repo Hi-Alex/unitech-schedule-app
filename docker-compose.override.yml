@@ -2,7 +2,7 @@ version: "3.4"
 services:
   postgres:
     env_file:
-      - ./packages/postgres/.env
+      - packages/service-postgres/.env
   node-main:
     build:
       target: development

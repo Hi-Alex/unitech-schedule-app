@@ -1,0 +1,12 @@
+type Lesson {
+    id: ID!
+    day: WeekDay!
+    type: LessonType!
+    group: Group!
+    title: String!
+    worker: Worker!
+    parity: LessonParity!
+    beginTime: Int!
+    duration: Int!
+    classroom: Classroom!
+}

@@ -2,8 +2,11 @@ version: "3.4"
 services:
   postgres:
     image: postgres:alpine
+    container_name: postgres
     networks:
       - net
+    ports:
+      - "5432:5432"
   nginx:
     image: nginx:alpine
     container_name: nginx
@@ -52,10 +55,8 @@ services:
     command: yarn start
     networks:
       - net
-
 volumes:
   yarn-cache:
-
 networks:
   net:
     driver: bridge

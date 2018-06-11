@@ -10,14 +10,6 @@ connectGraphQL(router);
 
 application
   .use(bodyParser())
-  .use(async ({ url, params, body, req }, next) => {
-    console.log('->', url);
-    console.log(params);
-    console.log(body);
-    console.log(req);
-    await next();
-    console.log('<-', url);
-  })
   .use(router.routes())
   .use(router.allowedMethods());
 
