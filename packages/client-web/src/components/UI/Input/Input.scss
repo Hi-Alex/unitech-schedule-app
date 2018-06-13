@@ -12,6 +12,7 @@
   display: block;
   width: 100%;
   font-size: $font-size-regular;
+  margin: 0 0 $offset-tiny 0;
 
   &:disabled,
   &.disabled {

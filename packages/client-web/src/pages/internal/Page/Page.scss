@@ -7,9 +7,8 @@
   text-align: left;
   position: relative;
   overflow: auto;
-  transition: padding-left .1s;
+  transition: padding-left .1s, opacity 0.3s;
   background-color: #F4F8F9;
-  transition: opacity 0.3s;
 
   @media screen and (max-width: $BP_L) {
     padding-left: $SIDEBAR_M + 50px;

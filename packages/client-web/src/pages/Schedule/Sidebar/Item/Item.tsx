@@ -1,11 +1,12 @@
 import * as React from 'react';
 import * as styles from './Item.scss'
-import { cn } from '../../../utils/className';
+import { cn } from '../../../../utils/className';
 import { NavLink } from 'react-router-dom';
 
 export interface ItemProps extends React.HTMLAttributes<HTMLAnchorElement>{
   to: string;
   icon?: string;
+  Icon?: React.SFC<React.HTMLProps<SVGSVGElement>>;
   label?: string;
 }
 
@@ -17,7 +18,7 @@ export class Item extends React.Component<ItemProps> {
   };
 
   render() {
-    const { to, icon, label, className, ...other } = this.props;
+    const { to, icon, Icon, label, className, ...other } = this.props;
     return (
       <NavLink
         {...other}
@@ -25,7 +26,8 @@ export class Item extends React.Component<ItemProps> {
         activeClassName={styles.active}
         className={cn([styles.Item, className])}
       >
-        <img src={icon} alt={label} />
+        {!Icon && icon && <img src={icon} className={styles.Icon} alt={label} />}
+        {Icon && <Icon className={styles.Icon} />}
         <span>{label}</span>
       </NavLink>
     );

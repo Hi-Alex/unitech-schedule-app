@@ -20,6 +20,13 @@ export enum LessonParity {
   EVEN = 'EVEN',
   ODD = 'ODD'
 }
+export enum UserRole {
+  ROOT = 'ROOT',
+  WORKER = 'WORKER',
+  STUDENT = 'STUDENT'
+}
+
 export const WeekDayValues = compact(Object.keys(WeekDay));
+export const UserRoleValues = compact(Object.keys(UserRole));
 export const LessonTypeValues = compact(Object.keys(LessonType));
 export const LessonParityValues = compact(Object.keys(LessonParity));

@@ -10,6 +10,7 @@ const ORDER = [
   'Faculty',
   'Cathedra',
   'Speciality',
-  'Group'
+  'Group',
+  'User'
 ];
 export const typeDefs = ORDER.map(file => readFileSync(resolve(SCHEMAS_PATH, file + '.graphqls'), 'utf-8'));

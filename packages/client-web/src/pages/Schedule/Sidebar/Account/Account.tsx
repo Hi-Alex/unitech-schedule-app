@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Avatar } from './Avatar/Avatar';
 import * as styles from './Account.scss'
 import * as avatar from '../avatar2.jpg';
-import Query from "react-apollo/Query";
+import { Query } from "react-apollo";
 import gql from "graphql-tag";
 
 export interface AccountProps {
@@ -43,7 +43,6 @@ export const Account = () => (
         if (loading) {
           return <span>loading</span>
         }
-        console.log(data);
         return <AccountView {...data.user} />
     }}
   </Query>

@@ -1,4 +1,5 @@
 import { Faculty, Housing } from "../../db/models";
+import { User } from "../../db/models/User";
 
 export interface QueryHousingParams {
   id: number;
@@ -13,5 +14,8 @@ export const Query = {
   },
   housings(_: any) {
     return Housing.findAll();
+  },
+  user(_: any, { id = 1 }: QueryHousingParams) {
+    return User.findById(id);
   }
 };

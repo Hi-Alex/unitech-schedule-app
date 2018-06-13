@@ -1,0 +1,9 @@
+mutation UPDATE_HOUSING($id: ID!, $data: HousingInputPartial!) {
+    updateHousing(id: $id, data: $data) {
+        id
+        name
+        floors
+        address
+        workTime
+    }
+}

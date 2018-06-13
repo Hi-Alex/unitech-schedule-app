@@ -1,0 +1,9 @@
+query GET_HOUSINGS {
+    housings {
+        id
+        name
+        floors
+        address
+        workTime
+    }
+}

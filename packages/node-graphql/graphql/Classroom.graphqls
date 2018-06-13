@@ -2,10 +2,30 @@ extend type Query {
     classroom(id: ID!): Classroom
 }
 
+extend type Mutation {
+    createClassroom(data: ClassroomInput!): Classroom!
+    updateClassroom(id: ID!, data: ClassroomInputPartial!): Classroom!
+    deleteClassroom(id: ID!): ID!
+}
+
 type Classroom {
     id: ID!
     floor: Int
     number: String!
     housing: Housing!
     capacity: Int!
+}
+
+input ClassroomInput {
+    floor: Int
+    number: String!
+    HousingId: ID!
+    capacity: Int!
+}
+
+input ClassroomInputPartial {
+    floor: Int
+    number: String
+    HousingId: ID
+    capacity: Int
 }

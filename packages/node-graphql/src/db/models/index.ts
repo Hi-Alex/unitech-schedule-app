@@ -6,3 +6,4 @@ export * from './Speciality';
 export * from './Group';
 export * from './Worker';
 export * from './Lesson';
+export * from './User';

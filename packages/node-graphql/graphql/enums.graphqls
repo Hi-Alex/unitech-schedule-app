@@ -20,3 +20,9 @@ enum LessonType {
     SEMINAR
     CONFERENCE
 }
+
+enum UserRole {
+    ROOT
+    WORKER
+    STUDENT
+}

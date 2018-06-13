@@ -9,4 +9,5 @@ type Worker {
     faculty: Faculty!
     cathedra: Cathedra!
     position: String!
+    user: User
 }

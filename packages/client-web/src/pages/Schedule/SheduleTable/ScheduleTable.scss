@@ -84,8 +84,18 @@ $BD_COLOR: #BFBFBF;
 .Cell {
   width: 100%;
   flex: 1 1 auto;
+  transition: background-color 125ms;
+  background-color: transparent;
 
   &:not(:last-child) {
     border-bottom: 1px solid $BD_COLOR;
+  }
+
+  &:hover {
+    background-color: rgba(#eee, .5);
+
+    &:active {
+      background-color: #eee;
+    }
   }
 }

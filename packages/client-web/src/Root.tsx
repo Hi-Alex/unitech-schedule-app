@@ -4,7 +4,7 @@ import { routes } from './router';
 import { BrowserRouter } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import { ApolloProvider } from "react-apollo";
-import { client } from "./graphql";
+import { client } from "./apollo-client";
 
 @hot(module)
 export class Root extends React.Component {

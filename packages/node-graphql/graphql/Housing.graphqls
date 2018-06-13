@@ -3,6 +3,12 @@ extend type Query {
     housings: [Housing]
 }
 
+extend type Mutation {
+    createHousing(data: HousingInput!): Housing!
+    updateHousing(id: ID!, data: HousingInputPartial!): Housing!
+    deleteHousing(id: ID!): ID!
+}
+
 type Housing {
     id: ID!
     name: String!
@@ -10,4 +16,18 @@ type Housing {
     floors: Int!
     workTime: [WeekDay]
     classrooms: [Classroom]
+}
+
+input HousingInput {
+    name: String!
+    address: String!
+    floors: Int!
+    workTime: [WeekDay]!
+}
+
+input HousingInputPartial {
+    name: String
+    address: String
+    floors: Int
+    workTime: [WeekDay]
 }

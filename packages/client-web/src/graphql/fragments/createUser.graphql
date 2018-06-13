@@ -1,6 +1,0 @@
-mutation($user: UserInput!) {
-    createUser(user: $user) {
-        id,
-        firstName
-    }
-}

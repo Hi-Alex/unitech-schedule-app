@@ -30,12 +30,10 @@
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": false,
     "noImplicitAny": false,
-    "moduleResolution": "node",
-    "paths": {
-      "@web/*": ["./*"]
-    }
+    "moduleResolution": "node"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "../../node_modules"
   ]
 }

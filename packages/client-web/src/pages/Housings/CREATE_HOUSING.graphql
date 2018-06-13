@@ -1,0 +1,9 @@
+mutation CREATE_HOUSING($data: HousingInput!) {
+    createHousing(data: $data) {
+        id
+        name
+        floors
+        address
+        workTime
+    }
+}

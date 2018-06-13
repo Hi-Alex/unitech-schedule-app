@@ -1,0 +1,13 @@
+extend type Query {
+    user(id: ID): User
+    users: [User]
+}
+
+type User {
+    id: ID!
+    role: UserRole!
+    photo: String
+    username: String!
+    firstName: String
+    lastName: String
+}

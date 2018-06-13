@@ -16,6 +16,14 @@ export const routes: IRoute[] = [
       {
         path: '/lists',
         component: async(() => import('../pages/Lists'))
+      },
+      {
+        path: '/housings',
+        component: async(() => import('../pages/Housings'))
+      },
+      {
+        path: '/faculties',
+        component: async(() => import('../pages/Faculties'))
       }
     ]
   }

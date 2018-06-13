@@ -12,6 +12,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const DotEnv = require('dotenv-webpack');
 const { compact } = require('lodash');
 const { join } = require('path');
 const dllOptions = {
@@ -30,6 +31,9 @@ module.exports = (baseEnv, args) => {
     env,
     config() {
       return {
+        resolve: {
+
+        },
         output: {
           publicPath: '/',
           path: join(__dirname, '.build')
@@ -82,7 +86,9 @@ module.exports = (baseEnv, args) => {
           dev && new AddAssetHtmlPlugin({
             filepath: join(__dirname, '.cache', '.DLL', getFileNameFromPackages(getPackagesFromDLLOptions(dllOptions)))
           }),
-          new TsconfigPathsPlugin()
+          new DotEnv({
+            systemvars: true
+          })
         ]),
         devServer: {
           disableHostCheck: true,
@@ -113,7 +119,7 @@ module.exports = (baseEnv, args) => {
       new Thread(),
       new React(),
       new Optimization({
-        devTool: prod ? false : 'source-map'
+        devTool: prod ? false : 'inline-source-map'
       })
     ]
   });

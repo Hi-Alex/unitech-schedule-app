@@ -1,0 +1,21 @@
+@import "../../../styles/const";
+
+.PageActions {
+  position: absolute;
+  top: 21.5px;
+  right: 50px;
+  left: $SIDEBAR_L + 50px;
+  height: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+
+  > * {
+    flex: 0 1 auto;
+    width: auto;
+  }
+
+  @media screen and (max-width: $BP_L) {
+    left: $SIDEBAR_M + 50px;
+  }
+}

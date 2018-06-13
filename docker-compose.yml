@@ -58,6 +58,10 @@ services:
       dockerfile: ./packages/node-renderer/Dockerfile
     container_name: node-renderer
     command: yarn start
+    environment:
+      - DEBUG=false
+      - GQL_PORT=false
+      - GQL_HOST=false
     networks:
       - net
 volumes:

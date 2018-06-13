@@ -1,0 +1,9 @@
+query GET_USER {
+    user {
+        id,
+        firstName,
+        lastName,
+        photo,
+        role
+    }
+}

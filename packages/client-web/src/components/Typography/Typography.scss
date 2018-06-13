@@ -18,7 +18,7 @@ $HEADING_SCHEME: (
       $offset: nth($scheme, 2);
 
       &-#{$type} {
-        height: $size;
+        min-height: $size;
         line-height: $size;
         font-size: $size;
         margin: 0 0 $offset 0;
