@@ -9,6 +9,10 @@ import { PageActions } from "../internal/PageActions";
 import { Button } from "../../components/UI/Button";
 import { Modal } from "../../components/Modal";
 import { CreateHousing } from "./CreateHousing";
+import {ListItem} from "../../components/List/ListItem/ListItem";
+import {List} from "../../components/List/List"
+
+
 
 export interface GetHousingsResult {
   housings: Array<IHousingAttributes>;
@@ -53,12 +57,25 @@ export class Housings extends React.Component<{}, HousingsState> {
             if (data.housings.length === 0) {
               return <Heading type={3}>Нет корпусов</Heading>;
             }
+           /* <div>
+              {data.housings.map(({ id, name }) => (
+                <ListItem
+                  key={id}
+                  index={id}
+                  items={[name]}
+                />
+
+              ))}
+            </div>*/
             return (
               <div>
-                {data.housings.map(({ id, name }) => (
-                  <div key={id}>
-                    {name}
-                  </div>
+                {data.housings.map(({ id, name, address, floors}) => (
+                  <ListItem
+                    key={id}
+                    index={id}
+                    items={[name,address,floors]}
+                  />
+
                 ))}
               </div>
             );

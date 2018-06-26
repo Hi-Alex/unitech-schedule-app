@@ -1,3 +1,14 @@
+extend type Query {
+    lesson(id: ID!): Lesson
+    lessons: [Lesson]
+}
+
+extend type Mutation {
+    createLesson(data: LessonInput!): Lesson!
+    updateLesson(id: ID!, data: LessonInputPartial!): Lesson!
+    deleteLesson(id: ID!): ID!
+}
+
 type Lesson {
     id: ID!
     day: WeekDay!
@@ -9,4 +20,28 @@ type Lesson {
     beginTime: Int!
     duration: Int!
     classroom: Classroom!
+}
+
+input LessonInput {
+    day: WeekDay!
+    type: LessonType!
+    group: Group!
+    title: String!
+    WorkerId: ID!
+    parity: LessonParity!
+    beginTime: Int!
+    duration: Int!
+    ClassroomId: ID!
+}
+
+input LessonInputPartial {
+    day: WeekDay
+    type: LessonType
+    group: Group
+    title: String
+    WorkerId: ID
+    parity: LessonParity
+    beginTime: Int
+    duration: Int
+    ClassroomId: ID
 }

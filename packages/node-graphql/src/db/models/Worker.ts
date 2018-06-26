@@ -8,12 +8,18 @@ export interface IWorkerAttributes {
   lastName: string;
   position: string;
 }
-export interface IWorker extends IWorkerAttributes {
+
+export interface IWorkerGeneric {
+  FacultyId: number;
+  CathedraId: number;
+}
+
+export interface IWorker extends IWorkerAttributes,IWorkerGeneric {
   faculty?: IFaculty;
   cathedra?: ICathedra;
 }
 
-export const Worker = defineModel<IWorkerAttributes>('Worker', ({ STRING }) => {
+export const Worker = defineModel<IWorker>('Worker', ({ STRING }) => {
   const attributes: DefineAttributes<IWorkerAttributes> = {
     id: ID_FIELD,
     firstName: {

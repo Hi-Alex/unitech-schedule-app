@@ -1,11 +1,34 @@
 extend type Query {
     speciality(id: ID!): Speciality
+    specialities: [Speciality]
+}
+
+extend type Mutation {
+    createSpeciality(data: SpecialityInput!): Speciality!
+    updateSpeciality(id: ID!, data: SpecialityInputPartial!): Speciality!
+    deleteSpeciality(id: ID!): ID!
 }
 
 type Speciality {
     id: ID!
     name: String!
-    faculty: Faculty!
+    faculty: Faculty
     code: String!
     shortName: String!
 }
+
+input SpecialityInput {
+    name: String!
+    FacultyId: ID
+    code: String!
+    shortName: String!
+}
+
+input SpecialityInputPartial {
+    name: String
+    FacultyId: ID
+    code: String
+    shortName: String
+}
+
+

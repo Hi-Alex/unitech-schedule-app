@@ -8,15 +8,16 @@ import gql from "graphql-tag";
 export interface AccountProps {
   firstName?: string;
   lastName?: string;
+  photo?: string;
 }
 
 class AccountView extends React.Component<AccountProps> {
   render() {
-    const { firstName, lastName } = this.props;
+    const { firstName, lastName, photo } = this.props;
 
     return (
       <div className={styles.Account}>
-        <Avatar src={avatar}/>
+        <Avatar src={photo}/>
         <p>{firstName} {lastName}</p>
       </div>
     );
@@ -29,19 +30,18 @@ export const Account = () => (
       {
         user(id: 1) {
           firstName,
-          lastName
+          lastName,
+          photo
         }
       }
     `}
   >
     {({ error, loading, data }) => {
         if (error) {
-          return (
-            <span>Рип</span>
-          );
+          return null;
         }
         if (loading) {
-          return <span>loading</span>
+          return <span>Загрузка...</span>
         }
         return <AccountView {...data.user} />
     }}

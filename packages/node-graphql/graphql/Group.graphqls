@@ -1,11 +1,32 @@
 extend type Query {
     group(id: ID!): Group
+    groups: [Group]
+}
+
+extend type Mutation {
+    createGroup(data: GroupInput!): Group!
+    updateGroup(id: ID!, data: GroupInputPartial!): Group!
+    deleteGroup(id: ID!): ID!
 }
 
 type Group {
     id: ID!
     year: Int!
     number: Int!
-    speciality: Speciality!
+    speciality: Speciality
     studentsCount: Int!
+}
+
+input GroupInput {
+    year: Int!
+    number: Int!
+    SpecialityId: ID
+    studentsCount: Int!
+}
+
+input GroupInputPartial {
+    year: Int
+    number: Int
+    SpecialityId: ID
+    studentsCount: Int
 }

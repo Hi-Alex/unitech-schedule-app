@@ -19,6 +19,7 @@ export class Item extends React.Component<ItemProps> {
 
   render() {
     const { to, icon, Icon, label, className, ...other } = this.props;
+
     return (
       <NavLink
         {...other}

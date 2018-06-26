@@ -15,7 +15,7 @@
     "@secundant/webpack-module-thread": "^0.0.13",
     "@secundant/webpack-module-typescript": "^0.0.18",
     "@types/lodash": "^4.14.109",
-    "@types/node": "^10.3.0",
+    "@types/node": "10.1.2",
     "@types/ramda": "^0.25.30",
     "@types/react": "^16.3.15",
     "@types/react-dom": "^16.0.4",

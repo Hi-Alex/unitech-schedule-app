@@ -3,12 +3,16 @@ import { IClassroom } from "./Classroom";
 import { IFaculty } from "./Faculty";
 
 export interface ICathedraAttributes {
-  id: number;
+  id?: number;
   name: string;
 }
-export interface ICathedra extends ICathedraAttributes {
-  Classroom?: IClassroom;
-  Faculty?: IFaculty;
+export interface ICathedraGeneric {
+  FacultyId: number;
+  ClassroomId?: number;
+}
+export interface ICathedra extends ICathedraAttributes, ICathedraGeneric {
+  classroom?: IClassroom;
+  faculty?: IFaculty;
 }
 
 export const Cathedra = defineModel<ICathedra>('Cathedra', ({ STRING }) => {

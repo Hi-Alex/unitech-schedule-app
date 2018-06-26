@@ -2,13 +2,14 @@ import { defineModel, ID_FIELD } from "../utils";
 import { IFaculty } from "./Faculty";
 
 export interface ISpecialityAttributes {
-  id: number;
+  id?: number;
   name: string;
   code: string;
   shortName: string;
 }
 export interface ISpeciality extends ISpecialityAttributes {
-  faculty: IFaculty;
+  faculty?: IFaculty;
+  FacultyId?: number;
 }
 
 export const Speciality = defineModel<ISpecialityAttributes>('Speciality', ({ STRING }) => ({

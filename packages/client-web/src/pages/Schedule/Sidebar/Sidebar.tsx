@@ -22,14 +22,39 @@ const MENU_ITEMS = [
   },
   {
     to: '/housings',
-    Icon: CalendarIcon,
+    icon: calendar,
     label: 'Корпуса'
   },
   {
     to: '/faculties',
     Icon: CalendarIcon,
     label: 'Факультеты'
-  }
+  },
+  {
+    to: '/cathedras',
+    icon: list,
+    label: 'Кафедры'
+  },
+  {
+    to: '/specialities',
+    icon: list,
+    label: 'Cпециальности'
+  },
+  {
+    to: '/groups',
+    icon: list,
+    label: 'Группы'
+  },
+  {
+    to: '/workers',
+    icon: list,
+    label: 'Преподаватели'
+  },
+  {
+    to: '/classrooms',
+    icon: list,
+    label: 'Аудитории'
+  },
 ];
 
 export class Sidebar extends Component {

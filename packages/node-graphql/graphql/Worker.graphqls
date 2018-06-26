@@ -1,5 +1,12 @@
 extend type Query {
     worker(id: ID!): Worker
+    workers: [Worker]
+}
+
+extend type Mutation {
+    createWorker(data: WorkerInput!): Worker!
+    updateWorker(id: ID!, data: WorkerInputPartial!): Worker!
+    deleteWorker(id: ID!): ID!
 }
 
 type Worker {
@@ -10,4 +17,22 @@ type Worker {
     cathedra: Cathedra!
     position: String!
     user: User
+}
+
+input WorkerInput {
+    firstName: String!
+    lastName: String!
+    FacultyId: ID
+    CathedraId: ID!
+    position: String!
+    UserId: ID
+}
+
+input WorkerInputPartial {
+    firstName: String
+    lastName: String
+    FacultyId: ID
+    CathedraId: ID
+    position: String
+    UserId: ID
 }

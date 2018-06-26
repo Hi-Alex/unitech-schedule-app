@@ -1,5 +1,6 @@
 extend type Query {
     classroom(id: ID!): Classroom
+    classrooms: [Classroom]
 }
 
 extend type Mutation {

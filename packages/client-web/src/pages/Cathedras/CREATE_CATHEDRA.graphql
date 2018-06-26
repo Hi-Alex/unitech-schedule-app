@@ -1,0 +1,6 @@
+mutation CREATE_CATHEDRA($data: CathedraInput!) {
+    createCathedra(data: $data) {
+        id
+        name
+    }
+}

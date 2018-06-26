@@ -26,7 +26,10 @@ export enum UserRole {
   STUDENT = 'STUDENT'
 }
 
-export const WeekDayValues = compact(Object.keys(WeekDay));
+const EXCLUDE_DAYS: WeekDay[] = [WeekDay.SATURDAY, WeekDay.SUNDAY];
+
+export const WeekDayValues: WeekDay[] = compact(Object.keys(WeekDay) as WeekDay[]);
+export const WeekWorkDayValues: WeekDay[] = WeekDayValues.filter(day => !EXCLUDE_DAYS.includes(day as any));
 export const UserRoleValues = compact(Object.keys(UserRole));
 export const LessonTypeValues = compact(Object.keys(LessonType));
 export const LessonParityValues = compact(Object.keys(LessonParity));

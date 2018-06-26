@@ -7,11 +7,11 @@ import { map } from 'lodash';
 export interface ItemsProps {
   active?: boolean;
   index: string | number;
-  items: string[];
+  items: Array<string | number>;
   onClick?: (key: string) => any;
 }
 
-export default class ListItem extends React.Component<ItemsProps>{
+export class ListItem extends React.Component<ItemsProps>{
   render() {
     const {index, items, onClick } = this.props;
     return (

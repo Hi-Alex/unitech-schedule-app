@@ -1,12 +1,37 @@
 extend type Query {
     cathedra(id: ID!): Cathedra
+    cathedras: [Cathedra]
+}
+
+extend type Mutation {
+    createCathedra(data: CathedraInput!): Cathedra!
+    updateCathedra(id: ID!, data: CathedraInputPartial!): Cathedra!
+    deleteCathedra(id: ID!): ID!
 }
 
 type Cathedra {
     id: ID!
     name: String!
-    faculty: Faculty!
+    faculty: Faculty
     classroom: Classroom
+
+    # @TODO workers: Prepod[]
+    # @TODO dean: Prepod
+}
+
+input CathedraInput {
+    name: String!
+    FacultyId: ID
+    ClassroomId: ID
+
+    # @TODO workers: Prepod[]
+    # @TODO dean: Prepod
+}
+
+input CathedraInputPartial {
+    name: String
+    FacultyId: ID
+    ClassroomId: ID
 
     # @TODO workers: Prepod[]
     # @TODO dean: Prepod

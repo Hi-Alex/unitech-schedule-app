@@ -1,0 +1,6 @@
+query GET_FACULTIES {
+    faculties {
+        id
+        name
+    }
+}

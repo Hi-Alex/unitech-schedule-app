@@ -1,0 +1,8 @@
+mutation CREATE_SPECIALITY($data: SpecialityInput!) {
+    createSpeciality(data: $data) {
+        id
+        name,
+        shortName,
+        code
+    }
+}

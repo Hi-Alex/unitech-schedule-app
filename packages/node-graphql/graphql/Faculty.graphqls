@@ -1,5 +1,12 @@
 extend type Query {
     faculty(id: ID!): Faculty
+    faculties: [Faculty]
+}
+
+extend type Mutation {
+    createFaculty(data: FacultyInput!): Faculty!
+    updateFaculty(id: ID!, data: FacultyInputPartial!): Faculty!
+    deleteFaculty(id: ID!): ID!
 }
 
 type Faculty {
@@ -7,6 +14,23 @@ type Faculty {
     name: String!
     classroom: Classroom
     specialities: [Speciality]
+
+    # @TODO workers: Prepod[]
+    # @TODO dean: Prepod
+}
+
+input FacultyInput {
+    name: String!
+    ClassroomId: ID
+
+    # @TODO workers: Prepod[]
+    # @TODO dean: Prepod
+}
+
+
+input FacultyInputPartial {
+    name: String
+    ClassroomId: ID
 
     # @TODO workers: Prepod[]
     # @TODO dean: Prepod

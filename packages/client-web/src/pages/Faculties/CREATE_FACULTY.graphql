@@ -1,0 +1,6 @@
+mutation CREATE_FACULTY($data: FacultyInput!) {
+    createFaculty(data: $data) {
+        id
+        name
+    }
+}

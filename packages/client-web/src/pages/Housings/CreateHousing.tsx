@@ -54,7 +54,7 @@ export class CreateHousing extends React.PureComponent<{}, CreateHousingState> {
                     variables: {
                       data: this.state
                     }
-                  })}>Хуйнуть!</Button>
+                  })}>Добавить</Button>
                 )}
               </Mutation>
             )}

@@ -24,7 +24,27 @@ export const routes: IRoute[] = [
       {
         path: '/faculties',
         component: async(() => import('../pages/Faculties'))
-      }
+      },
+      {
+        path: '/cathedras',
+        component: async(() => import('../pages/Cathedras'))
+      },
+      {
+        path: '/specialities',
+        component: async(() => import('../pages/Specialities'))
+      },
+      {
+        path: '/groups',
+        component: async(() => import('../pages/Groups'))
+      },
+      {
+        path: '/workers',
+        component: async(() => import('../pages/Workers'))
+      },
+      {
+        path: '/classrooms',
+        component: async(() => import('../pages/Classrooms'))
+      },
     ]
   }
 ];

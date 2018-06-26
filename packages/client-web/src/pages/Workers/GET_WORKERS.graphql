@@ -1,0 +1,14 @@
+query GET_WORKERS {
+    workers {
+        id
+        firstName
+        lastName
+        position
+        faculty{
+            name
+        }
+        cathedra{
+            name
+        }
+    }
+}

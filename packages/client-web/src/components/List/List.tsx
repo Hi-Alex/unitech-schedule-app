@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ListItem from './ListItem/ListItem';
+import {ListItem} from './ListItem/ListItem';
 import * as styles from './List.scss'
 import { Dictionary } from '@secundant/tslib';
 import { map } from 'lodash';

@@ -1,0 +1,9 @@
+query GET_CATHEDRAS {
+    cathedras {
+        id
+        name
+        faculty{
+            name
+        }
+    }
+}

@@ -16,26 +16,10 @@
 
   button {
     width: 160px;
-    height: 40px;
-    margin: 0 auto;
-    margin-top: 45px;
-    background-color: #27A9F8;
     border: none;
     border-radius: 5px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    outline: none;
-    transition: background-color 100ms;
-
-    &:not(:active):hover{
-      background-color: #268cd5;
-
-
-    }
-    &:hover:active{
-      background-color: #1fc9ff;
-    }
+    display: block;
+    margin: 25px auto 0;
   }
 
   a{

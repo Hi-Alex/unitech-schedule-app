@@ -1,0 +1,11 @@
+query GET_GROUPS {
+    groups {
+        id
+        year
+        number
+        studentsCount
+        speciality {
+            shortName
+        }
+    }
+}

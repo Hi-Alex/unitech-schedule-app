@@ -5,8 +5,8 @@ ARG PACKAGE_NAME
 RUN mkdir -p /home/www/packages/${PACKAGE_NAME}
 WORKDIR /home/www/packages/${PACKAGE_NAME}/
 
-COPY package.json yarn.lock .yarnrc /home/www/
-COPY packages/${PACKAGE_NAME}/package.json .
+COPY package.json .yarnrc /home/www/
+COPY packages/${PACKAGE_NAME}/package.json yarn.lock ./
 RUN yarn install --production=false
 
 COPY tsconfig.json /home/www/

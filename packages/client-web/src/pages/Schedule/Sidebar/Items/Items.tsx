@@ -10,19 +10,12 @@ export interface ItemsProps {
   }[];
 }
 
-export class Items extends React.Component<ItemsProps>{
+export class Items extends React.Component<ItemsProps> {
   render() {
     const { items } = this.props;
     return (
       <div>
-        {map(items, ({to,icon,label}) => (
-          <Item
-            to={to}
-            key={to}
-            icon={icon}
-            label={label}
-          />
-        ))}
+        {map(items, props => <Item key={props.to} {...props} />)}
       </div>
     );
   }
